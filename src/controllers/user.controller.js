@@ -20,28 +20,44 @@ export const newUser = async (req, res, next) => {
   }
 };
 
-export const login=  async(req, res,next)=>{
-try {
-  const data= await UserService.login(req.body);
-  res.status(HttpStatus.OK).json({
-    code:HttpStatus.OK,
-    data:data,
-    message:"sucessfully logged in"
-  })
-} catch (error) {
-  next(error);
-  
-}
+export const login = async (req, res, next) => {
+  try {
+    const data = await UserService.login(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: "sucessfully logged in"
+    })
+  } catch (error) {
+    next(error);
+
+  }
 
 }
-export const addNote=async(req,res,next)=>{
-try {
-  const data= await UserService.addNote(req.body)
-  res.status(HttpStatus.OK).json({
-    code:HttpStatus.OK,
-    data:data,
-    message:"Note added sucessfully"})
-  }catch(error){
-next(error);
+export const addNote = async (req, res, next) => {
+  try {
+    const data = await UserService.addNote(req.body)
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: "Note added sucessfully"
+    })
+  } catch (error) {
+    next(error);
+  }
+}
+
+
+
+export const getNote = async (req, res, next) => {
+  try {
+    const data = await UserService.getNote(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: "Getting Notes Sucessfull"
+    })
+  } catch (error) {
+    next(error)
   }
 }

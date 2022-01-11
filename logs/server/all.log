@@ -1580,3 +1580,24 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T1
 info: Connected to the database. {"timestamp":"2022-01-11T18:29:25.338Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T18:29:37.469Z"}
 info: Connected to the database. {"timestamp":"2022-01-11T18:29:37.490Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T18:53:14.535Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T18:53:14.601Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T18:53:26.416Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T18:53:26.444Z"}
+error: 
+    status - 500 
+    message - Error: "FirstName" length must be at least 4 characters long
+    at new exports.ValidationError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\CLI_CLASS\FandooNotes_webAPI\src\validators\/user.validator.js:10:35)
+    at Layer.handle [as handle_request] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:56:48.992Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T19:01:19.930Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T19:01:19.951Z"}

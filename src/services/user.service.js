@@ -44,3 +44,9 @@ export const addNote = async (body) => {
 
   return newNote;
 };
+
+
+export const getNote=async (body)=>{
+const findNote=await Notes.find({UserID:body.data.ID})
+return findNote;
+}
