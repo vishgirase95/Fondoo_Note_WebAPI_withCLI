@@ -33,7 +33,7 @@ app.use(`/api/${api_version}`, routes());
 app.use(appErrorHandler);
 app.use(genericErrorHandler);
 app.use(notFound);
-
+app.use(express.json())
 app.listen(port, () => {
   logger.info(`Server started at ${host}:${port}/api/${api_version}/`);
 });

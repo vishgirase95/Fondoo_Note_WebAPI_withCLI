@@ -1,8 +1,6 @@
 import HttpStatus from 'http-status-codes';
 import * as UserService from '../services/user.service';
 
-
-
 /**
  * Controller to create a new user
  * @param  {object} req - request object
@@ -31,10 +29,19 @@ try {
     message:"sucessfully logged in"
   })
 } catch (error) {
-  res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({
-    code:HttpStatus.INTERNAL_SERVER_ERROR,
-    data:error,
-    message:"Login Failed"
-  })
+  next(error);
+  
 }
+
+}
+export const addNote=async(req,res,next)=>{
+try {
+  const data= await UserService.addNote(req.body)
+  res.status(HttpStatus.OK).json({
+    code:HttpStatus.OK,
+    data:data,
+    message:"Note added sucessfully"})
+  }catch(error){
+next(error);
+  }
 }

@@ -235,3 +235,831 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-01-09T16:21:26.426Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/register/addnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-11T16:27:47.177Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T16:28:00.768Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:24:32)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T16:32:50.562Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T17:48:30.322Z"}
+error: 
+      status - 400
+      message - Authorization token incorrect 
+      url - /api/v1/register/addnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-11T17:48:37.652Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/register/addnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-11T17:48:48.330Z"}
+error: 
+      status - 400
+      message - Authorization token incorrect 
+      url - /api/v1/register/addnote 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-11T17:48:59.019Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T17:49:04.181Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T17:49:15.443Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T17:50:48.384Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T17:53:42.970Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T17:53:54.034Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T17:53:59.685Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T17:54:01.255Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T17:54:02.114Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T17:56:04.976Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T17:57:02.252Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T17:58:15.583Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:32:23)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:01:08.063Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:05:06.753Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 192
+    at JSON.parse (<anonymous>)
+    at parse (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\raw-body\index.js:224:16)
+    at done (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:09:10.940Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 192
+    at JSON.parse (<anonymous>)
+    at parse (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\raw-body\index.js:224:16)
+    at done (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:09:23.426Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserID is not defined
+    at _callee3$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:49:9)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addNote (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:48:21) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:10:20.536Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserID is not defined
+    at _callee3$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:49:9)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addNote (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:48:21) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:10:58.848Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserID is not defined
+    at _callee3$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:49:9)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addNote (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:48:21) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T18:11:27.612Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserID is not defined
+    at _callee3$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:49:9)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addNote (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:48:21) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:11:29.463Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserID is not defined
+    at _callee3$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:49:9)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addNote (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:48:21) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:11:30.807Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserID is not defined
+    at _callee3$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:49:9)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addNote (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:48:21) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:11:31.341Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:12:48.127Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:13:38.250Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:14:35.561Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:14:42.471Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T18:15:26.522Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:17:00.980Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:17:07.310Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:17:21.089Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:17:26.852Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:17:41.693Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:17:46.348Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:17:54.535Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:18:13.657Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:18:19.726Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:18:44.089Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:19:02.501Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:19:19.990Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:19:29.833Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:20:12.128Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:20:13.988Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:20:15.117Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:20:15.493Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:20:15.886Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:20:25.129Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T18:21:21.053Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:21:51.164Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:22:07.711Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:22:10.891Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:22:24.207Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:22:25.675Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'user' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:25:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T18:23:36.194Z"}
