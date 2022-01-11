@@ -1644,3 +1644,159 @@ error:
       method - GET 
       IP - ::1
      {"timestamp":"2022-01-11T19:31:40.447Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T19:56:00.445Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T19:56:00.488Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:00:51.143Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:00:51.166Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/updatenote 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-11T20:03:39.269Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:05:15.042Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:05:15.074Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:07:31.466Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:07:31.505Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:07:57.367Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:07:57.394Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:11:56.736Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:11:56.786Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:28:40.102Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:28:40.130Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:29:31.349Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:29:31.382Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:30:07.132Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:30:07.186Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\controllers\/user.controller.js:103:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/updatenote 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-01-11T20:30:27.100Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:30:49.708Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:30:49.750Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:31:32.409Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:31:32.438Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:31:39.297Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:31:39.322Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:35:22.156Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:35:22.185Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:36:36.398Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:36:36.435Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:38:39.084Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:38:39.115Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:42:18.381Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:42:18.438Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:42:56.414Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:42:56.461Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:43:46.553Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:43:46.591Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:45:18.147Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:45:18.193Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:45:31.866Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:45:31.901Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:45:42.780Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:45:42.805Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:47:12.648Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:47:12.683Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:47:28.114Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:47:28.165Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:50:30.068Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:50:30.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:51:32.163Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:51:32.188Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:51:57.117Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:51:57.181Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T20:59:32.286Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T20:59:32.344Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 66
+    at JSON.parse (<anonymous>)
+    at parse (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\raw-body\index.js:224:16)
+    at done (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/register/trashnote 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T20:59:32.527Z"}
+error: 
+    status - 500 
+    message - TypeError: _note.default.delete is not a function
+    at _callee8$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:81:27)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.trashNoteByNoteID (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:80:31) 
+    url - /api/v1/register/trashnote 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-11T20:59:42.838Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T21:00:29.815Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T21:00:29.871Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T21:00:38.712Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T21:00:38.734Z"}
+error: 
+    status - 500 
+    message - ReferenceError: TrashNote is not defined
+    at _callee8$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:82:10)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/trashnote 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-11T21:00:39.054Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T21:01:00.665Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T21:01:00.691Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T21:02:22.376Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T21:02:22.407Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T21:03:07.479Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T21:03:07.501Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:23:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T21:13:41.633Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T21:20:11.640Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T21:20:11.666Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-11T21:23:33.121Z"}
+info: Connected to the database. {"timestamp":"2022-01-11T21:23:33.143Z"}

@@ -20,6 +20,11 @@ router.get("/getnote", userAuth, userController.getNote);
 router.get("/isdelete", userAuth, userController.isDelete);
 router.get("/isArchived", userAuth, userController.isArchived);
 
+router.patch("/updatenote", userAuth, userController.updateNote);
+router.delete("/trashnote",userAuth, userController.trashNoteByNoteID);
+
+
+
 
 
 

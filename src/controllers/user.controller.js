@@ -64,7 +64,7 @@ export const getNote = async (req, res, next) => {
 }
 
 
-export const isDelete=async (req, res, next)=>{
+export const isDelete = async (req, res, next) => {
   try {
     const data = await UserService.isDelete(req.body);
     res.status(HttpStatus.OK).json({
@@ -78,14 +78,46 @@ export const isDelete=async (req, res, next)=>{
 }
 
 
-export const isArchived=async (req,res,next)=>{
+export const isArchived = async (req, res, next) => {
 
   try {
-    const data= await UserService.isArchived(req.body);
+    const data = await UserService.isArchived(req.body);
     res.status(HttpStatus.OK).json({
-      code:HttpStatus.OK,
-      data:data,
-      message:"Fetched Archived Notes Sucessfully"
+      code: HttpStatus.OK,
+      data: data,
+      message: "Fetched Archived Notes Sucessfully"
+    })
+  } catch (error) {
+    next(error);
+  }
+}
+
+
+
+export const updateNote = async (req, res, next) => {
+
+  try {
+    const data = await UserService.updateNote(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: "Updated Note Sucessfully"
+    })
+  } catch (error) {
+    next(error);
+  }
+}
+
+
+
+export const trashNoteByNoteID = async (req, res, next) => {
+
+  try {
+    const data = await UserService.trashNoteByNoteID(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: "Added to trash"
     })
   } catch (error) {
     next(error);

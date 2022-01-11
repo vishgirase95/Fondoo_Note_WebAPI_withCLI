@@ -1085,3 +1085,91 @@ error:
       method - GET 
       IP - ::1
      {"timestamp":"2022-01-11T19:31:40.447Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/updatenote 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-11T20:03:39.269Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\controllers\/user.controller.js:103:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/updatenote 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-01-11T20:30:27.100Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 66
+    at JSON.parse (<anonymous>)
+    at parse (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\raw-body\index.js:224:16)
+    at done (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/register/trashnote 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-11T20:59:32.527Z"}
+error: 
+    status - 500 
+    message - TypeError: _note.default.delete is not a function
+    at _callee8$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:81:27)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.trashNoteByNoteID (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:80:31) 
+    url - /api/v1/register/trashnote 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-11T20:59:42.838Z"}
+error: 
+    status - 500 
+    message - ReferenceError: TrashNote is not defined
+    at _callee8$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:82:10)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/trashnote 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-11T21:00:39.054Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:23:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-11T21:13:41.633Z"}

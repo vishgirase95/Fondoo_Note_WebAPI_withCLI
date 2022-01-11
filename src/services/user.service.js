@@ -62,3 +62,24 @@ export const isArchived=async (body)=>{
   const archivedNotes=await Notes.find({UserID:body.data.ID,isArchived:true});
   return archivedNotes;
 }
+
+export const updateNote=async (body)=>{
+  console.log("body update",body);
+  const updatedNote=await Notes.updateOne({_id:body.NoteID},
+    {
+      Title:body.Title,
+      Descreption:body.Descreption,
+      color:body.color,
+      isArchived:body.isArchived,
+      isDeleted:body.isDeleted
+    },{new:true} )
+  return updatedNote;
+}
+
+
+
+
+export const trashNoteByNoteID=async (body)=>{
+  const TrashedNote=await Notes.findOneAndDelete({_id:body.NoteID});
+  return TrashedNote;
+}
