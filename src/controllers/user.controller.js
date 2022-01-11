@@ -1,4 +1,5 @@
 import HttpStatus from 'http-status-codes';
+import Notes from '../models/note.model';
 import * as UserService from '../services/user.service';
 
 /**
@@ -55,9 +56,38 @@ export const getNote = async (req, res, next) => {
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
-      message: "Getting Notes Sucessfull"
+      message: "Fetched Notes Sucessfully"
     })
   } catch (error) {
     next(error)
+  }
+}
+
+
+export const isDelete=async (req, res, next)=>{
+  try {
+    const data = await UserService.isDelete(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: "Fetched Deleted Notes Sucessfully"
+    })
+  } catch (error) {
+    next(error);
+  }
+}
+
+
+export const isArchived=async (req,res,next)=>{
+
+  try {
+    const data= await UserService.isArchived(req.body);
+    res.status(HttpStatus.OK).json({
+      code:HttpStatus.OK,
+      data:data,
+      message:"Fetched Archived Notes Sucessfully"
+    })
+  } catch (error) {
+    next(error);
   }
 }

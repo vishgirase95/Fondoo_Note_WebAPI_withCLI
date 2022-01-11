@@ -50,3 +50,15 @@ export const getNote=async (body)=>{
 const findNote=await Notes.find({UserID:body.data.ID})
 return findNote;
 }
+
+
+export const isDelete=async (body)=>{
+  const deletedNote=await Notes.find({UserID:body.data.ID,isDeleted:true});
+  return deletedNote;
+}
+
+
+export const isArchived=async (body)=>{
+  const archivedNotes=await Notes.find({UserID:body.data.ID,isArchived:true});
+  return archivedNotes;
+}

@@ -20,3 +20,29 @@ info: ::1 - - [11/Jan/2022:18:59:37 +0000] "GET /api/v1/register/getnote HTTP/1.
 
 info: ::1 - - [11/Jan/2022:19:00:49 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 2768 "-" "PostmanRuntime/7.28.4"
 
+info: ::1 - - [11/Jan/2022:19:16:13 +0000] "GET /api/v1/register/isdelete HTTP/1.1" 200 57 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Jan/2022:19:17:49 +0000] "GET /api/v1/register/isdelete HTTP/1.1" 200 68 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Jan/2022:19:19:13 +0000] "GET /api/v1/register/isdelete HTTP/1.1" 200 68 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [11/Jan/2022:19:20:13 +0000] "GET /api/v1/register/isdelete HTTP/1.1" 200 2777 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Jan/2022:19:20:57 +0000] "GET /api/v1/register/isdelete HTTP/1.1" 200 68 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Jan/2022:19:21:17 +0000] "GET /api/v1/register/isdelete HTTP/1.1" 200 1936 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Jan/2022:19:22:22 +0000] "GET /api/v1/register/isdelete HTTP/1.1" 200 339 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Jan/2022:19:29:26 +0000] "GET /api/v1/register/isarchived HTTP/1.1" 200 72 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Jan/2022:19:30:02 +0000] "GET /api/v1/register/isarchived HTTP/1.1" 200 340 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Jan/2022:19:30:51 +0000] "GET /api/v1/register/isarchived HTTP/1.1" 200 340 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Jan/2022:19:31:27 +0000] "GET /api/v1/register/isarchived HTTP/1.1" 200 69 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Jan/2022:19:31:40 +0000] "GET /api/v1/register/isarchived HTTP/1.1" 400 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Jan/2022:19:31:47 +0000] "GET /api/v1/register/isarchived HTTP/1.1" 200 340 "-" "PostmanRuntime/7.28.4"
+

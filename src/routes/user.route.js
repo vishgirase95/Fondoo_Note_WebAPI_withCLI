@@ -17,6 +17,10 @@ router.post("/addnote", userAuth, userController.addNote);
 
 
 router.get("/getnote", userAuth, userController.getNote);
+router.get("/isdelete", userAuth, userController.isDelete);
+router.get("/isArchived", userAuth, userController.isArchived);
+
+
 
 
 
