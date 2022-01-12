@@ -29,5 +29,4 @@ const mailOption={
 
 transport.sendMail(mailOption)
 }
-
-// html:'<h2 style="color:#9a3fda">Hello Sir,Please Reset your password by below link!</h2><h3>Varification Link : <span style="color:#9a3fda"><a href="http://localhost:5000/">click here</a></h3>'      
+    
