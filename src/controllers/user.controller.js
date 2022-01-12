@@ -2,12 +2,9 @@ import HttpStatus from 'http-status-codes';
 import Notes from '../models/note.model';
 import * as UserService from '../services/user.service';
 
-/**
- * Controller to create a new user
- * @param  {object} req - request object
- * @param {object} res - response object
- * @param {Function} next
- */
+
+
+
 export const newUser = async (req, res, next) => {
   try {
     const data = await UserService.newUser(req.body);
@@ -48,6 +45,19 @@ export const addNote = async (req, res, next) => {
   }
 }
 
+
+export const updateNote = async (req, res, next) => {
+  try {
+    const data = await UserService.updateNote(req.body)
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: "Updated Sucessfully"
+    })
+  } catch (error) {
+    next(error);
+  }
+}
 
 
 export const getNote = async (req, res, next) => {
@@ -106,7 +116,7 @@ export const resetPassword=async (req,res,next)=>{
     res.status(HttpStatus.OK).json({
       code:HttpStatus.OK,
       data:data,
-      message:"Mail Sent Sucesssfully"
+      message:"Reset Password Sucessfully"
     })
   } catch (error) {
     next(error);

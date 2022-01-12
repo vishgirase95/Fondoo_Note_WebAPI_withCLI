@@ -14,6 +14,11 @@ router.post('/login', userController.login);
 // adding new note and assinging userid
 router.post("/addnote", userAuth, userController.addNote);
 
+
+// updating notes
+router.patch("/updatenote", userController.updateNote);
+
+
 // getting notes of individual user
 router.get("/getnote", userAuth, userController.getNote);
 

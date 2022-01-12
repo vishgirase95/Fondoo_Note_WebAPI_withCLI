@@ -56,7 +56,37 @@ export const addNote = async (body) => {
 
 
 
+// export const updateNote=async (body)=>{
+//   // const previous=await Notes.findOne()
+//   const updated=await Notes.updateOne({_id:body.NoteID},{
+//     Title:body.Title,
+//     Descreption:body.Descreption,
+//     color:body.color,
+//     isArchived:body.isArchived,
+//     isDeleted:body.isDeleted
+//   },{
+//     new:true
+//   })
 
+//   return updated;
+// }
+
+
+
+export const updateNote=async (body)=>{
+  const previous=await Notes.findOne({_id:body.NoteID})
+  const updated=await Notes.updateOne({_id:body.NoteID},{
+    Title:body.Title?body.Title:previous.Title,
+    Descreption:body.Descreption?body.Descreption:previous.Descreption,
+    color:body.color?body.color:previous.color,
+    isArchived:body.isArchived?body.isArchived:previous.isArchived,
+    isDeleted:body.isDeleted?body.isDeleted:previous.isDeleted
+  },{
+    new:true
+  })
+
+  return updated;
+}
 
 export const getNote = async (body) => {
   console.log("ID", body.data.ID)
