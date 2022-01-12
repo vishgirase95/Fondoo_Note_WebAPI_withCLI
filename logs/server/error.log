@@ -1419,3 +1419,274 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-01-12T12:57:35.695Z"}
+error: 
+    status - 500 
+    message - Error: "FirstName" is required
+    at new exports.ValidationError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\CLI_CLASS\FandooNotes_webAPI\src\validators\/user.validator.js:10:35)
+    at Layer.handle [as handle_request] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-12T13:08:05.088Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of undefined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:81:49)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T13:17:10.346Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of undefined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:81:49)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T13:19:01.093Z"}
+error: 
+    status - 500 
+    message - ReferenceError: mail is not defined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:91:12)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/forgetpassword 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-12T14:29:58.206Z"}
+error: 
+    status - 500 
+    message - ReferenceError: mail is not defined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:91:12)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T14:30:08.537Z"}
+error: 
+    status - 500 
+    message - ReferenceError: mail is not defined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:91:12)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T14:30:40.462Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'authorization' of undefined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:82:26)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.forgetPassword (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:80:28) 
+    url - /api/v1/register/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T14:36:38.223Z"}
+error: 
+    status - 500 
+    message - TypeError: body.header is not a function
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:82:19)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.forgetPassword (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:80:28) 
+    url - /api/v1/register/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T14:45:21.160Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:86:12)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.forgetPassword (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:80:28) 
+    url - /api/v1/register/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T15:13:52.714Z"}
+error: 
+    status - 500 
+    message - TypeError: jwt.create is not a function
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:89:7)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T15:27:17.948Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'sign' of undefined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:86:18)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.forgetPassword (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:82:28) 
+    url - /api/v1/register/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T17:35:11.898Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'sign' of undefined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:86:18)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.forgetPassword (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:82:28) 
+    url - /api/v1/register/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T17:35:19.440Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'hash' of undefined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:14:39)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.newUser (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:13:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T17:37:36.205Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of undefined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:89:37)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T17:40:05.275Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of undefined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:89:37)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T17:40:15.665Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of undefined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:91:37)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/forgetpassword 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-12T17:41:39.203Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of undefined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:91:37)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/forgetpassword 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-12T17:41:41.020Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of undefined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:91:37)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T17:43:33.305Z"}

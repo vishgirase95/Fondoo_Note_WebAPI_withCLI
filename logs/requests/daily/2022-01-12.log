@@ -232,3 +232,157 @@ info: ::1 - - [12/Jan/2022:12:57:35 +0000] "POST /api/v1/register/forgetpassword
 
 info: ::1 - - [12/Jan/2022:12:58:36 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
 
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:13:08:05 +0000] "POST /api/v1/register HTTP/1.1" 500 60 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:13:09:09 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:13:10:24 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:13:11:05 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:13:13:09 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:13:14:42 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:13:15:50 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:13:17:10 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 500 76 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:13:19:01 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 500 76 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:14:03:31 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 60 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:14:03:59 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 60 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:14:04:18 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 60 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:14:05:04 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 60 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:14:05:05 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 60 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:14:05:06 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 60 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:14:05:29 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 60 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:14:05:46 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 559 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:14:06:45 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 60 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:14:06:47 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 60 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:14:07:28 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 559 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:14:09:24 +0000] "GET /api/v1/register/forgetpassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:14:09:59 +0000] "GET /api/v1/register/forgetpassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:14:10:09 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:14:29:58 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:14:30:08 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:14:30:40 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:14:32:44 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:14:33:14 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:14:36:38 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 500 84 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:14:37:02 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:14:44:09 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:14:44:51 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:14:45:21 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 500 64 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:15:13:52 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 500 54 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:15:14:24 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:15:16:13 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:15:17:18 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:15:19:04 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:15:27:17 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 500 63 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:15:48:27 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:15:52:04 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:15:52:55 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:15:53:31 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:15:54:13 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:15:54:52 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:15:55:04 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:16:02:01 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:16:02:34 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:16:03:22 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:16:06:21 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:16:13:22 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:16:16:42 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:16:17:22 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:16:22:46 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:16:33:29 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:16:35:14 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:16:38:04 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:16:43:32 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:16:46:40 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:16:56:37 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:16:57:29 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:17:02:38 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:17:14:55 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:17:17:49 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:17:32:39 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:17:35:11 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 500 75 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:17:35:19 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 500 75 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:17:35:53 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:17:37:36 +0000] "POST /api/v1/register HTTP/1.1" 500 75 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:17:37:57 +0000] "POST /api/v1/register HTTP/1.1" 201 321 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:17:38:43 +0000] "POST /api/v1/register HTTP/1.1" 201 318 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:17:40:05 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 500 76 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:17:40:15 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 500 76 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:17:41:39 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 500 76 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:17:41:41 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 500 76 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [12/Jan/2022:17:43:33 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 500 76 "-" "PostmanRuntime/7.28.4"
+
+info: ::ffff:127.0.0.1 - - [12/Jan/2022:17:45:56 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "PostmanRuntime/7.28.4"
+

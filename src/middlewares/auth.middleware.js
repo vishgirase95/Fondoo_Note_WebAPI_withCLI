@@ -20,11 +20,7 @@ export const userAuth = async (req, res, next) => {
 
     bearerToken = bearerToken.split(' ')[1];
 
-    const user = jwt.verify(
-      bearerToken,
-      'vishalgirase',
-      (err, verifiedToken) => {
-        if (err) {
+    const user = jwt.verify(bearerToken,'vishalgirase',(err, verifiedToken) => {if (err) {
           throw {
             code: HttpStatus.BAD_REQUEST,
             message: 'Authorization token incorrect'

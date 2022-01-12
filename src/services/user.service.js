@@ -1,10 +1,10 @@
 import {Notes} from '../models/note.model';
-import {mailSend} from "../middlewares/forgetpasword.middleware.js"
+import {mailSend} from "../middlewares/sendmail"
 import {User} from '../models/user.model';
-import { Console } from 'winston/lib/winston/transports';
-import { error } from 'winston';
-const bcrypt = require('bcrypt');
-const jwt = require('jsonwebtoken');
+import {Console} from 'winston/lib/winston/transports';
+import {error} from 'winston';
+import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken';
 
 
 //create new user
@@ -49,43 +49,52 @@ export const addNote = async (body) => {
 };
 
 
-export const getNote=async (body)=>{
-  console.log("ID",body.data.ID)
-const findNote=await Notes.find({UserID:body.data.ID})
-console.log("finddd note",findNote)
-return findNote;
+export const getNote = async (body) => {
+  console.log("ID", body.data.ID)
+  const findNote = await Notes.find({UserID: body.data.ID,isDeleted:true,isArchived:true})
+  console.log("finddd note", findNote)
+  return findNote;
 }
 
 
-export const isDelete=async (body)=>{
-  const deletedNote=await Notes.find({UserID:body.data.ID,isDeleted:true});
+export const findtrashed = async (body) => {
+  const deletedNote = await Notes.find({
+    UserID: body.data.ID,
+    isDeleted: true
+  });
   return deletedNote;
 }
 
 
-export const isArchived=async (body)=>{
-  const archivedNotes=await Notes.find({UserID:body.data.ID,isArchived:true});
+export const isArchived = async (body) => {
+  const archivedNotes = await Notes.find({
+    UserID: body.data.ID,
+    isArchived: true
+  });
   return archivedNotes;
 }
 
 
 
 
-export const forgetPassword=async (body)=>{
-console.log("Search mail Email",body.Email)
+export const forgetPassword = async (req) => {
+  
+// const token= req.header('Authorization').split(' ')[1];
 
-const SearchMail=await User.find({Email:body.Email})
-console.log("Search mail",SearchMail)
+const token= jwt.sign({ Email: req.body.Email }, "rajput")
+console.log("token",token)
+  const SearchMail = await User.find({
+    Email: req.body.Email
+  })
+console.log("search mail",SearchMail)
+  if (SearchMail) {
+  const mail=mailSend(SearchMail[0].Email,token)
+    return mail;
+  } else {
 
-if(SearchMail){
-  console.log("Search mail Email",SearchMail.Email)
-
-  const mail=mailSend(SearchMail.Email);
-  return mail;
-}else{
-  console.log("email not found")
-  throw Error ("EMAIL ID NOT FOUND IN DATABASE!");
+    throw Error("EMAIL ID NOT FOUND IN DATABASE!");
+  }
 }
-// const mail=mailSend(body.Email)
-// return mail
-}
+
+
+

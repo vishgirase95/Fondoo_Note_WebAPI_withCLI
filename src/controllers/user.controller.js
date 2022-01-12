@@ -64,9 +64,9 @@ export const getNote = async (req, res, next) => {
 }
 
 
-export const isDelete=async (req, res, next)=>{
+export const findtrashed=async (req, res, next)=>{
   try {
-    const data = await UserService.isDelete(req.body);
+    const data = await UserService.findtrashed(req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
@@ -81,7 +81,7 @@ export const isDelete=async (req, res, next)=>{
 export const forgetPassword=async (req,res,next)=>{
 
   try {
-    const data= await UserService.forgetPassword(req.body);
+    const data= await UserService.forgetPassword(req);
     res.status(HttpStatus.OK).json({
       code:HttpStatus.OK,
       data:data,
@@ -91,6 +91,8 @@ export const forgetPassword=async (req,res,next)=>{
     next(error);
   }
 }
+
+
 
 
 export const isArchived=async (req,res,next)=>{
