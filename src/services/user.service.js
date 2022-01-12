@@ -4,7 +4,7 @@ import {User} from '../models/user.model';
 import {Console} from 'winston/lib/winston/transports';
 import {error} from 'winston';
 import bcrypt from 'bcrypt';
-import jwt from 'jsonwebtoken';
+import jwt, { verify } from 'jsonwebtoken';
 
 
 //create new user
@@ -17,11 +17,14 @@ export const newUser = async (body) => {
   return data;
 };
 
+
+
+
 export const login = async (body) => {
   const searchData = await User.findOne({
     Email: body.Email
   });
-  console.log('datta', searchData);
+
   const token = jwt.sign({
       Email: searchData.Email,
       ID: searchData._id
@@ -40,6 +43,9 @@ export const login = async (body) => {
   }
 };
 
+
+
+
 export const addNote = async (body) => {
   body.UserID = body.data.ID;
 
@@ -47,6 +53,9 @@ export const addNote = async (body) => {
 
   return newNote;
 };
+
+
+
 
 
 export const getNote = async (body) => {
@@ -57,6 +66,8 @@ export const getNote = async (body) => {
 }
 
 
+
+
 export const findtrashed = async (body) => {
   const deletedNote = await Notes.find({
     UserID: body.data.ID,
@@ -64,6 +75,9 @@ export const findtrashed = async (body) => {
   });
   return deletedNote;
 }
+
+
+
 
 
 export const isArchived = async (body) => {
@@ -77,9 +91,9 @@ export const isArchived = async (body) => {
 
 
 
+
+
 export const forgetPassword = async (req) => {
-  
-// const token= req.header('Authorization').split(' ')[1];
 
 const token= jwt.sign({ Email: req.body.Email }, "rajput")
 console.log("token",token)
@@ -97,4 +111,25 @@ console.log("search mail",SearchMail)
 }
 
 
+
+
+
+
+export const resetPassword=async (req)=>{
+const tokenfound= req.header('Authorization').split(' ')[1];
+const isVerified= jwt.verify(tokenfound,"rajput")
+const newPassword=req.body.Password;
+const HashednewPassword=await bcrypt.hash(newPassword,10);
+
+if(isVerified){
+const updatePassword=await User.findOneAndUpdate({Email:req.body.Email},
+  {
+    Password:HashednewPassword
+  },{new:true})
+return updatePassword;
+
+}else{
+  throw Error ;
+}
+}
 

@@ -2787,3 +2787,436 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T1
 info: Connected to the database. {"timestamp":"2022-01-12T17:57:28.714Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T17:57:51.357Z"}
 info: Connected to the database. {"timestamp":"2022-01-12T17:57:51.388Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:31:05.832Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:31:05.998Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:38:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T18:33:26.188Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:38:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T18:33:28.353Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:35:30.438Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:35:30.461Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:35:37.793Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:35:37.823Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:36:45.282Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:36:45.345Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:37:33.915Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:37:34.000Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:37:38.496Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:37:38.518Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:38:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T18:38:07.954Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:38:55.315Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:38:55.361Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:39:06.696Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:39:06.718Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:39:20.322Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:39:20.366Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee8$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:101:20)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7 
+    url - /api/v1/register/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T18:41:39.343Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee8$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:101:20)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7 
+    url - /api/v1/register/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T18:41:45.956Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee8$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:101:20)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7 
+    url - /api/v1/register/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T18:41:54.466Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:38:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T18:42:22.443Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:44:04.885Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:44:04.923Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:44:22.841Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:44:22.875Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:39:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T18:44:43.134Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:45:27.629Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:45:27.662Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:45:35.176Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:45:35.209Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:39:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-12T18:45:35.347Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:46:06.094Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:46:06.133Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:46:19.410Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:46:19.436Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Password' of undefined
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:33:69)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-12T18:46:19.580Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Password' of undefined
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:33:69)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T18:46:28.667Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:47:23.872Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:47:23.900Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:47:38.348Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:47:38.370Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:39:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T18:47:38.656Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:48:08.915Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:48:08.936Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:39:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T18:48:22.453Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:50:00.883Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:50:00.912Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:50:37.664Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:50:37.687Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:50:50.735Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:50:50.764Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:50:57.627Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:50:57.656Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:39:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-12T18:50:58.080Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:39:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-12T18:50:59.927Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:39:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-12T18:51:01.242Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:39:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-12T18:51:02.267Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:39:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-12T18:51:03.216Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:39:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-12T18:51:05.509Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:51:26.807Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:51:26.836Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:39:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T18:51:28.289Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:39:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T18:51:29.414Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:39:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T18:51:30.940Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:39:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T18:51:32.373Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:39:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T18:52:34.090Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:54:09.668Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:54:09.721Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:39:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T18:54:34.909Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:39:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T18:54:54.624Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:56:01.274Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:56:01.303Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T18:56:09.048Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T18:56:09.071Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\bcrypt.js:137:17)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee8$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:104:38)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/register/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-12T18:56:45.240Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T19:00:36.016Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T19:00:36.087Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T19:00:55.196Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T19:00:55.229Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T19:01:06.931Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T19:01:06.964Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T19:01:12.192Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T19:01:12.225Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T19:01:31.101Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T19:01:31.127Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T19:09:57.108Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T19:09:57.130Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-12T19:11:06.267Z"}
+info: Connected to the database. {"timestamp":"2022-01-12T19:11:06.289Z"}

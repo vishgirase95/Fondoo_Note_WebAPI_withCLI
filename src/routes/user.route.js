@@ -24,10 +24,11 @@ router.get("/trashed", userAuth, userController.findtrashed);
 router.get("/isArchived", userAuth, userController.isArchived);
 
 
-// sendmail to reset forgetPassword
-router.post("/forgetpassword",userController.forgetPassword)
+// sendmail token to reset forgetPassword
+router.post("/forgetpassword",userController.forgetPassword);
 
-
+// reset the password using token genrated in above forget password
+router.post("/resetpassword",userController.resetPassword);
 
 
 export default router;
