@@ -1,11 +1,7 @@
 import express from 'express';
 import * as userController from '../controllers/user.controller';
-import {
-    newUserValidator
-} from '../validators/user.validator';
-import {
-    userAuth
-} from '../middlewares/auth.middleware';
+import {newUserValidator} from '../validators/user.validator';
+import {userAuth} from '../middlewares/auth.middleware';
 
 const router = express.Router();
 
@@ -20,6 +16,7 @@ router.get("/getnote", userAuth, userController.getNote);
 router.get("/isdelete", userAuth, userController.isDelete);
 router.get("/isArchived", userAuth, userController.isArchived);
 
+router.post("/forgetpassword",userController.forgetPassword)
 
 
 

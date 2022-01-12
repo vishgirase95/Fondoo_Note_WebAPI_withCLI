@@ -1,8 +1,11 @@
-import Notes from '../models/note.model';
-
-import User from '../models/user.model';
+import {Notes} from '../models/note.model';
+import {mailSend} from "../middlewares/forgetpasword.middleware.js"
+import {User} from '../models/user.model';
+import { Console } from 'winston/lib/winston/transports';
+import { error } from 'winston';
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
+
 
 //create new user
 export const newUser = async (body) => {
@@ -47,7 +50,9 @@ export const addNote = async (body) => {
 
 
 export const getNote=async (body)=>{
+  console.log("ID",body.data.ID)
 const findNote=await Notes.find({UserID:body.data.ID})
+console.log("finddd note",findNote)
 return findNote;
 }
 
@@ -61,4 +66,26 @@ export const isDelete=async (body)=>{
 export const isArchived=async (body)=>{
   const archivedNotes=await Notes.find({UserID:body.data.ID,isArchived:true});
   return archivedNotes;
+}
+
+
+
+
+export const forgetPassword=async (body)=>{
+console.log("Search mail Email",body.Email)
+
+const SearchMail=await User.find({Email:body.Email})
+console.log("Search mail",SearchMail)
+
+if(SearchMail){
+  console.log("Search mail Email",SearchMail.Email)
+
+  const mail=mailSend(SearchMail.Email);
+  return mail;
+}else{
+  console.log("email not found")
+  throw Error ("EMAIL ID NOT FOUND IN DATABASE!");
+}
+// const mail=mailSend(body.Email)
+// return mail
 }

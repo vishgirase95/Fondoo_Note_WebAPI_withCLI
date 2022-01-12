@@ -78,6 +78,21 @@ export const isDelete=async (req, res, next)=>{
 }
 
 
+export const forgetPassword=async (req,res,next)=>{
+
+  try {
+    const data= await UserService.forgetPassword(req.body);
+    res.status(HttpStatus.OK).json({
+      code:HttpStatus.OK,
+      data:data,
+      message:"Mail Sent Sucesssfully"
+    })
+  } catch (error) {
+    next(error);
+  }
+}
+
+
 export const isArchived=async (req,res,next)=>{
 
   try {
