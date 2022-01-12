@@ -52,7 +52,7 @@ return findNote;
 }
 
 
-export const isDelete=async (body)=>{
+export const trashNotes=async (body)=>{
   const deletedNote=await Notes.find({UserID:body.data.ID,isDeleted:true});
   return deletedNote;
 }
@@ -79,7 +79,7 @@ export const updateNote=async (body)=>{
 
 
 
-export const trashNoteByNoteID=async (body)=>{
+export const deleteNote=async (body)=>{
   const TrashedNote=await Notes.findOneAndDelete({_id:body.NoteID});
   return TrashedNote;
 }

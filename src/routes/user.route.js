@@ -17,11 +17,11 @@ router.post("/addnote", userAuth, userController.addNote);
 
 
 router.get("/getnote", userAuth, userController.getNote);
-router.get("/isdelete", userAuth, userController.isDelete);
+router.get("/trashnotes", userAuth, userController.trashedNote);
 router.get("/isArchived", userAuth, userController.isArchived);
 
 router.patch("/updatenote", userAuth, userController.updateNote);
-router.delete("/trashnote",userAuth, userController.trashNoteByNoteID);
+router.delete("/delete",userAuth, userController.deleteNote);
 
 
 

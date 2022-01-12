@@ -64,9 +64,9 @@ export const getNote = async (req, res, next) => {
 }
 
 
-export const isDelete = async (req, res, next) => {
+export const trashedNote = async (req, res, next) => {
   try {
-    const data = await UserService.isDelete(req.body);
+    const data = await UserService.trashNotes(req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
@@ -110,10 +110,10 @@ export const updateNote = async (req, res, next) => {
 
 
 
-export const trashNoteByNoteID = async (req, res, next) => {
+export const deleteNote = async (req, res, next) => {
 
   try {
-    const data = await UserService.trashNoteByNoteID(req.body);
+    const data = await UserService.deleteNote(req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
