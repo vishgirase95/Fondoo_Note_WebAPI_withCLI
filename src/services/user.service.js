@@ -10,7 +10,6 @@ import jwt, { verify } from 'jsonwebtoken';
 //create new user
 export const newUser = async (body) => {
   const HashedPassword = await bcrypt.hash(body.Password, 10);
-  console.log(HashedPassword);
   body.Password = HashedPassword;
   const data = await User.create(body);
 

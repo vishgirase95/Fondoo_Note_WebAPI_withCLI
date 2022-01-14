@@ -1,17 +1,21 @@
 import dotenv from 'dotenv';
+import nodemailer from "nodemailer";
+
 
 dotenv.config("./.env");
-import nodemailer from "nodemailer";
-const Password=process.env.EMAIL_PASS
-
+let password=process.env.EMAIL_PASS
+let EMAIL_ID=process.env.EMAIL_ID_AUTH
 export const mailSend=(mail_ID,token)=>{
-
+    // var Password=process.env.EMAIL_PASS;
+    console.log("Email id ", EMAIL_ID)
 const transport=nodemailer.createTransport(
+    
     {
+        
         service: "gmail",
         auth:{
-            user:"vishgirase1995@gmail.com",
-            pass:Password
+            user:EMAIL_ID,
+            pass:password
         }
     }
 )
@@ -19,7 +23,7 @@ const transport=nodemailer.createTransport(
 
 
 const mailOption={
-    from:"vishgirase1995@gmail.com",
+    from:EMAIL_ID,
     to:mail_ID,
     subject:"BridgeLabz:Pasword Reset",
     text: "Hello world?",
@@ -27,6 +31,18 @@ const mailOption={
   
 }
 
-transport.sendMail(mailOption)
+transport.sendMail(mailOption,(er,result)=>{
+    if(er){
+        console.log("errr",er)
+        return er;
+    }else{
+        console.log("result..",result)
+        return result;
+    }
+})
+
+
+
+
 }
     

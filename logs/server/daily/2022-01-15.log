@@ -1,0 +1,118 @@
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T18:34:05.423Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T18:34:21.939Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T18:34:21.964Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T18:35:04.415Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T18:39:40.194Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T18:44:40.516Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T18:45:48.128Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T18:48:35.122Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T18:49:33.631Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T18:57:01.562Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T18:57:33.007Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (dns.js:206:19)","syscall":"querySrv","timestamp":"2022-01-14T18:57:33.088Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T18:58:16.209Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (dns.js:206:19)","syscall":"querySrv","timestamp":"2022-01-14T18:58:16.232Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T18:58:58.292Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T18:58:58.319Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T19:03:05.034Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T19:03:41.510Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T19:12:34.057Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T19:13:51.504Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T19:15:11.994Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T19:16:41.676Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T19:17:54.761Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T19:18:57.550Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T19:21:05.536Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T19:22:10.839Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T19:22:50.226Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T19:23:44.166Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T19:26:44.306Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T19:28:03.047Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T19:31:11.599Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T19:32:44.566Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T19:36:39.746Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T19:37:03.681Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T19:42:43.872Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T19:44:28.726Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-14T19:44:28.824Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T19:45:53.577Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-14T19:45:53.633Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:05:49.702Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T20:05:53.613Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:08:00.233Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T20:08:04.130Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:11:44.340Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:14:06.483Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:16:04.219Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T20:16:04.323Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:17:46.879Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T20:17:46.931Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:18:03.773Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:19:20.467Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:21:59.168Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:25:59.828Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T20:25:59.962Z"}
+error: 
+    status - 500 
+    message - Error: "FirstName" is required
+    at new exports.ValidationError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@hapi\joi\lib\errors.js:246:9)
+    at Object.exports.process (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@hapi\joi\lib\errors.js:189:29)
+    at Object.internals.entry (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@hapi\joi\lib\validator.js:140:26)
+    at Object.exports.entry (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@hapi\joi\lib\validator.js:26:30)
+    at internals.Base.validate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@hapi\joi\lib\base.js:534:26)
+    at newUserValidator (D:\CLI_CLASS\FandooNotes_webAPI\src\validators\/user.validator.js:10:35)
+    at Layer.handle [as handle_request] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\route.js:137:13) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-14T20:26:03.977Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:27:56.405Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T20:27:56.475Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:28:23.925Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T20:28:23.967Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:28:35.403Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T20:28:35.437Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:28:42.371Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T20:28:42.397Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:28:58.522Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T20:28:58.550Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:29:12.065Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T20:29:12.089Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:30:02.595Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T20:30:02.643Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:30:09.001Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T20:30:09.039Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:31:25.510Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T20:31:25.545Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:37:51.749Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T20:37:51.846Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:38:02.692Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T20:38:02.812Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:38:28.568Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T20:38:28.617Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:39:25.065Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T20:39:25.106Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:39:41.948Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T20:39:41.998Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:40:01.417Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T20:40:01.461Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:40:40.498Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T20:40:40.542Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:41:02.829Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T20:41:02.879Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:41:35.257Z"}
+info: Connected to the database. {"timestamp":"2022-01-14T20:41:35.347Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:43:20.762Z"}
