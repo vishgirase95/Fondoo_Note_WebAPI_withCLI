@@ -1,14 +1,20 @@
-import { expect } from 'chai';
+import {
+  expect
+} from 'chai';
 import request from 'supertest';
 import mongoose from 'mongoose';
 import fs from 'fs'
-// const fs=require("fs");
+
 import app from '../../src/index';
+const rawdata = fs.readFileSync("./../FandooNotes_webAPI/src/utils/data.json")
 
 
-const rawdata = fs.readFileSync("tests/integration/data.json")
 const jsondata = JSON.parse(rawdata);
-describe('User APIs Test', () => {
+
+
+describe('User APIs Test', (done) => {
+
+
   before((done) => {
     const clearCollections = () => {
       for (const collection in mongoose.connection.collections) {
@@ -30,6 +36,8 @@ describe('User APIs Test', () => {
     done();
   });
 
+
+
   describe('GET /', () => {
     it('should return Wellcome', (done) => {
       request(app)
@@ -43,9 +51,10 @@ describe('User APIs Test', () => {
   });
 
 
+
   describe('POST /register', () => {
     it('should return User created successfully ', (done) => {
-      const inputdata=jsondata.test1;
+      const inputdata = jsondata.test1
       request(app)
         .post('/api/v1/register').send(inputdata).end((err, res) => {
           expect(res.statusCode).to.be.equal(201);
@@ -54,20 +63,21 @@ describe('User APIs Test', () => {
         });
     });
   });
+
+
+
+
+
+  describe('POST /register/login', () => {
+    it("logi and return sucessfully logged in ", (done) => {
+      const inputdetail = jsondata.login1
+      request(app).post('/api/v1/register/login').send(inputdetail).end((err, res) => {
+        expect(res.statusCode).to.be.equal(200);
+        expect(res.body).to.be.property("message").eq("sucessfully logged in");
+        expect(res.body).to.be.property("data")
+        done();
+      });
+    });
+  });
+
 });
-
-describe('POST /register/login',()=>{
-  it("logi and return sucessfully logged in ",()=>{
-    const inputlogindata=
-    {
-      "Email":"vishal2@gamail.com",
-      "Password":"rajesh"
-    }
-    request(app).post('/api/v1/register/login').send(inputlogindata).end((err,res)=>{
-expect(res.statusCode).to.be.equal(200);
-done();
-    })
-  })
-})
-
-

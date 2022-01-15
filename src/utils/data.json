@@ -1,0 +1,103 @@
+
+{"test1": {
+
+    "FirstName": "Viraj",
+    "LastName": "Rajput",
+    "Email":"vishgirase95@gmail.com",
+    "Password":"vishalgirase"
+  
+
+}, 
+
+"test2":{
+
+    "FirstName": "Dayal",
+    "LastName": "Rajput",
+    "Email": "dayal@gamail.com",
+    "Password": "vishal2"
+
+}, 
+"test3":{
+
+    "FirstName": "Viiiraj",
+    "LastName": "Rajput",
+    "Email": "viraj3@gamail.com",
+    "Password": "vishal2"
+
+}, 
+"test4":{
+
+    "FirstName": "Voiraj",
+    "LastName": "Rajput",
+    "Email": "viraj4@gamail.com",
+    "Password": "vishal2"
+
+}, 
+"test5":{
+
+    "FirstName": "Vpiraj",
+    "LastName": "Rajput",
+    "Email": "viraj5@gamail.com",
+    "Password": "vishal2"
+
+},
+"test6":{
+
+    "FirstName": "Vaaraj",
+    "LastName": "Rajput",
+    "Email": "viraj6@gamail.com",
+    "Password": "vishal2"
+
+},
+"test7":{
+
+    "FirstName": "Dimran",
+    "LastName": "Rajput",
+    "Email": "viraj7@gamail.com",
+    "Password": "vishal2"
+
+},
+
+
+"note1":{
+
+    "Title": "RAJESH",
+    "Descreption": "RAJPUT",
+    "color": "whitee",
+    "isArchived": "true",
+    "isDeleted": "true"
+},
+
+"note2":{
+
+    "Title": "RAJESH",
+    "Descreption": "RAJPUT",
+    "color": "whitee",
+    "isArchived": "true",
+    "isDeleted": "false"
+},
+"note3":{
+
+    "Title": "SURESH",
+    "Descreption": "RAJPUT",
+    "color": "whitee",
+    "isArchived": "true",
+    "isDeleted": "true"
+},
+"note4":{
+
+    "Title": "RAJU",
+    "Descreption": "RAJPUT",
+    "color": "whitee",
+    "isArchived": "true",
+    "isDeleted": "true"
+},
+"login1":{
+
+    
+        "Email":"vishgirase95@gmail.com",
+        "Password":"vishalgirase"
+      
+}
+
+}

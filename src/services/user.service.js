@@ -6,7 +6,8 @@ import {error} from 'winston';
 import bcrypt from 'bcrypt';
 import jwt, { verify } from 'jsonwebtoken';
 
-
+const secretekey_login=process.env.secretkey;
+const forgetPassword_token=process.env.forgetPassword_token;
 //create new user
 export const newUser = async (body) => {
   const HashedPassword = await bcrypt.hash(body.Password, 10);
@@ -28,7 +29,7 @@ export const login = async (body) => {
       Email: searchData.Email,
       ID: searchData._id
     },
-    'vishalgirase'
+    secretekey_login
   );
 
   const isMatch = await bcrypt.compare(body.Password, searchData.Password);
@@ -124,7 +125,7 @@ export const isArchived = async (body) => {
 
 export const forgetPassword = async (req) => {
 
-const token= jwt.sign({ Email: req.body.Email }, "rajput")
+const token= jwt.sign({ Email: req.body.Email },forgetPassword_token)
 console.log("token",token)
   const SearchMail = await User.find({
     Email: req.body.Email
@@ -146,7 +147,7 @@ console.log("search mail",SearchMail)
 
 export const resetPassword=async (req)=>{
 const tokenfound= req.header('Authorization').split(' ')[1];
-const isVerified= jwt.verify(tokenfound,"rajput")
+const isVerified= jwt.verify(tokenfound,forgetPassword_token)
 const newPassword=req.body.Password;
 const HashednewPassword=await bcrypt.hash(newPassword,10);
 

@@ -116,3 +116,1565 @@ info: Connected to the database. {"timestamp":"2022-01-14T20:41:02.879Z"}
 info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:41:35.257Z"}
 info: Connected to the database. {"timestamp":"2022-01-14T20:41:35.347Z"}
 info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-14T20:43:20.762Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T04:53:30.024Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T04:54:50.742Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T04:56:39.733Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T04:57:09.495Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T04:58:49.866Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T05:05:02.414Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T05:06:55.116Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T05:07:22.844Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T05:27:20.332Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/register/login 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-15T05:27:20.432Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T05:31:54.057Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T05:32:46.235Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T05:35:54.590Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T05:46:49.939Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/register/addnote 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-15T05:46:50.111Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T05:47:50.819Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'ID' of undefined
+    at _callee3$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:49:27)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addNote (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:48:21)
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\controllers\/user.controller.js:38:36)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at addNote (D:\CLI_CLASS\FandooNotes_webAPI\src\controllers\/user.controller.js:36:21)
+    at Layer.handle [as handle_request] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:95:5)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:323:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:174:3)
+    at router (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:323:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at logger (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:323:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\raw-body\index.js:224:16)
+    at done (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T05:47:50.976Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T05:50:36.235Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T05:50:36.313Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'ID' of undefined
+    at _callee3$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:49:27)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.addNote (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:48:21) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-15T05:50:44.419Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T05:52:04.843Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T05:52:04.901Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:02:31.410Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T06:02:31.471Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:02:41.049Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/register/addnote 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-15T06:02:41.183Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:09:12.867Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:16:29.326Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:19:35.919Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:20:08.163Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:20:28.167Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:22:47.584Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:26:31.578Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:26:57.640Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:27:29.033Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:28:28.159Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:28:43.663Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:28:54.943Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:29:09.638Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:31:32.904Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:35:22.744Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:36:53.767Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:38:23.005Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:38:50.586Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:39:39.988Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:43:34.107Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T06:43:37.495Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T06:43:38.035Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T06:43:38.347Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:44:48.694Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T06:44:53.295Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:45:49.014Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:46:37.962Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:47:49.621Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:48:13.032Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:51:27.143Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:52:07.104Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:53:04.339Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T06:53:04.429Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:56:00.235Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T06:56:00.313Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:56:48.172Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T06:56:48.202Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:56:58.890Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T06:57:02.103Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T06:57:02.722Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T06:57:03.270Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:57:57.517Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T06:58:00.976Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T06:58:01.610Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T06:58:02.177Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:58:48.797Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T06:58:52.176Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T06:58:52.837Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T06:58:53.439Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:59:01.668Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T06:59:01.727Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T06:59:46.265Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T06:59:46.323Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T07:00:05.858Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T07:00:10.900Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T07:00:11.544Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T07:02:14.791Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T07:02:18.033Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T07:02:18.586Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T07:02:37.315Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T07:02:40.346Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T07:02:40.981Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T07:03:10.330Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T07:03:13.294Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T07:03:13.915Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T07:04:13.062Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T07:04:16.337Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T07:04:16.857Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T07:04:17.361Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T07:06:04.344Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T07:06:26.191Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T07:06:26.224Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T07:33:41.246Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T07:33:41.304Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T07:34:14.546Z"}
+error: 
+    status - 500 
+    message - MongooseError: Operation `users.insertOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T07:34:24.796Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T07:36:14.542Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T07:36:19.971Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-15T07:36:20.535Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T07:36:20.650Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T07:36:20.810Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T07:41:42.408Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T07:41:47.331Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-15T07:41:48.118Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T07:41:48.131Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T07:44:42.908Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T07:44:46.237Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-15T07:44:46.890Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T07:44:46.910Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T07:44:47.254Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T08:02:50.572Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T08:02:56.156Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-15T08:02:56.795Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T08:02:56.805Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T08:07:40.288Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T08:07:44.464Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: test.users index: email_1 dup key: { email: null } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-15T08:07:45.063Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T08:07:45.117Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T08:07:45.684Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T08:09:54.060Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T08:09:57.265Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T08:09:58.847Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T08:11:40.574Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T08:11:43.828Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T08:11:45.408Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T08:13:48.503Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T08:13:51.956Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T08:16:26.790Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T08:16:30.863Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T08:17:55.939Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T08:17:59.039Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T08:19:54.324Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T08:21:43.816Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T08:21:47.009Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T08:21:48.715Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T08:27:44.429Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T08:27:47.868Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T08:27:49.722Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T08:42:11.826Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T08:42:14.738Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T08:42:16.464Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T11:01:30.440Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T11:01:36.840Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T11:01:38.489Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T11:02:02.620Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T11:02:06.505Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T11:02:08.100Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T11:04:07.617Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T11:04:10.999Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T11:04:12.694Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T11:07:41.695Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T11:07:45.249Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T11:07:46.871Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T11:08:25.245Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T11:08:25.302Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T11:10:14.840Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T11:10:14.893Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T11:10:23.819Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T11:10:23.851Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T11:10:34.733Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T11:10:38.410Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T11:10:40.403Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T11:12:14.046Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T11:12:18.225Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T11:12:19.828Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T11:13:31.711Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T11:13:36.461Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T11:13:38.301Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T11:30:39.084Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T11:30:51.416Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T11:30:51.448Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of undefined
+    at _callee8$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:134:37)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-15T11:31:45.467Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T11:41:07.784Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T11:41:13.684Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T11:41:15.410Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T11:51:59.232Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T11:52:02.886Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T11:52:30.750Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T11:52:34.934Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T11:52:48.945Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T11:52:52.465Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T11:53:03.341Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T11:53:08.457Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T11:53:48.897Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T11:53:52.681Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T11:54:57.914Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T11:55:05.264Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T11:56:01.003Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T11:56:04.781Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T13:23:17.166Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T13:23:17.202Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T13:24:25.190Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T13:24:25.229Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T13:25:08.647Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T13:25:08.893Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FondooNote_webAPI_test.users index: Email_1 dup key: { Email: "dayal@gamail.com" } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-15T13:25:09.376Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T13:25:09.396Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T13:25:28.210Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T13:25:28.245Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T15:39:20.012Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T15:39:20.054Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FondooNote_webAPI_test.users index: Email_1 dup key: { Email: "viraj3@gamail.com" } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-15T15:39:20.579Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T15:39:20.585Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T15:48:43.087Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T15:48:43.135Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FondooNote_webAPI_test.users index: Email_1 dup key: { Email: "viraj3@gamail.com" } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-15T15:48:43.310Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T15:48:43.316Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T15:49:12.726Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T15:49:12.764Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:02:24.870Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:02:24.908Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:02:25.383Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:02:50.920Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:02:50.953Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:02:51.308Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:04:42.051Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:04:42.140Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:04:42.255Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:06:13.521Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:06:13.561Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FondooNote_webAPI_test.users index: Email_1 dup key: { Email: "viraj4@gamail.com" } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-15T16:06:14.118Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:06:14.206Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:06:35.439Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:06:35.508Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:08:54.317Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:08:54.357Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:09:36.959Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:09:37.027Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:12:17.229Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:12:17.274Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:12:17.540Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:13:06.679Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:13:06.742Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:13:06.888Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:13:53.788Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:13:53.848Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:13:53.998Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:14:31.426Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:14:31.482Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:14:31.642Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:15:15.808Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:15:15.910Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:15:16.031Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:16:01.963Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:16:01.997Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:16:02.174Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:16:37.044Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:16:37.073Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:17:14.460Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:17:14.493Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:17:25.426Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:17:25.455Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:17:48.882Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:17:48.907Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:18:36.685Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:18:36.708Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:18:55.896Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:18:55.928Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:19:22.047Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:19:22.085Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:19:22.260Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:20:01.385Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:20:01.422Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:20:01.625Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:21:54.973Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:21:55.038Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:21:55.184Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:23:01.643Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:23:01.739Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:23:01.849Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:23:24.891Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:23:24.942Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:23:25.196Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:35:37.139Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:35:37.244Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:35:37.822Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:37:48.293Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:37:48.329Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:40:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:37:48.796Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:39:40.817Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:39:40.844Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:39:40.898Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:40:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:39:41.078Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:40:28.558Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:40:28.595Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:40:28.757Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:41:20.204Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:41:20.254Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:41:20.436Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:42:38.442Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:42:38.473Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:42:38.651Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:42:57.595Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:42:57.624Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FondooNote_webAPI_test.users index: Email_1 dup key: { Email: "viraj3@gamail.com" } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-15T16:42:57.795Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:42:57.830Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:42:57.913Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:44:45.641Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:44:45.673Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:44:45.865Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:45:09.312Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:45:09.347Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:45:09.525Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:45:29.189Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:45:29.223Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FondooNote_webAPI_test.users index: Email_1 dup key: { Email: "vishgirase95@gmail.com" } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-15T16:45:29.354Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:45:29.362Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:45:29.448Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:45:35.033Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:45:35.062Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FondooNote_webAPI_test.users index: Email_1 dup key: { Email: "vishgirase95@gmail.com" } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-15T16:45:35.192Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:45:35.200Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:45:35.292Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:46:03.332Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:46:03.365Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:46:03.531Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:46:38.448Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:46:38.481Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T16:47:49.981Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T16:47:50.041Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:28:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T16:47:50.820Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:02:47.542Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:02:47.644Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:02:59.639Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:02:59.679Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:03:21.076Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:03:21.124Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:03:43.339Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:03:43.433Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:04:26.215Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:04:26.252Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:05:19.129Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:05:19.217Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:06:23.135Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:06:23.179Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:21:14.906Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:21:14.949Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:22:35.653Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:22:35.733Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:23:40.262Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:23:40.304Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:24:18.523Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:24:18.585Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:29:08.609Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:29:08.641Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:29:54.866Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:29:54.915Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:42:18.620Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:42:18.662Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:42:44.147Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:42:44.323Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:42:52.240Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:42:52.307Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:43:15.479Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:43:15.558Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:43:21.129Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:43:21.163Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:43:39.285Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:43:39.331Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:43:47.622Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:43:47.655Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:43:54.331Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:43:54.369Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:44:02.495Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:44:02.554Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:57:07.969Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:57:08.203Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:57:38.358Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:57:38.440Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T17:58:58.711Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T17:58:58.749Z"}
