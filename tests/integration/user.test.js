@@ -177,6 +177,32 @@ describe('User APIs Test', (done) => {
     })
   })
 
+  describe('POST /register/forgetpassword', () => {
+    it("sent mail for forget password ", (done) => {
+      const inputdetail = jsondata.forgetPassword1;
+      request(app).post('/api/v1/register/forgetpassword').send(inputdetail).end((err, res) => {
+        expect(res.statusCode).to.be.equal(200);
+        expect(res.body).to.be.property("message").eq("Mail Sent Sucesssfully");
+      
+        done();
+      });
+    });
+  });
 
+
+  
+  // describe('POST /register/resetpassword', () => {
+  //   it("reset the new password", (done) => {
+  //     const inputdetail = jsondata.resetpassword1;
+  //     const token = res.body.data;
+
+  //     request(app).post('/api/v1/register/resetpassword').set('Authorization', 'JWT ' + token).send(inputdetail).end((err, res) => {
+  //       expect(res.statusCode).to.be.equal(200);
+  //       // expect(res.body).to.be.property("message").eq("Mail Sent Sucesssfully");
+      
+  //       done();
+  //     });
+  //   });
+  // });
 
 });
