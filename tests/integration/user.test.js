@@ -80,4 +80,103 @@ describe('User APIs Test', (done) => {
     });
   });
 
+
+
+
+
+
+  describe('POST /register/login and /note', () => {
+    it("login and auth to add notes", (done) => {
+      const inputdetail = jsondata.login1
+
+      request(app).post('/api/v1/register/login').send(inputdetail).end((err, res) => {
+        expect(res.statusCode).to.be.equal(200);
+        expect(res.body).to.be.property("message").eq("sucessfully logged in");
+        expect(res.body).to.be.property("data")
+        const token = res.body.data;
+        const inputNotedata = jsondata.note1;
+
+        request(app).post('/api/v1/register/addnote').send(inputNotedata).set('Authorization', 'JWT ' + token).end((err, res) => {
+          expect(res.statusCode).to.be.equal(200);
+          expect(res.body).to.be.property("message").eq("Note added sucessfully");
+          done();
+        });
+
+      })
+    })
+  })
+
+
+
+  describe('POST /get notes', () => {
+    it("login and auth get notes", (done) => {
+      const inputdetail = jsondata.login1
+
+      request(app).post('/api/v1/register/login').send(inputdetail).end((err, res) => {
+        expect(res.statusCode).to.be.equal(200);
+        expect(res.body).to.be.property("message").eq("sucessfully logged in");
+        expect(res.body).to.be.property("data")
+        const token = res.body.data;
+      
+
+        request(app).get('/api/v1/register/getnote').set('Authorization', 'JWT ' + token).end((err, res) => {
+          expect(res.statusCode).to.be.equal(200);
+          expect(res.body).to.be.property("message").eq("Fetched Notes Sucessfully");
+          done();
+        });
+
+      })
+    })
+  })
+
+
+
+
+
+  
+  describe('POST /get trashed', () => {
+    it("login and auth get trashed", (done) => {
+      const inputdetail = jsondata.login1
+
+      request(app).post('/api/v1/register/login').send(inputdetail).end((err, res) => {
+        expect(res.statusCode).to.be.equal(200);
+        expect(res.body).to.be.property("message").eq("sucessfully logged in");
+        expect(res.body).to.be.property("data")
+        const token = res.body.data;
+        
+        request(app).get('/api/v1/register/trashed').set('Authorization', 'JWT ' + token).end((err, res) => {
+          expect(res.statusCode).to.be.equal(200);
+          expect(res.body).to.be.property("message").eq("Fetched Deleted Notes Sucessfully");
+          done();
+        });
+
+      })
+    })
+  })
+
+
+
+   
+  describe('POST /get isArchived', () => {
+    it("login and auth get isArchived", (done) => {
+      const inputdetail = jsondata.login1
+
+      request(app).post('/api/v1/register/login').send(inputdetail).end((err, res) => {
+        expect(res.statusCode).to.be.equal(200);
+        expect(res.body).to.be.property("message").eq("sucessfully logged in");
+        expect(res.body).to.be.property("data")
+        const token = res.body.data;
+
+        request(app).get('/api/v1/register/isArchived').set('Authorization', 'JWT ' + token).end((err, res) => {
+          expect(res.statusCode).to.be.equal(200);
+          expect(res.body).to.be.property("message").eq("Fetched Archived Notes Sucessfully");
+          done();
+        });
+
+      })
+    })
+  })
+
+
+
 });

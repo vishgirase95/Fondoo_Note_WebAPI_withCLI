@@ -2723,3 +2723,379 @@ info: ::ffff:127.0.0.1 - - [15/Jan/2022:17:58:58 +0000] "POST /api/v1/register H
 
 info: ::ffff:127.0.0.1 - - [15/Jan/2022:17:58:59 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
 
+error: uncaughtException: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\src\/index.js:37:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Sun Jan 16 2022 00:13:04 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":5000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":855280},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18391640,"external":20656875,"heapTotal":81588224,"heapUsed":49357400,"rss":116219904},"pid":29920,"uid":null,"version":"v14.17.3"},"stack":"Error: listen EADDRINUSE: address already in use :::5000\n    at Server.setupListenHandle [as _listen2] (net.js:1320:16)\n    at listenInCluster (net.js:1368:12)\n    at Server.listen (net.js:1454:7)\n    at Function.listen (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\/index.js:37:5)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1320,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1368,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:17:29 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:17:29 +0000] "POST /api/v1/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:17:30 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:17:30 +0000] "POST /api/v1/register/login HTTP/1.1" 500 71 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\tests\integration\/user.test.js:95:38)
+    at Test.assert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Sun Jan 16 2022 00:47:30 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:95:38)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":857346},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18416882,"external":20099377,"heapTotal":88473600,"heapUsed":44543624,"rss":122658816},"pid":24392,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:95:38)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","trace":[{"column":38,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js","function":null,"line":95,"method":null,"native":false},{"column":6,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:18:57 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:18:57 +0000] "POST /api/v1/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:18:57 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:18:57 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:20:07 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:20:07 +0000] "POST /api/v1/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:20:07 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:20:07 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:20:08 +0000] "POST /api/v1/register/addnote HTTP/1.1" 200 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:22:18 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:22:18 +0000] "POST /api/v1/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:22:18 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:22:18 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:22:31 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:22:31 +0000] "POST /api/v1/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:22:31 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:22:32 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:22:46 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:22:46 +0000] "POST /api/v1/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:22:46 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:22:46 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:22:46 +0000] "POST /api/v1/register/addnote HTTP/1.1" 200 303 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 200 to equal 20
+AssertionError: expected 200 to equal 20
+    at Test.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\tests\integration\/user.test.js:100:40)
+    at Test.assert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Sun Jan 16 2022 00:52:46 GMT+0530 (India Standard Time)","error":{"actual":200,"expected":20,"message":"expected 200 to equal 20","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal 20\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:100:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":857663},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18402491,"external":20086299,"heapTotal":88997888,"heapUsed":59492928,"rss":122482688},"pid":6608,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 200 to equal 20\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:100:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","trace":[{"column":40,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js","function":null,"line":100,"method":null,"native":false},{"column":6,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:22:59 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:23:00 +0000] "POST /api/v1/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:23:00 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:23:00 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:23:00 +0000] "POST /api/v1/register/addnote HTTP/1.1" 200 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:25:34 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:25:34 +0000] "POST /api/v1/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:25:34 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:25:34 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:25:34 +0000] "POST /api/v1/register/addnote HTTP/1.1" 200 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:43:13 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:43:13 +0000] "POST /api/v1/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:43:14 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:43:14 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:43:14 +0000] "POST /api/v1/register/addnote HTTP/1.1" 200 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:43:14 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:43:14 +0000] "POST /api/v1/register/getnote HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\tests\integration\/user.test.js:124:40)
+    at Test.assert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Sun Jan 16 2022 01:13:14 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:124:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":858890},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18405721,"external":20089529,"heapTotal":88473600,"heapUsed":62652856,"rss":122294272},"pid":23428,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:124:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","trace":[{"column":40,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js","function":null,"line":124,"method":null,"native":false},{"column":6,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:44:11 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:44:11 +0000] "POST /api/v1/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:44:11 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:44:11 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:44:11 +0000] "POST /api/v1/register/addnote HTTP/1.1" 200 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:44:12 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:44:12 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:44:54 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:44:54 +0000] "POST /api/v1/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:44:54 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:44:54 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:44:54 +0000] "POST /api/v1/register/addnote HTTP/1.1" 200 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:44:55 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:44:55 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:47:16 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:47:16 +0000] "POST /api/v1/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:47:16 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:47:16 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:47:17 +0000] "POST /api/v1/register/addnote HTTP/1.1" 200 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:47:17 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:47:17 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:47:17 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:47:17 +0000] "GET /api/v1/register/trashed HTTP/1.1" 200 316 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:49:07 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:49:07 +0000] "POST /api/v1/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:49:07 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:49:08 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:49:08 +0000] "POST /api/v1/register/addnote HTTP/1.1" 200 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:49:08 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: token is not defined
+ReferenceError: token is not defined
+    at Test.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\tests\integration\/user.test.js:121:84)
+    at Test.assert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Sun Jan 16 2022 01:19:08 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":859244},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18492334,"external":20176142,"heapTotal":87687168,"heapUsed":65320584,"rss":122155008},"pid":23044,"uid":null,"version":"v14.17.3"},"stack":"ReferenceError: token is not defined\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:121:84)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","trace":[{"column":84,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js","function":null,"line":121,"method":null,"native":false},{"column":6,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:50:46 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:50:46 +0000] "POST /api/v1/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:50:46 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:50:46 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:50:46 +0000] "POST /api/v1/register/addnote HTTP/1.1" 200 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:50:46 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:50:46 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:50:46 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:50:46 +0000] "GET /api/v1/register/trashed HTTP/1.1" 200 316 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:50:46 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:50:46 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 317 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:54:48 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:54:48 +0000] "POST /api/v1/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:54:48 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:54:48 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:54:48 +0000] "POST /api/v1/register/addnote HTTP/1.1" 200 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:54:48 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:54:48 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:54:48 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:54:48 +0000] "GET /api/v1/register/trashed HTTP/1.1" 200 316 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:54:48 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:54:48 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 317 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:54:48 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected { Object (code, message) } to have property 'data'
+AssertionError: expected { Object (code, message) } to have property 'data'
+    at Test.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\tests\integration\/user.test.js:191:32)
+    at Test.assert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Sun Jan 16 2022 01:24:48 GMT+0530 (India Standard Time)","error":{"actual":{"code":200,"message":"Mail Sent Sucesssfully"},"message":"expected { Object (code, message) } to have property 'data'","name":"AssertionError","showDiff":false,"stack":"AssertionError: expected { Object (code, message) } to have property 'data'\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:191:32)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":859585},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18317517,"external":20001325,"heapTotal":91095040,"heapUsed":59298904,"rss":124227584},"pid":2692,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected { Object (code, message) } to have property 'data'\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:191:32)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","trace":[{"column":32,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js","function":null,"line":191,"method":null,"native":false},{"column":6,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:55:07 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:55:07 +0000] "POST /api/v1/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:55:08 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:55:08 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:55:08 +0000] "POST /api/v1/register/addnote HTTP/1.1" 200 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:55:08 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:55:08 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:55:08 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:55:08 +0000] "GET /api/v1/register/trashed HTTP/1.1" 200 316 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:55:08 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:55:08 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 317 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:55:08 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:56:15 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:56:15 +0000] "POST /api/v1/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:56:15 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:56:15 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:56:15 +0000] "POST /api/v1/register/addnote HTTP/1.1" 200 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:56:15 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:56:15 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:56:15 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:56:15 +0000] "GET /api/v1/register/trashed HTTP/1.1" 200 316 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:56:15 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:56:15 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 317 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:19:56:15 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:00:54 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:00:55 +0000] "POST /api/v1/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:00:55 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:00:55 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:00:55 +0000] "POST /api/v1/register/addnote HTTP/1.1" 200 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:00:55 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:00:55 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:00:55 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:00:55 +0000] "GET /api/v1/register/trashed HTTP/1.1" 200 316 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:00:55 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:00:55 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 317 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:00:55 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:00:55 +0000] "POST /api/v1/register/resetpassword HTTP/1.1" 500 76 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\tests\integration\/user.test.js:203:38)
+    at Test.assert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Sun Jan 16 2022 01:30:55 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:203:38)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":859952},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18444478,"external":20128286,"heapTotal":90832896,"heapUsed":61055872,"rss":123957248},"pid":21360,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:203:38)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","trace":[{"column":38,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js","function":null,"line":203,"method":null,"native":false},{"column":6,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:03:53 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:03:54 +0000] "POST /api/v1/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:03:54 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:03:54 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:03:54 +0000] "POST /api/v1/register/addnote HTTP/1.1" 200 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:03:54 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:03:54 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:03:54 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:03:54 +0000] "GET /api/v1/register/trashed HTTP/1.1" 200 316 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:03:54 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:03:54 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 317 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:03:54 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:05:54 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:05:54 +0000] "POST /api/v1/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:05:54 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:05:54 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:05:54 +0000] "POST /api/v1/register/addnote HTTP/1.1" 200 303 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:05:54 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:05:54 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 308 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:05:54 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:05:54 +0000] "GET /api/v1/register/trashed HTTP/1.1" 200 316 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:05:55 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:20:05:55 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 317 "-" "node-superagent/3.8.3"
+

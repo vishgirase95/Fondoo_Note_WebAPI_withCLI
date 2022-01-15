@@ -16,7 +16,7 @@ router.post("/addnote", userAuth, userController.addNote);
 
 
 // updating notes
-router.patch("/updatenote", userController.updateNote);
+router.patch("/updatenote",userAuth, userController.updateNote);
 
 
 // getting notes of individual user

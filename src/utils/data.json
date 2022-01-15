@@ -98,6 +98,20 @@
         "Email":"vishgirase95@gmail.com",
         "Password":"vishalgirase"
       
-}
+},
+"forgetPassword1":{
 
+    
+    "Email":"vishgirase95@gmail.com"
+  
+},
+
+"resetpassword1":{
+
+    
+    "Email":"vishgirase95@gmail.com",
+    "Password":"newpassword"
+
+  
+}
 }
