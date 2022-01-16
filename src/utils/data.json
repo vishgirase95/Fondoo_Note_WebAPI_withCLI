@@ -13,7 +13,7 @@
 
     "FirstName": "Dayal",
     "LastName": "Rajput",
-    "Email": "dayal@gamail.com",
+    "Email": "test1@gamail.com",
     "Password": "vishal2"
 
 }, 
@@ -21,7 +21,7 @@
 
     "FirstName": "Viiiraj",
     "LastName": "Rajput",
-    "Email": "viraj3@gamail.com",
+    "Email": "test2@gamail.com",
     "Password": "vishal2"
 
 }, 
@@ -29,7 +29,7 @@
 
     "FirstName": "Voiraj",
     "LastName": "Rajput",
-    "Email": "viraj4@gamail.com",
+    "Email": "test3@gamail.com",
     "Password": "vishal2"
 
 }, 
@@ -37,15 +37,15 @@
 
     "FirstName": "Vpiraj",
     "LastName": "Rajput",
-    "Email": "viraj5@gamail.com",
+    "Email": "test4@gamail.com",
     "Password": "vishal2"
-
 },
+
 "test6":{
 
     "FirstName": "Vaaraj",
     "LastName": "Rajput",
-    "Email": "viraj6@gamail.com",
+    "Email": "test5@gamail.com",
     "Password": "vishal2"
 
 },
@@ -53,7 +53,7 @@
 
     "FirstName": "Dimran",
     "LastName": "Rajput",
-    "Email": "viraj7@gamail.com",
+    "Email": "test6@gamail.com",
     "Password": "vishal2"
 
 },
@@ -111,6 +111,16 @@
     
     "Email":"vishgirase95@gmail.com",
     "Password":"newpassword"
+
+  
+},
+
+"update1":{
+        "NoteID":"61e3f5225ed8934b00f3f3d0",
+        "color":"red"
+     
+
+
 
   
 }

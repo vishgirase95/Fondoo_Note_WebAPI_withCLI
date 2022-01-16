@@ -118,3 +118,394 @@ info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T2
 info: Connected to the database. {"timestamp":"2022-01-15T20:05:54.326Z"}
 info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-15T20:10:28.815Z"}
 info: Connected to the database. {"timestamp":"2022-01-15T20:10:28.876Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T05:47:16.125Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T05:47:16.163Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T10:08:03.945Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T10:08:04.116Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T10:14:16.531Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T10:14:16.578Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T10:19:36.340Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T10:19:36.376Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T10:25:08.984Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T10:25:09.019Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FondooNote_webAPI_test.users index: Email_1 dup key: { Email: "vishgirase95@gmail.com" } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-16T10:25:09.189Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-16T10:25:09.276Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T10:27:45.294Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T10:27:45.336Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T10:30:49.523Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T10:30:49.557Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T10:33:01.817Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T10:33:01.860Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T10:36:17.891Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T10:36:17.944Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T10:38:23.530Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T10:38:23.581Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FondooNote_webAPI_test.users index: Email_1 dup key: { Email: "vishgirase95@gmail.com" } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-16T10:38:23.745Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-16T10:38:23.751Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T10:41:00.698Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T10:41:00.728Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T10:43:16.531Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T10:43:16.559Z"}
+error: 
+      status - 400
+      message - Authorization token incorrect 
+      url - /api/v1/register/updatenote 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-01-16T10:43:26.464Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'split' of undefined
+    at _callee9$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:149:19)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.resetPassword (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:148:27) 
+    url - /api/v1/register/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-16T10:48:48.897Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\bcrypt.js:137:17)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee9$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:152:38)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/register/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-16T10:49:26.880Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\bcrypt.js:137:17)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee9$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:152:38)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/register/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-16T10:52:42.372Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T10:57:33.247Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T10:57:33.286Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T10:57:40.676Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T10:57:40.718Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T10:58:14.495Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T10:58:14.555Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\bcrypt.js:137:17)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee9$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:154:38)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/register/resetpassword 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-16T10:58:14.609Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T10:59:36.867Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T10:59:36.947Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\bcrypt.js:137:17)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee9$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:154:38)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/register/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-16T10:59:41.278Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T11:00:27.493Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T11:00:27.519Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T11:01:08.831Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T11:01:08.861Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FondooNote_webAPI_test.users index: Email_1 dup key: { Email: "viraj5@gamail.com" } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-16T11:01:09.024Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-16T11:01:09.031Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T11:08:58.687Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T11:08:58.734Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:35:32)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-16T11:14:31.887Z"}
+error: 
+      status - 400
+      message - Authorization token incorrect 
+      url - /api/v1/register/getnote 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-01-16T11:16:10.988Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T11:24:10.782Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T11:24:10.831Z"}
+error: 
+      status - 400
+      message - Authorization token incorrect 
+      url - /api/v1/register/getnote 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-01-16T11:24:14.455Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 46
+    at JSON.parse (<anonymous>)
+    at parse (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\raw-body\index.js:224:16)
+    at done (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/register/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-16T11:24:35.478Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T11:28:28.369Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T11:28:28.401Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T11:32:02.927Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T11:32:02.975Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T11:32:12.695Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T11:32:12.745Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T11:32:28.966Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T11:32:29.009Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T11:39:57.562Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T11:39:57.596Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FondooNote_webAPI_test.users index: Email_1 dup key: { Email: "viraj5@gamail.com" } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-16T11:39:57.754Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-16T11:39:57.785Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T11:41:30.066Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T11:41:30.095Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FondooNote_webAPI_test.users index: Email_1 dup key: { Email: "viraj5@gamail.com" } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-16T11:41:30.245Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-16T11:41:30.251Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T11:42:47.823Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T11:42:47.854Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FondooNote_webAPI_test.users index: Email_1 dup key: { Email: "viraj5@gamail.com" } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-16T11:42:48.002Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-16T11:42:48.009Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T11:43:21.357Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T11:43:21.387Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FondooNote_webAPI_test.users index: Email_1 dup key: { Email: "viraj5@gamail.com" } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-16T11:43:21.539Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-16T11:43:21.545Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-16T11:44:32.089Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T11:44:32.122Z"}

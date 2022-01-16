@@ -6,6 +6,7 @@ import mongoose from 'mongoose';
 import fs from 'fs'
 
 import app from '../../src/index';
+import { updateNote } from '../../src/services/user.service';
 const rawdata = fs.readFileSync("./../FandooNotes_webAPI/src/utils/data.json")
 
 
@@ -14,27 +15,27 @@ const jsondata = JSON.parse(rawdata);
 
 describe('User APIs Test', (done) => {
 
+// is commmented in order to update note by manual id
+  // before((done) => {
+  //   const clearCollections = () => {
+  //     for (const collection in mongoose.connection.collections) {
+  //       mongoose.connection.collections[collection].deleteOne(() => {});
+  //     }
+  //   };
 
-  before((done) => {
-    const clearCollections = () => {
-      for (const collection in mongoose.connection.collections) {
-        mongoose.connection.collections[collection].deleteOne(() => {});
-      }
-    };
+  //   const mongooseConnect = async () => {
+  //     await mongoose.connect(process.env.DATABASE_TEST);
+  //     clearCollections();
+  //   };
 
-    const mongooseConnect = async () => {
-      await mongoose.connect(process.env.DATABASE_TEST);
-      clearCollections();
-    };
+  //   if (mongoose.connection.readyState === 0) {
+  //     mongooseConnect();
+  //   } else {
+  //     clearCollections();
+  //   }
 
-    if (mongoose.connection.readyState === 0) {
-      mongooseConnect();
-    } else {
-      clearCollections();
-    }
-
-    done();
-  });
+  //   done();
+  // });
 
 
 
@@ -54,7 +55,7 @@ describe('User APIs Test', (done) => {
 
   describe('POST /register', () => {
     it('should return User created successfully ', (done) => {
-      const inputdata = jsondata.test1
+      const inputdata = jsondata.test5
       request(app)
         .post('/api/v1/register').send(inputdata).end((err, res) => {
           expect(res.statusCode).to.be.equal(201);
@@ -85,7 +86,7 @@ describe('User APIs Test', (done) => {
 
 
 
-  describe('POST /register/login and /note', () => {
+  describe('POST /register/login and /addnote', () => {
     it("login and auth to add notes", (done) => {
       const inputdetail = jsondata.login1
 
@@ -94,11 +95,14 @@ describe('User APIs Test', (done) => {
         expect(res.body).to.be.property("message").eq("sucessfully logged in");
         expect(res.body).to.be.property("data")
         const token = res.body.data;
-        const inputNotedata = jsondata.note1;
+        const inputNotedata = jsondata.note2;
 
         request(app).post('/api/v1/register/addnote').send(inputNotedata).set('Authorization', 'JWT ' + token).end((err, res) => {
           expect(res.statusCode).to.be.equal(200);
           expect(res.body).to.be.property("message").eq("Note added sucessfully");
+          expect(res.body).to.be.property("data");
+          console.log("data",res.body.data)
+
           done();
         });
 
@@ -130,7 +134,26 @@ describe('User APIs Test', (done) => {
   })
 
 
+  describe('POST /update notes', () => {
+    it("login and auth update notes using notid", (done) => {
+      const inputdetail = jsondata.login1
 
+      request(app).post('/api/v1/register/login').send(inputdetail).end((err, res) => {
+        expect(res.statusCode).to.be.equal(200);
+        expect(res.body).to.be.property("message").eq("sucessfully logged in");
+        expect(res.body).to.be.property("data")
+        const token = res.body.data;
+        
+        const updateNOTE = jsondata.update1
+        request(app).patch('/api/v1/register/updatenote').set('Authorization', 'JWT ' + token).send(updateNOTE).end((err, res) => {
+          expect(res.statusCode).to.be.equal(200);
+          // expect(res.body).to.be.property("message").eq("Fetched Notes Sucessfully");
+          done();
+        });
+
+      })
+    })
+  })
 
 
   

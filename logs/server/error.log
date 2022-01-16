@@ -4124,3 +4124,439 @@ AssertionError: expected 500 to equal 200
     at Server.emit (events.js:375:28)
     at emitCloseNT (net.js:1661:8)
     at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Sun Jan 16 2022 01:30:55 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:203:38)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":859952},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18444454,"external":20128222,"heapTotal":90832896,"heapUsed":60959960,"rss":123219968},"pid":21360,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:203:38)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-15T20:00:55.759Z","trace":[{"column":38,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js","function":null,"line":203,"method":null,"native":false},{"column":6,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FondooNote_webAPI_test.users index: Email_1 dup key: { Email: "vishgirase95@gmail.com" } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-16T10:25:09.189Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-16T10:25:09.276Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\tests\integration\/user.test.js:60:40)
+    at Test.assert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Sun Jan 16 2022 15:55:09 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:60:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":911805},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18521669,"external":20205437,"heapTotal":87949312,"heapUsed":63840160,"rss":119132160},"pid":29076,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:60:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-16T10:25:09.487Z","trace":[{"column":40,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js","function":null,"line":60,"method":null,"native":false},{"column":6,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: uncaughtException: The "string" argument must be of type string or an instance of Buffer or ArrayBuffer. Received function updateNote
+TypeError [ERR_INVALID_ARG_TYPE]: The "string" argument must be of type string or an instance of Buffer or ArrayBuffer. Received function updateNote
+    at Function.byteLength (buffer.js:727:11)
+    at Test.Request._end (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\superagent\lib\node\index.js:804:84)
+    at Test.Request.end (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\superagent\lib\node\index.js:777:15)
+    at Test.end (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:125:7)
+    at Test.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\tests\integration\/user.test.js:152:112)
+    at Test.assert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Sun Jan 16 2022 16:03:02 GMT+0530 (India Standard Time)","error":{"code":"ERR_INVALID_ARG_TYPE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":912278},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18339618,"external":20023386,"heapTotal":91357184,"heapUsed":60065936,"rss":121778176},"pid":2564,"uid":null,"version":"v14.17.3"},"stack":"TypeError [ERR_INVALID_ARG_TYPE]: The \"string\" argument must be of type string or an instance of Buffer or ArrayBuffer. Received function updateNote\n    at Function.byteLength (buffer.js:727:11)\n    at Test.Request._end (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\superagent\\lib\\node\\index.js:804:84)\n    at Test.Request.end (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\superagent\\lib\\node\\index.js:777:15)\n    at Test.end (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:125:7)\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:152:112)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-16T10:33:02.604Z","trace":[{"column":11,"file":"buffer.js","function":"Function.byteLength","line":727,"method":"byteLength","native":false},{"column":84,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\superagent\\lib\\node\\index.js","function":"Test.Request._end","line":804,"method":"_end","native":false},{"column":15,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\superagent\\lib\\node\\index.js","function":"Test.Request.end","line":777,"method":"end","native":false},{"column":7,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Test.end","line":125,"method":"end","native":false},{"column":112,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js","function":null,"line":152,"method":null,"native":false},{"column":6,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\tests\integration\/user.test.js:149:40)
+    at Test.assert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Sun Jan 16 2022 16:06:18 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:149:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":912474},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18310971,"external":19994739,"heapTotal":91095040,"heapUsed":59722816,"rss":122310656},"pid":19200,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:149:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-16T10:36:18.633Z","trace":[{"column":40,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js","function":null,"line":149,"method":null,"native":false},{"column":6,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FondooNote_webAPI_test.users index: Email_1 dup key: { Email: "vishgirase95@gmail.com" } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-16T10:38:23.745Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-16T10:38:23.751Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\tests\integration\/user.test.js:61:40)
+    at Test.assert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Sun Jan 16 2022 16:08:23 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:61:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":912600},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18749251,"external":20433019,"heapTotal":87949312,"heapUsed":65299984,"rss":119480320},"pid":29712,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:61:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-16T10:38:23.794Z","trace":[{"column":40,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js","function":null,"line":61,"method":null,"native":false},{"column":6,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\tests\integration\/user.test.js:149:40)
+    at Test.assert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Sun Jan 16 2022 16:11:01 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:149:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":912757},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18329045,"external":20012813,"heapTotal":90308608,"heapUsed":58643144,"rss":121192448},"pid":15496,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:149:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-16T10:41:01.345Z","trace":[{"column":40,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js","function":null,"line":149,"method":null,"native":false},{"column":6,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+      status - 400
+      message - Authorization token incorrect 
+      url - /api/v1/register/updatenote 
+      method - PATCH 
+      IP - ::1
+     {"timestamp":"2022-01-16T10:43:26.464Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'split' of undefined
+    at _callee9$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:149:19)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.resetPassword (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:148:27) 
+    url - /api/v1/register/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-16T10:48:48.897Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\bcrypt.js:137:17)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee9$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:152:38)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/register/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-16T10:49:26.880Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\bcrypt.js:137:17)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee9$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:152:38)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/register/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-16T10:52:42.372Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\bcrypt.js:137:17)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee9$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:154:38)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/register/resetpassword 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-16T10:58:14.609Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\bcrypt.js:137:17)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\promises.js:20:12)
+    at Object.hash (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\bcrypt.js:133:25)
+    at _callee9$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:154:38)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/register/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-16T10:59:41.278Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FondooNote_webAPI_test.users index: Email_1 dup key: { Email: "viraj5@gamail.com" } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-16T11:01:09.024Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-16T11:01:09.031Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\tests\integration\/user.test.js:61:40)
+    at Test.assert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Sun Jan 16 2022 16:31:09 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:61:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":913965},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18833165,"external":20516933,"heapTotal":86900736,"heapUsed":65945128,"rss":117800960},"pid":492,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:61:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-16T11:01:09.061Z","trace":[{"column":40,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js","function":null,"line":61,"method":null,"native":false},{"column":6,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\bcrypt.js:208:17)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:35:32)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-16T11:14:31.887Z"}
+error: 
+      status - 400
+      message - Authorization token incorrect 
+      url - /api/v1/register/getnote 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-01-16T11:16:10.988Z"}
+error: 
+      status - 400
+      message - Authorization token incorrect 
+      url - /api/v1/register/getnote 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-01-16T11:24:14.455Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 46
+    at JSON.parse (<anonymous>)
+    at parse (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\raw-body\index.js:224:16)
+    at done (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (events.js:387:35)
+    at IncomingMessage.emit (domain.js:470:12)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/register/forgetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-16T11:24:35.478Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\tests\integration\/user.test.js:149:40)
+    at Test.assert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Sun Jan 16 2022 17:02:30 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:149:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":915846},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18296884,"external":19980652,"heapTotal":90570752,"heapUsed":58092944,"rss":121552896},"pid":10788,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:149:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-16T11:32:30.163Z","trace":[{"column":40,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js","function":null,"line":149,"method":null,"native":false},{"column":6,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FondooNote_webAPI_test.users index: Email_1 dup key: { Email: "viraj5@gamail.com" } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-16T11:39:57.754Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-16T11:39:57.785Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\tests\integration\/user.test.js:61:40)
+    at Test.assert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Sun Jan 16 2022 17:09:57 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:61:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":916294},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18851763,"external":20535531,"heapTotal":87425024,"heapUsed":65635304,"rss":118988800},"pid":19052,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:61:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-16T11:39:57.820Z","trace":[{"column":40,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js","function":null,"line":61,"method":null,"native":false},{"column":6,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FondooNote_webAPI_test.users index: Email_1 dup key: { Email: "viraj5@gamail.com" } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-16T11:41:30.245Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-16T11:41:30.251Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\tests\integration\/user.test.js:61:40)
+    at Test.assert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Sun Jan 16 2022 17:11:30 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:61:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":916386},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18804977,"external":20488745,"heapTotal":87425024,"heapUsed":65618536,"rss":118628352},"pid":15608,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:61:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-16T11:41:30.284Z","trace":[{"column":40,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js","function":null,"line":61,"method":null,"native":false},{"column":6,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FondooNote_webAPI_test.users index: Email_1 dup key: { Email: "viraj5@gamail.com" } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-16T11:42:48.002Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-16T11:42:48.009Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\tests\integration\/user.test.js:61:40)
+    at Test.assert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Sun Jan 16 2022 17:12:48 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:61:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":916464},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18491945,"external":20175713,"heapTotal":87425024,"heapUsed":64835160,"rss":118530048},"pid":27264,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:61:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-16T11:42:48.042Z","trace":[{"column":40,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js","function":null,"line":61,"method":null,"native":false},{"column":6,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FondooNote_webAPI_test.users index: Email_1 dup key: { Email: "viraj5@gamail.com" } 
+      url - /api/v1/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-16T11:43:21.539Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (internal/timers.js:466:21) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-16T11:43:21.545Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\tests\integration\/user.test.js:61:40)
+    at Test.assert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Sun Jan 16 2022 17:13:21 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:61:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":916497},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18846657,"external":20530425,"heapTotal":87425024,"heapUsed":65994968,"rss":122302464},"pid":10872,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:61:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-01-16T11:43:21.581Z","trace":[{"column":40,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js","function":null,"line":61,"method":null,"native":false},{"column":6,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
