@@ -16,26 +16,26 @@ const jsondata = JSON.parse(rawdata);
 describe('User APIs Test', (done) => {
 
 // is commmented in order to update note by manual id
-  // before((done) => {
-  //   const clearCollections = () => {
-  //     for (const collection in mongoose.connection.collections) {
-  //       mongoose.connection.collections[collection].deleteOne(() => {});
-  //     }
-  //   };
+  before((done) => {
+    const clearCollections = () => {
+      for (const collection in mongoose.connection.collections) {
+        mongoose.connection.collections[collection].deleteOne(() => {});
+      }
+    };
 
-  //   const mongooseConnect = async () => {
-  //     await mongoose.connect(process.env.DATABASE_TEST);
-  //     clearCollections();
-  //   };
+    const mongooseConnect = async () => {
+      await mongoose.connect(process.env.DATABASE_TEST);
+      clearCollections();
+    };
 
-  //   if (mongoose.connection.readyState === 0) {
-  //     mongooseConnect();
-  //   } else {
-  //     clearCollections();
-  //   }
+    if (mongoose.connection.readyState === 0) {
+      mongooseConnect();
+    } else {
+      clearCollections();
+    }
 
-  //   done();
-  // });
+    done();
+  });
 
 
 
@@ -55,7 +55,7 @@ describe('User APIs Test', (done) => {
 
   describe('POST /register', () => {
     it('should return User created successfully ', (done) => {
-      const inputdata = jsondata.test5
+      const inputdata = jsondata.test1
       request(app)
         .post('/api/v1/register').send(inputdata).end((err, res) => {
           expect(res.statusCode).to.be.equal(201);
@@ -203,6 +203,7 @@ describe('User APIs Test', (done) => {
   describe('POST /register/forgetpassword', () => {
     it("sent mail for forget password ", (done) => {
       const inputdetail = jsondata.forgetPassword1;
+      console.log(inputdetail)
       request(app).post('/api/v1/register/forgetpassword').send(inputdetail).end((err, res) => {
         expect(res.statusCode).to.be.equal(200);
         expect(res.body).to.be.property("message").eq("Mail Sent Sucesssfully");
