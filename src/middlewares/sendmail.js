@@ -41,19 +41,5 @@ return new Promise((resolve, reject) => {
     });
 });
 
-
-// transport.sendMail(mailOption,(er,result)=>{
-//     if(er){
-//         console.log("errr",er)
-//         return er;
-//     }else{
-//         console.log("result..",result)
-//         return result;
-//     }
-// })
-
-
-
-
 }
     

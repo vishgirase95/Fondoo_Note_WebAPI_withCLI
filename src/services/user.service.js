@@ -56,23 +56,6 @@ export const addNote = async (body) => {
 
 
 
-// export const updateNote=async (body)=>{
-//   // const previous=await Notes.findOne()
-//   const updated=await Notes.updateOne({_id:body.NoteID},{
-//     Title:body.Title,
-//     Descreption:body.Descreption,
-//     color:body.color,
-//     isArchived:body.isArchived,
-//     isDeleted:body.isDeleted
-//   },{
-//     new:true
-//   })
-
-//   return updated;
-// }
-
-
-
 export const updateNote=async (body)=>{
   const previous=await Notes.findOne({_id:body.NoteID})
   const updated=await Notes.updateOne({_id:body.NoteID},{
