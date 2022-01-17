@@ -5683,3 +5683,9 @@ info: ::ffff:127.0.0.1 - - [17/Jan/2022:16:38:47 +0000] "POST /api/v1/register/f
 
 info: ::ffff:127.0.0.1 - - [17/Jan/2022:16:38:48 +0000] "POST /api/v1/register/resetpassword HTTP/1.1" 200 326 "-" "node-superagent/3.8.3"
 
+info: ::1 - - [17/Jan/2022:16:47:17 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 543 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [17/Jan/2022:16:47:34 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 200 543 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [17/Jan/2022:16:47:42 +0000] "POST /api/v1/register/forgetpassword HTTP/1.1" 500 76 "-" "PostmanRuntime/7.28.4"
+
