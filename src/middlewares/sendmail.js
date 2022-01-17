@@ -36,8 +36,8 @@ return new Promise((resolve, reject) => {
         if (err) {
             return reject(err)
         }
-
-        return resolve(result);
+        
+        return resolve({result,token});
     });
 });
 

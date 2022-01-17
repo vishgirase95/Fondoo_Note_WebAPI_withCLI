@@ -15,7 +15,8 @@ const jsondata = JSON.parse(rawdata);
 
 
 describe('User APIs Test', (done) => {
-
+  var _id='';
+let Token='';
 // is commmented in order to update note by manual id
   before((done) => {
     const clearCollections = () => {
@@ -53,7 +54,6 @@ describe('User APIs Test', (done) => {
   });
 
 
-  var _id='';
 
   describe('POST /register', () => {
     it('should return User created successfully ', (done) => {
@@ -150,9 +150,7 @@ describe('User APIs Test', (done) => {
         expect(res.body).to.be.property("message").eq("sucessfully logged in");
         expect(res.body).to.be.property("data")
         const token = res.body.data;
-        console.log("user id"+_id)
-        
-        // const updateNOTE = jsondata.update1
+      
         const updateNOTE={
           "NoteID":_id,
           "color":"purple"
@@ -219,7 +217,8 @@ describe('User APIs Test', (done) => {
       request(app).post('/api/v1/register/forgetpassword').send(inputdetail).end((err, res) => {
         expect(res.statusCode).to.be.equal(200);
         expect(res.body).to.be.property("message").eq("Mail Sent Sucesssfully");
-      
+    
+         Token=res.body.data.token;
         done();
       });
     });
@@ -227,18 +226,17 @@ describe('User APIs Test', (done) => {
 
 
   
-  // describe('POST /register/resetpassword', () => {
-  //   it("reset the new password", (done) => {
-  //     const inputdetail = jsondata.resetpassword1;
-  //     const token = res.body.data;
-
-  //     request(app).post('/api/v1/register/resetpassword').set('Authorization', 'JWT ' + token).send(inputdetail).end((err, res) => {
-  //       expect(res.statusCode).to.be.equal(200);
-  //       // expect(res.body).to.be.property("message").eq("Mail Sent Sucesssfully");
+  describe('POST /register/resetpassword', () => {
+    it("reset the new password", (done) => {
+      const inputdetail = jsondata.resetpassword1;
       
-  //       done();
-  //     });
-  //   });
-  // });
+      console.log("toekn" , Token);
+      request(app).post('/api/v1/register/resetpassword').set('Authorization', 'JWT ' +Token).send(inputdetail).end((err, res) => {
+        expect(res.statusCode).to.be.equal(200);
+        expect(res.body).to.be.property("message").eq("Reset Password Sucessfully")
+        done();
+      });
+    });
+  });
 
 });
