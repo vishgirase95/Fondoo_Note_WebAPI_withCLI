@@ -6,8 +6,6 @@ dotenv.config("./.env");
 let password=process.env.EMAIL_PASS
 let EMAIL_ID=process.env.EMAIL_ID_AUTH
 export const mailSend=(mail_ID,token)=>{
-    // var Password=process.env.EMAIL_PASS;
-    console.log("Email id ", EMAIL_ID)
 const transport=nodemailer.createTransport(
     
     {
@@ -31,15 +29,28 @@ const mailOption={
   
 }
 
-transport.sendMail(mailOption,(er,result)=>{
-    if(er){
-        console.log("errr",er)
-        return er;
-    }else{
-        console.log("result..",result)
-        return result;
-    }
-})
+
+
+return new Promise((resolve, reject) => {
+    transport.sendMail(mailOption, (err, result) => {
+        if (err) {
+            return reject(err)
+        }
+
+        return resolve(result);
+    });
+});
+
+
+// transport.sendMail(mailOption,(er,result)=>{
+//     if(er){
+//         console.log("errr",er)
+//         return er;
+//     }else{
+//         console.log("result..",result)
+//         return result;
+//     }
+// })
 
 
 

@@ -7,6 +7,7 @@ import fs from 'fs'
 
 import app from '../../src/index';
 import { updateNote } from '../../src/services/user.service';
+import { User } from '../../src/models/user.model';
 const rawdata = fs.readFileSync("./../FandooNotes_webAPI/src/utils/data.json")
 
 
@@ -52,6 +53,7 @@ describe('User APIs Test', (done) => {
   });
 
 
+  var _id='';
 
   describe('POST /register', () => {
     it('should return User created successfully ', (done) => {
@@ -60,6 +62,8 @@ describe('User APIs Test', (done) => {
         .post('/api/v1/register').send(inputdata).end((err, res) => {
           expect(res.statusCode).to.be.equal(201);
           expect(res.body).to.be.property("message").eq("User created successfully");
+         
+          
           done();
         });
     });
@@ -75,7 +79,7 @@ describe('User APIs Test', (done) => {
       request(app).post('/api/v1/register/login').send(inputdetail).end((err, res) => {
         expect(res.statusCode).to.be.equal(200);
         expect(res.body).to.be.property("message").eq("sucessfully logged in");
-        expect(res.body).to.be.property("data")
+        // expect(res.body).to.be.property("data")
         done();
       });
     });
@@ -96,12 +100,15 @@ describe('User APIs Test', (done) => {
         expect(res.body).to.be.property("data")
         const token = res.body.data;
         const inputNotedata = jsondata.note2;
+        
 
         request(app).post('/api/v1/register/addnote').send(inputNotedata).set('Authorization', 'JWT ' + token).end((err, res) => {
           expect(res.statusCode).to.be.equal(200);
           expect(res.body).to.be.property("message").eq("Note added sucessfully");
           expect(res.body).to.be.property("data");
           console.log("data",res.body.data)
+          _id=res.body.data._id;
+          console.log("iddd",_id)
 
           done();
         });
@@ -121,7 +128,7 @@ describe('User APIs Test', (done) => {
         expect(res.body).to.be.property("message").eq("sucessfully logged in");
         expect(res.body).to.be.property("data")
         const token = res.body.data;
-      
+    
 
         request(app).get('/api/v1/register/getnote').set('Authorization', 'JWT ' + token).end((err, res) => {
           expect(res.statusCode).to.be.equal(200);
@@ -143,11 +150,16 @@ describe('User APIs Test', (done) => {
         expect(res.body).to.be.property("message").eq("sucessfully logged in");
         expect(res.body).to.be.property("data")
         const token = res.body.data;
+        console.log("user id"+_id)
         
-        const updateNOTE = jsondata.update1
+        // const updateNOTE = jsondata.update1
+        const updateNOTE={
+          "NoteID":_id,
+          "color":"purple"
+        }
         request(app).patch('/api/v1/register/updatenote').set('Authorization', 'JWT ' + token).send(updateNOTE).end((err, res) => {
           expect(res.statusCode).to.be.equal(200);
-          // expect(res.body).to.be.property("message").eq("Fetched Notes Sucessfully");
+          expect(res.body).to.be.property("message").eq("Updated Sucessfully");
           done();
         });
 
@@ -203,7 +215,7 @@ describe('User APIs Test', (done) => {
   describe('POST /register/forgetpassword', () => {
     it("sent mail for forget password ", (done) => {
       const inputdetail = jsondata.forgetPassword1;
-      console.log(inputdetail)
+      
       request(app).post('/api/v1/register/forgetpassword').send(inputdetail).end((err, res) => {
         expect(res.statusCode).to.be.equal(200);
         expect(res.body).to.be.property("message").eq("Mail Sent Sucesssfully");

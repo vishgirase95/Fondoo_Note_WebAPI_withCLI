@@ -33,7 +33,7 @@ export const login = async (body) => {
   );
 
   const isMatch = await bcrypt.compare(body.Password, searchData.Password);
-  console.log(isMatch);
+  
   if (body.Email == searchData.Email) {
     if (isMatch) {
       return token;
@@ -89,9 +89,9 @@ export const updateNote=async (body)=>{
 }
 
 export const getNote = async (body) => {
-  console.log("ID", body.data.ID)
+  
   const findNote = await Notes.find({UserID: body.data.ID,isDeleted:true,isArchived:true})
-  console.log("finddd note", findNote)
+  
   return findNote;
 }
 
@@ -126,11 +126,11 @@ export const isArchived = async (body) => {
 export const forgetPassword = async (req) => {
 
 const token= jwt.sign({ Email: req.body.Email },forgetPassword_token)
-console.log("token",token)
+
   const SearchMail = await User.find({
     Email: req.body.Email
   })
-console.log("search mail",SearchMail)
+
   if (SearchMail) {
   const mail=mailSend(SearchMail[0].Email,token)
     return mail;
