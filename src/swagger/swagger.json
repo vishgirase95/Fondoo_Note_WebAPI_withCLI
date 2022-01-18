@@ -1,43 +1,152 @@
-
 {
-    "swaggerDefinition": {
-        "info": {
-            "titile": "Custimer App",
-            "description": "customer API interaction",
-            "contact": {
-                "name": "Amazing Developer"
-            },
-            "servers": "http://localhost:5000",
-            "base-path": "api/v1/"
-
-        }
-    },
-    "apis": ["index.js"],
-    "tags": [{
-        "name": "CLI",
-        "Descreption": "creating user"
-    }],
-
-    "schemes": [
-        "http"
-    ],
-    "consumes": [
-        "application/json"
-    ],
-    "produces": [
-        "application/xml"
-    ],
-    "paths": {
-        "/create": {
-            "post": {
-                "tags": [],
-        
-                "description": "",
-                "operationId": "addPet",
-                "consumes": [
-                    "application/json"
-                ]
-            }
-        }
+  "swagger": "2.0",
+  "info": {
+    "description": "This is FundooNotes Documentation",
+    "version": "1.0.0",
+    "title": "FundooNotes",
+    "contact": {
+      "email": "vishgirase95@gmail.com"
     }
+  },
+  "host": "localhost:5000",
+  "basePath": "/api/v1",
+  "tags": [
+    {
+      "name": "User",
+      "description": "User details"
+    },
+    {
+      "name": "Notes",
+      "description": "Notes Details"
+    }
+  ],
+  "schemes": ["http"],
+  "paths": {
+    "/register": {
+      "post": {
+        "tags": ["User"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "Registration Data",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "required": ["FirstName", "LastName", "Email", "Password"],
+              "properties": {
+                "FirstName": {
+                  "type": "string"
+                },
+                "LastName": {
+                  "type": "string"
+                },
+                "Email": {
+                  "type": "string"
+                },
+                "Password": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Valid input"
+          },
+          "500": {
+            "description": "Invalid input"
+          }
+        }
+      }
+    },
+    "/register/login": {
+      "post": {
+        "tags": ["User"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "Login Data",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "Email": {
+                  "type": "string"
+                },
+                "Password": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "valid input"
+          },
+          "500": {
+            "description": "invalid input"
+          }
+        }
+      }
+    },
+    "/register/forgetpassword": {
+      "post": {
+        "tags": ["User"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "Forget Password",
+            "schema": {
+              "type": "object",
+              "required": ["Email"],
+              "properties": {
+                "Email": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Valid input"
+          },
+          "500": {
+            "description": "Invalid input"
+          }
+        }
+      }
+    },
+    "/register/resetpassword": {
+      "post": {
+        "tags": ["User"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "Resetpassword",
+            "required": ["Email", "Password"],
+            "properties": {
+              "Email": {
+                "type": "string"
+              },
+              "Password": { "type": "string" }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Valid input"
+          },
+          "500": {
+            "description": "Invalid input"
+          }
+        }
+      }
+    }
+  }
 }

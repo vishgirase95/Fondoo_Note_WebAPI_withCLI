@@ -23,11 +23,11 @@ const port = process.env.APP_PORT;
 const api_version = process.env.API_VERSION;
 
 
-const swaggerSpec = swaggerJSDoc(swaggerOptions);
-
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 
+
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerOptions));
 app.use(cors());
 app.use(helmet());
 app.use(express.urlencoded({ extended: true }));
