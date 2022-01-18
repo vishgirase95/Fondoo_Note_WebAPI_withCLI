@@ -16,11 +16,17 @@ import {
 import logger, { logStream } from './config/logger';
 
 import morgan from 'morgan';
-
+import swaggerOptions from '../src/swagger/swagger.json'
 const app = express();
 const host = process.env.APP_HOST;
 const port = process.env.APP_PORT;
 const api_version = process.env.API_VERSION;
+
+
+const swaggerSpec = swaggerJSDoc(swaggerOptions);
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+
 
 app.use(cors());
 app.use(helmet());

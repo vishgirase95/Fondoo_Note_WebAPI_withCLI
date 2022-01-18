@@ -1,0 +1,43 @@
+
+{
+    "swaggerDefinition": {
+        "info": {
+            "titile": "Custimer App",
+            "description": "customer API interaction",
+            "contact": {
+                "name": "Amazing Developer"
+            },
+            "servers": "http://localhost:5000",
+            "base-path": "api/v1/"
+
+        }
+    },
+    "apis": ["index.js"],
+    "tags": [{
+        "name": "CLI",
+        "Descreption": "creating user"
+    }],
+
+    "schemes": [
+        "http"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/xml"
+    ],
+    "paths": {
+        "/create": {
+            "post": {
+                "tags": [],
+        
+                "description": "",
+                "operationId": "addPet",
+                "consumes": [
+                    "application/json"
+                ]
+            }
+        }
+    }
+}
