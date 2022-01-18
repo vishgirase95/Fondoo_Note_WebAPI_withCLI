@@ -1,0 +1,29 @@
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'split' of undefined
+    at _callee9$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:132:19)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.resetPassword (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:131:27) 
+    url - /api/v1/register/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-18T18:30:31.092Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-18T18:31:18.113Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T18:31:18.157Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-18T18:32:25.917Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T18:32:25.950Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-18T18:32:33.156Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T18:32:33.183Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-18T18:32:47.297Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T18:32:47.331Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-18T18:32:54.876Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T18:32:54.908Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-18T18:33:04.096Z"}
+info: Connected to the database. {"timestamp":"2022-01-18T18:33:04.129Z"}

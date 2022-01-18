@@ -129,13 +129,71 @@
           {
             "in": "body",
             "name": "Resetpassword",
+            "schema":{
+              "type":"object",
             "required": ["Email", "Password"],
             "properties": {
               "Email": {
                 "type": "string"
               },
-              "Password": { "type": "string" }
+              "Password": { "type": "string" },
+            "securityDefinitions":{
+              "JWT":{
+                "type":"apiKey",
+                "name":"token",
+                "in":"header"
+
+              }}
             }
+          
+          }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Valid input"
+          },
+          "500": {
+            "description": "Invalid input"
+          }
+        }
+      },
+      "security":[{
+      "JWT":[]
+        }]
+    },
+    "/register/addnote": {
+      "post": {
+        "tags": ["Notes"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "AddNotes",
+            "schema":{
+              "type":"object",
+            "required": ["Title","Descreption","color","isArchived","isDeleted","UserID"],
+            "properties": {
+              "Title": {
+                "type": "string"
+              },
+              "Descreption":{
+                "type":"string"
+              },
+              "color":{
+                "type":"string"
+              },
+              "isArchived":{
+                "type":"string"
+              },
+              "isDeleted":{
+                "type":"string"
+              },
+              "UserID":{
+                "type":"string"
+              }
+  
+            }}
           }
         ],
         "responses": {
