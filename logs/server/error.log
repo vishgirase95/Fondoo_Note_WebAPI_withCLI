@@ -8342,3 +8342,15 @@ error:
     method - PATCH 
     IP - ::1
    {"timestamp":"2022-01-19T08:10:18.737Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/updatenote 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-19T09:47:02.735Z"}

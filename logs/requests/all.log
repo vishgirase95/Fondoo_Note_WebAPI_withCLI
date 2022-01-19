@@ -8179,3 +8179,7 @@ info: ::1 - - [19/Jan/2022:09:41:45 +0000] "GET /api/v1/register/getnotes HTTP/1
 
 info: ::1 - - [19/Jan/2022:09:41:49 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 558 "-" "PostmanRuntime/7.29.0"
 
+info: ::1 - - [19/Jan/2022:09:47:02 +0000] "PATCH /api/v1/register/updatenote HTTP/1.1" 500 130 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [19/Jan/2022:09:51:20 +0000] "PATCH /api/v1/register/updatenote HTTP/1.1" 200 80 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
