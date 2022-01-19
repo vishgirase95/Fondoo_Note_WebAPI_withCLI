@@ -1,6 +1,7 @@
 import dotenv from 'dotenv';
 dotenv.config();
-
+import swaggerJSDoc from 'swagger-jsdoc';
+import swaggerUi from 'swagger-ui-express';
 import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
@@ -15,12 +16,18 @@ import {
 import logger, { logStream } from './config/logger';
 
 import morgan from 'morgan';
-
+import swaggerOptions from '../src/swagger/swagger.json'
 const app = express();
 const host = process.env.APP_HOST;
 const port = process.env.APP_PORT;
 const api_version = process.env.API_VERSION;
 
+
+
+
+
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerOptions));
 app.use(cors());
 app.use(helmet());
 app.use(express.urlencoded({ extended: true }));

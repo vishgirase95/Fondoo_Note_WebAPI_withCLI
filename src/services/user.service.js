@@ -40,6 +40,8 @@ export const login = async (body) => {
     } else {
       throw new Error('Invalid pasword');
     }
+  }else{
+    throw new Error("Email id not found ");
   }
 };
 
@@ -73,7 +75,7 @@ export const updateNote=async (body)=>{
 
 export const getNote = async (body) => {
   
-  const findNote = await Notes.find({UserID: body.data.ID,isDeleted:true,isArchived:true})
+  const findNote = await Notes.find({UserID: body.data.ID,isDeleted:false,isArchived:false})
   
   return findNote;
 }
@@ -139,7 +141,13 @@ const updatePassword=await User.findOneAndUpdate({Email:req.body.Email},
   {
     Password:HashednewPassword
   },{new:true})
-return updatePassword;
+
+  if(updatePassword){
+    return updatePassword;
+  }else{
+    throw Error 
+  }
+
 
 }else{
   throw Error ;

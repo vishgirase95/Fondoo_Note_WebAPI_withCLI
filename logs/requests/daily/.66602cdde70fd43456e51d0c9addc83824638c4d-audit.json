@@ -49,6 +49,16 @@
             "date": 1642398776678,
             "name": "logs\\requests\\daily\\2022-01-17.log",
             "hash": "692a303f69a06ae39c6a259ec191c9a8"
+        },
+        {
+            "date": 1642482860769,
+            "name": "logs\\requests\\daily\\2022-01-18.log",
+            "hash": "df43f7d6ba63845959b73e4ac90e9d55"
+        },
+        {
+            "date": 1642530631125,
+            "name": "logs\\requests\\daily\\2022-01-19.log",
+            "hash": "cd91dbc6f469282262757d119d210cc9"
         }
     ]
 }
