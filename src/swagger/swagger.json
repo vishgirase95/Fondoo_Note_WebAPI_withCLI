@@ -136,14 +136,7 @@
               "Email": {
                 "type": "string"
               },
-              "Password": { "type": "string" },
-            "securityDefinitions":{
-              "JWT":{
-                "type":"apiKey",
-                "name":"token",
-                "in":"header"
-
-              }}
+              "Password": { "type": "string" }
             }
           
           }
@@ -156,11 +149,11 @@
           "500": {
             "description": "Invalid input"
           }
-        }
-      },
-      "security":[{
-      "JWT":[]
-        }]
+        },
+        "security":[{
+        "JWT":[]
+          }]
+      }
     },
     "/register/addnote": {
       "post": {
@@ -172,7 +165,52 @@
             "name": "AddNotes",
             "schema":{
               "type":"object",
-            "required": ["Title","Descreption","color","isArchived","isDeleted","UserID"],
+            "required": ["Title","Descreption","color","isArchived","isDeleted"],
+            "properties": {
+              "Title": {
+                "type": "string"
+              },
+              "Descreption":{
+                "type":"string"
+              },
+              "color":{
+                "type":"string"
+              },
+              "isArchived":{
+                "type":"string"
+              },
+              "isDeleted":{
+                "type":"string"
+              }
+  
+            }}
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Valid input"
+          },
+          "500": {
+            "description": "Invalid input"
+          }
+        },
+        "security":[{
+        "JWT":[]
+          }]
+      
+      }
+    },
+    "/register/updatenote": {
+      "patch": {
+        "tags": ["Notes"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "Update Notes",
+            "schema":{
+              "type":"object",
+          
             "properties": {
               "Title": {
                 "type": "string"
@@ -189,8 +227,8 @@
               "isDeleted":{
                 "type":"string"
               },
-              "UserID":{
-                "type":"string"
+                "NoteID":{
+                  "type":"string"
               }
   
             }}
@@ -203,8 +241,91 @@
           "500": {
             "description": "Invalid input"
           }
-        }
+        },
+        "security":[{
+        "JWT":[]
+          }]
+      
+      }
+    },
+    "/register/getnote": {
+      "get": {
+        "tags": ["Notes"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "Update Notes"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Valid input"
+          },
+          "500": {
+            "description": "Invalid input"
+          }
+        },
+        "security":[{
+        "JWT":[]
+          }]
+      
+      }
+    }, 
+    "/register/trashed": {
+      "get": {
+        "tags": ["Notes"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "Update Notes"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Valid input"
+          },
+          "500": {
+            "description": "Invalid input"
+          }
+        },
+        "security":[{
+        "JWT":[]
+          }]
+      
+      }
+    }, 
+    "/register/isArchived": {
+      "get": {
+        "tags": ["Notes"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "Update Notes"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Valid input"
+          },
+          "500": {
+            "description": "Invalid input"
+          }
+        },
+        "security":[{
+        "JWT":[]
+          }]
+      
       }
     }
-  }
+  },
+  "securityDefinitions":{
+    "JWT":{
+      "type":"apiKey",
+      "name":"Authorization",
+      "in":"header"
+
+    }}
 }
