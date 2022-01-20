@@ -1,10 +1,13 @@
 import {Notes} from '../models/note.model';
 import {mailSend} from "../middlewares/sendmail"
+
 import {User} from '../models/user.model';
 import {Console} from 'winston/lib/winston/transports';
 import {error} from 'winston';
 import bcrypt from 'bcrypt';
 import jwt, { verify } from 'jsonwebtoken';
+import {client} from "../config/reddis.js"
+
 
 const secretekey_login=process.env.secretkey;
 const forgetPassword_token=process.env.forgetPassword_token;
@@ -52,7 +55,9 @@ export const addNote = async (body) => {
   body.UserID = body.data.ID;
 
   const newNote = await Notes.create(body);
-
+  await client.del("notes_data");
+  await client.del("Key");
+  
   return newNote;
 };
 
@@ -69,6 +74,9 @@ export const updateNote=async (body)=>{
   },{
     new:true
   })
+await client.del("notes_data");
+await client.del("Key");
+
 
   return updated;
 }
@@ -76,7 +84,7 @@ export const updateNote=async (body)=>{
 export const getNote = async (body) => {
   
   const findNote = await Notes.find({UserID: body.data.ID,isDeleted:false,isArchived:false})
-  
+  await client.set("notes_data",JSON.stringify(findNote));
   return findNote;
 }
 
@@ -100,10 +108,22 @@ export const isArchived = async (body) => {
     UserID: body.data.ID,
     isArchived: true
   });
+  
+  await client.set('Key', JSON.stringify(archivedNotes))
   return archivedNotes;
 }
 
 
+export const deletenote = async (req) => {
+  const archivedNotes = await Notes.findByIdAndDelete({
+    _id:req.params._id,
+
+  });
+  await client.del("Key");
+  await client.del("notes_data")
+
+  return "deleted note";
+}
 
 
 

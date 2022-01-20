@@ -8354,3 +8354,1086 @@ error:
     method - PATCH 
     IP - ::1
    {"timestamp":"2022-01-19T09:47:02.735Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'length' of undefined
+    at encodeCommand (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\commander.js:71:104)
+    at encodeCommand.next (<anonymous>)
+    at RedisSocket.writeCommand (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\socket.js:56:20)
+    at Commander._RedisClient_tick (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:435:64)
+    at Commander._RedisClient_sendCommand (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:416:82)
+    at Commander.commandsExecutor (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:166:154)
+    at Commander.setEx (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\commander.js:8:29)
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:108:16)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-19T20:09:03.194Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'length' of undefined
+    at encodeCommand (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\commander.js:71:104)
+    at encodeCommand.next (<anonymous>)
+    at RedisSocket.writeCommand (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\socket.js:56:20)
+    at Commander._RedisClient_tick (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:435:64)
+    at Commander._RedisClient_sendCommand (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:416:82)
+    at Commander.commandsExecutor (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:166:154)
+    at Commander.setEx (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\commander.js:8:29)
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:108:16)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-19T20:09:04.838Z"}
+error: 
+    status - 500 
+    message - TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Array
+    at Socket.Writable.write (internal/streams/writable.js:285:13)
+    at RedisSocket.writeCommand (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\socket.js:57:130)
+    at Commander._RedisClient_tick (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:435:64)
+    at Commander._RedisClient_sendCommand (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:416:82)
+    at Commander.commandsExecutor (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:166:154)
+    at Commander.set (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\commander.js:8:29)
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:108:16)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-19T20:09:49.706Z"}
+error: 
+    status - 500 
+    message - TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Array
+    at Socket.Writable.write (internal/streams/writable.js:285:13)
+    at RedisSocket.writeCommand (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\socket.js:57:130)
+    at Commander._RedisClient_tick (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:435:64)
+    at Commander._RedisClient_sendCommand (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:416:82)
+    at Commander.commandsExecutor (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:166:154)
+    at Commander.set (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\commander.js:8:29)
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:108:16)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-19T20:09:50.442Z"}
+error: uncaughtException: Got an unexpected reply from Redis
+Error: Got an unexpected reply from Redis
+    at RedisCommandsQueue._RedisCommandsQueue_shiftWaitingForReply (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\commands-queue.js:284:15)
+    at JavascriptRedisParser.returnError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\commands-queue.js:60:142)
+    at JavascriptRedisParser.execute (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\redis-parser\lib\parser.js:542:14)
+    at RedisCommandsQueue.parseResponse (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\commands-queue.js:194:71)
+    at RedisSocket.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:336:83)
+    at RedisSocket.emit (events.js:375:28)
+    at RedisSocket.emit (domain.js:470:12)
+    at Socket.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\socket.js:191:44) {"date":"Thu Jan 20 2022 01:39:50 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":227543},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18756497,"external":21021692,"heapTotal":171900928,"heapUsed":142638488,"rss":207785984},"pid":21648,"uid":null,"version":"v14.17.3"},"stack":"Error: Got an unexpected reply from Redis\n    at RedisCommandsQueue._RedisCommandsQueue_shiftWaitingForReply (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@node-redis\\client\\dist\\lib\\client\\commands-queue.js:284:15)\n    at JavascriptRedisParser.returnError (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@node-redis\\client\\dist\\lib\\client\\commands-queue.js:60:142)\n    at JavascriptRedisParser.execute (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\redis-parser\\lib\\parser.js:542:14)\n    at RedisCommandsQueue.parseResponse (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@node-redis\\client\\dist\\lib\\client\\commands-queue.js:194:71)\n    at RedisSocket.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@node-redis\\client\\dist\\lib\\client\\index.js:336:83)\n    at RedisSocket.emit (events.js:375:28)\n    at RedisSocket.emit (domain.js:470:12)\n    at Socket.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@node-redis\\client\\dist\\lib\\client\\socket.js:191:44)","timestamp":"2022-01-19T20:09:50.505Z","trace":[{"column":15,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@node-redis\\client\\dist\\lib\\client\\commands-queue.js","function":"RedisCommandsQueue._RedisCommandsQueue_shiftWaitingForReply","line":284,"method":"_RedisCommandsQueue_shiftWaitingForReply","native":false},{"column":142,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@node-redis\\client\\dist\\lib\\client\\commands-queue.js","function":"JavascriptRedisParser.returnError","line":60,"method":"returnError","native":false},{"column":14,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\redis-parser\\lib\\parser.js","function":"JavascriptRedisParser.execute","line":542,"method":"execute","native":false},{"column":71,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@node-redis\\client\\dist\\lib\\client\\commands-queue.js","function":"RedisCommandsQueue.parseResponse","line":194,"method":"parseResponse","native":false},{"column":83,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@node-redis\\client\\dist\\lib\\client\\index.js","function":null,"line":336,"method":null,"native":false},{"column":28,"file":"events.js","function":"RedisSocket.emit","line":375,"method":"emit","native":false},{"column":12,"file":"domain.js","function":"RedisSocket.emit","line":470,"method":"emit","native":false},{"column":44,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@node-redis\\client\\dist\\lib\\client\\socket.js","function":null,"line":191,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at new ClientClosedError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\errors.js:24:9)
+    at Commander._RedisClient_sendCommand (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:407:31)
+    at Commander.commandsExecutor (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:166:154)
+    at Commander.set (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\commander.js:8:29)
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:108:16)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-19T20:15:05.227Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at new ClientClosedError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\errors.js:24:9)
+    at Commander._RedisClient_sendCommand (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:407:31)
+    at Commander.commandsExecutor (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:166:154)
+    at Commander.set (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\commander.js:8:29)
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:109:16)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-19T20:16:44.797Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at new ClientClosedError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\errors.js:24:9)
+    at Commander._RedisClient_sendCommand (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:407:31)
+    at Commander.commandsExecutor (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:166:154)
+    at Commander.set (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\commander.js:8:29)
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:109:16)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-19T20:17:27.242Z"}
+error: 
+    status - 500 
+    message - TypeError: _reddis.default.set is not a function
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:109:16)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-20T05:21:51.316Z"}
+error: 
+    status - 500 
+    message - TypeError: _reddis.default.set is not a function
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:109:16)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-20T05:22:00.193Z"}
+error: uncaughtException: D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\reddis.middleware.js: Missing semicolon. (16:1)
+
+[0m [90m 14 |[39m [90m//         next();[39m[0m
+[0m [90m 15 |[39m [90m//     }[39m[0m
+[0m[31m[1m>[22m[39m[90m 16 |[39m })[0m
+[0m [90m    |[39m  [31m[1m^[22m[39m[0m
+[0m [90m 17 |[39m }[0m
+[0m [90m 18 |[39m[0m
+SyntaxError: Missing semicolon. (16:1)
+    at Parser._raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:147:45)
+    at Parser.raiseWithData (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:142:17)
+    at Parser.raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:91:17)
+    at Parser.semicolon (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\util.js:128:10)
+    at Parser.parseVarStatement (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:892:10)
+    at Parser.parseStatementContent (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:391:21)
+    at Parser.parseStatement (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:331:17)
+    at Parser.parseExportDeclaration (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:2049:17) {"date":"Thu Jan 20 2022 11:00:20 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":1,"line":16},"pos":477,"reasonCode":"MissingSemicolon"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":261172},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18321478,"external":22570409,"heapTotal":179007488,"heapUsed":159712744,"rss":213639168},"pid":22848,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Missing semicolon. (16:1)\n    at Parser._raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n    at Parser.raiseWithData (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n    at Parser.raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n    at Parser.semicolon (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\util.js:128:10)\n    at Parser.parseVarStatement (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:892:10)\n    at Parser.parseStatementContent (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:391:21)\n    at Parser.parseStatement (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:331:17)\n    at Parser.parseExportDeclaration (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:2049:17)","timestamp":"2022-01-20T05:30:20.203Z","trace":[{"column":45,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":147,"method":"_raise","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":142,"method":"raiseWithData","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":91,"method":"raise","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.semicolon","line":128,"method":"semicolon","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseVarStatement","line":892,"method":"parseVarStatement","native":false},{"column":21,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatementContent","line":391,"method":"parseStatementContent","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatement","line":331,"method":"parseStatement","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseExportDeclaration","line":2049,"method":"parseExportDeclaration","native":false}]}
+error: uncaughtException: D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\reddis.middleware.js: Unexpected token (18:6)
+
+[0m [90m 16 |[39m [90m// })[39m[0m
+[0m [90m 17 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 18 |[39m [36mawait[39m [36mconst[39m [0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 19 |[39m }[0m
+[0m [90m 20 |[39m[0m
+SyntaxError: Unexpected token (18:6)
+    at Parser._raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:147:45)
+    at Parser.raiseWithData (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:142:17)
+    at Parser.raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:91:17)
+    at Parser.unexpected (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\util.js:175:16)
+    at Parser.parseExprAtom (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:1292:22)
+    at Parser.parseExprSubscripts (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:670:23)
+    at Parser.parseUpdate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:650:21)
+    at Parser.parseMaybeUnary (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:621:23) {"date":"Thu Jan 20 2022 11:00:45 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":6,"line":18},"pos":491,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":261197},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18329670,"external":22343487,"heapTotal":181256192,"heapUsed":160256392,"rss":216010752},"pid":10420,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Unexpected token (18:6)\n    at Parser._raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n    at Parser.raiseWithData (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n    at Parser.raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n    at Parser.unexpected (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\util.js:175:16)\n    at Parser.parseExprAtom (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1292:22)\n    at Parser.parseExprSubscripts (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:670:23)\n    at Parser.parseUpdate (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:650:21)\n    at Parser.parseMaybeUnary (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:621:23)","timestamp":"2022-01-20T05:30:45.051Z","trace":[{"column":45,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":147,"method":"_raise","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":142,"method":"raiseWithData","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":91,"method":"raise","native":false},{"column":16,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":175,"method":"unexpected","native":false},{"column":22,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1292,"method":"parseExprAtom","native":false},{"column":23,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":670,"method":"parseExprSubscripts","native":false},{"column":21,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":650,"method":"parseUpdate","native":false},{"column":23,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":621,"method":"parseMaybeUnary","native":false}]}
+error: uncaughtException: D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\reddis.middleware.js: Missing semicolon. (21:19)
+
+[0m [90m 19 |[39m[0m
+[0m [90m 20 |[39m [36mif[39m(getdata){[0m
+[0m[31m[1m>[22m[39m[90m 21 |[39m     res[33m.[39mstatus([35m200[39m)send([33mJSON[39m[33m.[39mparse(getdata))[0m
+[0m [90m    |[39m                    [31m[1m^[22m[39m[0m
+[0m [90m 22 |[39m console[33m.[39mlog(getdata)[0m
+[0m [90m 23 |[39m[0m
+[0m [90m 24 |[39m }[36melse[39m{[0m
+SyntaxError: Missing semicolon. (21:19)
+    at Parser._raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:147:45)
+    at Parser.raiseWithData (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:142:17)
+    at Parser.raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:91:17)
+    at Parser.semicolon (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\util.js:128:10)
+    at Parser.parseExpressionStatement (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:992:10)
+    at Parser.parseStatementContent (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:476:19)
+    at Parser.parseStatement (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:331:17)
+    at Parser.parseBlockOrModuleBlockBody (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:1067:25) {"date":"Thu Jan 20 2022 11:12:00 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":19,"line":21},"pos":560,"reasonCode":"MissingSemicolon"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":261873},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18329670,"external":22527989,"heapTotal":180994048,"heapUsed":160621592,"rss":214941696},"pid":20368,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Missing semicolon. (21:19)\n    at Parser._raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n    at Parser.raiseWithData (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n    at Parser.raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n    at Parser.semicolon (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\util.js:128:10)\n    at Parser.parseExpressionStatement (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:992:10)\n    at Parser.parseStatementContent (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:476:19)\n    at Parser.parseStatement (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:331:17)\n    at Parser.parseBlockOrModuleBlockBody (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1067:25)","timestamp":"2022-01-20T05:42:00.679Z","trace":[{"column":45,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":147,"method":"_raise","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":142,"method":"raiseWithData","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":91,"method":"raise","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.semicolon","line":128,"method":"semicolon","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseExpressionStatement","line":992,"method":"parseExpressionStatement","native":false},{"column":19,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatementContent","line":476,"method":"parseStatementContent","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatement","line":331,"method":"parseStatement","native":false},{"column":25,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseBlockOrModuleBlockBody","line":1067,"method":"parseBlockOrModuleBlockBody","native":false}]}
+error: uncaughtException: D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\reddis.middleware.js: Unexpected reserved word 'await'. (25:15)
+
+[0m [90m 23 |[39m [90m// })[39m[0m
+[0m [90m 24 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 25 |[39m [36mconst[39m getdata[33m=[39m [36mawait[39m client[33m.[39m[36mget[39m([32m"Key"[39m)[0m
+[0m [90m    |[39m                [31m[1m^[22m[39m[0m
+[0m [90m 26 |[39m[0m
+[0m [90m 27 |[39m [36mif[39m(getdata){[0m
+[0m [90m 28 |[39m     res[33m.[39mstatus([35m200[39m)[33m.[39msend([33mJSON[39m[33m.[39mparse(getdata))[0m
+SyntaxError: Unexpected reserved word 'await'. (25:15)
+    at Parser._raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:147:45)
+    at Parser.raiseWithData (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:142:17)
+    at Parser.raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:91:17)
+    at Parser.checkReservedWord (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:2656:12)
+    at Parser.parseIdentifierName (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:2595:12)
+    at Parser.parseIdentifier (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:2563:23)
+    at Parser.parseExprAtom (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:1239:27)
+    at Parser.parseExprSubscripts (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:670:23) {"date":"Thu Jan 20 2022 11:22:28 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":15,"line":25},"pos":623,"reasonCode":"UnexpectedReservedWord"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":262501},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18329670,"external":22470941,"heapTotal":180731904,"heapUsed":160502296,"rss":215183360},"pid":6176,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Unexpected reserved word 'await'. (25:15)\n    at Parser._raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n    at Parser.raiseWithData (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n    at Parser.raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n    at Parser.checkReservedWord (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2656:12)\n    at Parser.parseIdentifierName (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2595:12)\n    at Parser.parseIdentifier (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2563:23)\n    at Parser.parseExprAtom (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1239:27)\n    at Parser.parseExprSubscripts (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:670:23)","timestamp":"2022-01-20T05:52:28.597Z","trace":[{"column":45,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":147,"method":"_raise","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":142,"method":"raiseWithData","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":91,"method":"raise","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.checkReservedWord","line":2656,"method":"checkReservedWord","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseIdentifierName","line":2595,"method":"parseIdentifierName","native":false},{"column":23,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseIdentifier","line":2563,"method":"parseIdentifier","native":false},{"column":27,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1239,"method":"parseExprAtom","native":false},{"column":23,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":670,"method":"parseExprSubscripts","native":false}]}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at reddis_data (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/reddis.middleware.js:28:31)
+    at Layer.handle [as handle_request] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\route.js:137:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:31:11
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:24:22)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-20T05:53:53.992Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at reddis_data (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/reddis.middleware.js:28:19)
+    at Layer.handle [as handle_request] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\route.js:137:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:31:11
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:24:22)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-20T05:56:26.695Z"}
+error: uncaughtException: D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\reddis.middleware.js: Missing semicolon. (38:13)
+
+[0m [90m 36 |[39m client[33m.[39m[36mget[39m([32m'Key'[39m)[33m.[39mthen((result)[33m=>[39m{[0m
+[0m [90m 37 |[39m     res[33m.[39msend(result)[0m
+[0m[31m[1m>[22m[39m[90m 38 |[39m })[33m.[39m[36mcatch[39m(err){[0m
+[0m [90m    |[39m              [31m[1m^[22m[39m[0m
+[0m [90m 39 |[39m     res[33m.[39msend(err)[0m
+[0m [90m 40 |[39m }[0m
+[0m [90m 41 |[39m[0m
+SyntaxError: Missing semicolon. (38:13)
+    at Parser._raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:147:45)
+    at Parser.raiseWithData (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:142:17)
+    at Parser.raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:91:17)
+    at Parser.semicolon (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\util.js:128:10)
+    at Parser.parseExpressionStatement (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:992:10)
+    at Parser.parseStatementContent (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:476:19)
+    at Parser.parseStatement (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:331:17)
+    at Parser.parseBlockOrModuleBlockBody (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:1067:25) {"date":"Thu Jan 20 2022 11:29:32 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":13,"line":38},"pos":840,"reasonCode":"MissingSemicolon"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":262925},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18329670,"external":22348810,"heapTotal":179617792,"heapUsed":159104968,"rss":214106112},"pid":4224,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Missing semicolon. (38:13)\n    at Parser._raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n    at Parser.raiseWithData (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n    at Parser.raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n    at Parser.semicolon (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\util.js:128:10)\n    at Parser.parseExpressionStatement (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:992:10)\n    at Parser.parseStatementContent (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:476:19)\n    at Parser.parseStatement (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:331:17)\n    at Parser.parseBlockOrModuleBlockBody (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1067:25)","timestamp":"2022-01-20T05:59:32.713Z","trace":[{"column":45,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":147,"method":"_raise","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":142,"method":"raiseWithData","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":91,"method":"raise","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.semicolon","line":128,"method":"semicolon","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseExpressionStatement","line":992,"method":"parseExpressionStatement","native":false},{"column":19,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatementContent","line":476,"method":"parseStatementContent","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatement","line":331,"method":"parseStatement","native":false},{"column":25,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseBlockOrModuleBlockBody","line":1067,"method":"parseBlockOrModuleBlockBody","native":false}]}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at reddis_data (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/reddis.middleware.js:28:19)
+    at Layer.handle [as handle_request] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\route.js:137:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:31:11
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:24:22)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-20T06:02:41.256Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at reddis_data (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/reddis.middleware.js:29:19)
+    at Layer.handle [as handle_request] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\route.js:137:13)
+    at D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:31:11
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/auth.middleware.js:24:22)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-20T06:08:04.634Z"}
+error: uncaughtException: D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\reddis.middleware.js: Unexpected reserved word 'await'. (26:14)
+
+[0m [90m 24 |[39m [90m// })[39m[0m
+[0m [90m 25 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 26 |[39m [36mconst[39m getdata[33m=[39m[36mawait[39m client[33m.[39m[36mget[39m([32m"Key"[39m)[0m
+[0m [90m    |[39m               [31m[1m^[22m[39m[0m
+[0m [90m 27 |[39m[0m
+[0m [90m 28 |[39m [36mif[39m(getdata){[0m
+[0m [90m 29 |[39m     res[33m.[39msend(getdata)[0m
+SyntaxError: Unexpected reserved word 'await'. (26:14)
+    at Parser._raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:147:45)
+    at Parser.raiseWithData (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:142:17)
+    at Parser.raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:91:17)
+    at Parser.checkReservedWord (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:2656:12)
+    at Parser.parseIdentifierName (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:2595:12)
+    at Parser.parseIdentifier (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:2563:23)
+    at Parser.parseExprAtom (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:1239:27)
+    at Parser.parseExprSubscripts (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:670:23) {"date":"Thu Jan 20 2022 11:41:51 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":14,"line":26},"pos":677,"reasonCode":"UnexpectedReservedWord"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":263664},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18329670,"external":22571642,"heapTotal":181100544,"heapUsed":160782784,"rss":215400448},"pid":5124,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Unexpected reserved word 'await'. (26:14)\n    at Parser._raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n    at Parser.raiseWithData (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n    at Parser.raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n    at Parser.checkReservedWord (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2656:12)\n    at Parser.parseIdentifierName (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2595:12)\n    at Parser.parseIdentifier (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2563:23)\n    at Parser.parseExprAtom (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1239:27)\n    at Parser.parseExprSubscripts (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:670:23)","timestamp":"2022-01-20T06:11:51.495Z","trace":[{"column":45,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":147,"method":"_raise","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":142,"method":"raiseWithData","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":91,"method":"raise","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.checkReservedWord","line":2656,"method":"checkReservedWord","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseIdentifierName","line":2595,"method":"parseIdentifierName","native":false},{"column":23,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseIdentifier","line":2563,"method":"parseIdentifier","native":false},{"column":27,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1239,"method":"parseExprAtom","native":false},{"column":23,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":670,"method":"parseExprSubscripts","native":false}]}
+error: uncaughtException: D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\reddis.middleware.js: Missing semicolon. (29:24)
+
+[0m [90m 27 |[39m[0m
+[0m [90m 28 |[39m [36mif[39m(getdata){[0m
+[0m[31m[1m>[22m[39m[90m 29 |[39m     res[33m.[39mstatus([35m200[39m)[33m.[39msend{[0m
+[0m [90m    |[39m                         [31m[1m^[22m[39m[0m
+[0m [90m 30 |[39m         ([33mJSON[39m[33m.[39mparse(getdata))[0m
+[0m [90m 31 |[39m     [0m
+[0m [90m 32 |[39m[0m
+SyntaxError: Missing semicolon. (29:24)
+    at Parser._raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:147:45)
+    at Parser.raiseWithData (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:142:17)
+    at Parser.raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:91:17)
+    at Parser.semicolon (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\util.js:128:10)
+    at Parser.parseExpressionStatement (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:992:10)
+    at Parser.parseStatementContent (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:476:19)
+    at Parser.parseStatement (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:331:17)
+    at Parser.parseBlockOrModuleBlockBody (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:1067:25) {"date":"Thu Jan 20 2022 11:44:17 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":24,"line":29},"pos":747,"reasonCode":"MissingSemicolon"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":263810},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18337862,"external":22214249,"heapTotal":176558080,"heapUsed":154252528,"rss":210042880},"pid":16412,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Missing semicolon. (29:24)\n    at Parser._raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n    at Parser.raiseWithData (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n    at Parser.raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n    at Parser.semicolon (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\util.js:128:10)\n    at Parser.parseExpressionStatement (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:992:10)\n    at Parser.parseStatementContent (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:476:19)\n    at Parser.parseStatement (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:331:17)\n    at Parser.parseBlockOrModuleBlockBody (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1067:25)","timestamp":"2022-01-20T06:14:17.721Z","trace":[{"column":45,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":147,"method":"_raise","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":142,"method":"raiseWithData","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":91,"method":"raise","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.semicolon","line":128,"method":"semicolon","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseExpressionStatement","line":992,"method":"parseExpressionStatement","native":false},{"column":19,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatementContent","line":476,"method":"parseStatementContent","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatement","line":331,"method":"parseStatement","native":false},{"column":25,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseBlockOrModuleBlockBody","line":1067,"method":"parseBlockOrModuleBlockBody","native":false}]}
+error: 
+    status - 500 
+    message - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:561:11)
+    at ServerResponse.header (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:776:10)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at _callee9$ (D:\CLI_CLASS\FandooNotes_webAPI\src\controllers\/user.controller.js:137:31)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-20T07:29:55.807Z"}
+error: 
+    status - 500 
+    message - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:561:11)
+    at ServerResponse.header (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:776:10)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at _callee9$ (D:\CLI_CLASS\FandooNotes_webAPI\src\controllers\/user.controller.js:137:31)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-20T07:29:57.471Z"}
+error: 
+    status - 500 
+    message - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:561:11)
+    at ServerResponse.header (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:776:10)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at _callee9$ (D:\CLI_CLASS\FandooNotes_webAPI\src\controllers\/user.controller.js:137:31)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-20T07:30:29.121Z"}
+error: 
+    status - 500 
+    message - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:561:11)
+    at ServerResponse.header (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:776:10)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at _callee9$ (D:\CLI_CLASS\FandooNotes_webAPI\src\controllers\/user.controller.js:137:31)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-20T07:31:19.041Z"}
+error: uncaughtException: Route.delete() requires a callback function but got a [object Undefined]
+Error: Route.delete() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as delete] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as delete] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\src\routes\/user.route.js:41:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Thu Jan 20 2022 13:10:12 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":268965},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18721396,"external":20967308,"heapTotal":168583168,"heapUsed":148426992,"rss":203116544},"pid":7008,"uid":null,"version":"v14.17.3"},"stack":"Error: Route.delete() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as delete] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.proto.<computed> [as delete] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\index.js:516:19)\n    at Object.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/user.route.js:41:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-01-20T07:40:12.712Z","trace":[{"column":15,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as delete]","line":202,"method":"<computed> [as delete]","native":false},{"column":19,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as delete]","line":516,"method":"<computed> [as delete]","native":false},{"column":1,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/user.route.js","function":null,"line":41,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:106:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.isArchived (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:104:24) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-20T08:31:47.511Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:106:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.isArchived (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:104:24) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-20T08:31:53.598Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:106:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.isArchived (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:104:24) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-20T08:31:54.855Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'data' of undefined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:106:22)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.isArchived (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:104:24) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-20T08:34:37.118Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'data' of undefined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:106:22)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.isArchived (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:104:24) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-20T08:34:39.055Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'data' of undefined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:106:22)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.isArchived (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:104:24) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-20T08:34:40.202Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'data' of undefined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:106:22)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.isArchived (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:104:24) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-20T08:35:39.079Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'data' of undefined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:106:22)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.isArchived (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:104:24) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-20T08:35:43.211Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'data' of undefined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:106:22)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.isArchived (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:104:24) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-20T08:36:52.073Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'data' of undefined
+    at _callee7$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:106:22)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.isArchived (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:104:24) 
+    url - /api/v1/register/isArchived 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-20T08:38:36.324Z"}
+error: 
+    status - 500 
+    message - Error: Notes validation failed
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\model.js:106:12)
+    at new model (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\model.js:4911:15) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-20T08:50:57.532Z"}
+error: 
+    status - 500 
+    message - Error: Notes validation failed
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\model.js:106:12)
+    at new model (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\model.js:4911:15) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-20T08:51:05.185Z"}
+error: uncaughtException: D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\reddis.middleware.js: Identifier 'getdata' has already been declared. (10:6)
+
+[0m [90m  8 |[39m [36mexport[39m [36mconst[39m reddis_data[33m=[39m[36masync[39m (req[33m,[39m res[33m,[39m next)[33m=>[39m{[0m
+[0m [90m  9 |[39m [36mconst[39m getdata[33m=[39m[36mawait[39m client[33m.[39m[36mget[39m([32m"Key"[39m)[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m [36mconst[39m getdata[33m=[39m[36mawait[39m client[33m.[39m[36mget[39m([32m"Key"[39m)[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m[0m
+[0m [90m 12 |[39m[0m
+[0m [90m 13 |[39m[0m
+SyntaxError: Identifier 'getdata' has already been declared. (10:6)
+    at Parser._raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:147:45)
+    at Parser.raiseWithData (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:142:17)
+    at Parser.raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:91:17)
+    at ScopeHandler.checkRedeclarationInScope (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\util\scope.js:152:12)
+    at ScopeHandler.declareName (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\util\scope.js:113:12)
+    at Parser.checkLVal (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\lval.js:531:22)
+    at Parser.parseVarId (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:1240:10)
+    at Parser.parseVar (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:1201:12) {"date":"Thu Jan 20 2022 15:07:58 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":6,"line":10},"pos":195,"reasonCode":"VarRedeclaration"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":276031},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18329670,"external":22578601,"heapTotal":181362688,"heapUsed":161816984,"rss":215605248},"pid":10160,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Identifier 'getdata' has already been declared. (10:6)\n    at Parser._raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n    at Parser.raiseWithData (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n    at Parser.raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n    at ScopeHandler.checkRedeclarationInScope (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\util\\scope.js:152:12)\n    at ScopeHandler.declareName (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\util\\scope.js:113:12)\n    at Parser.checkLVal (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\lval.js:531:22)\n    at Parser.parseVarId (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1240:10)\n    at Parser.parseVar (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1201:12)","timestamp":"2022-01-20T09:37:58.461Z","trace":[{"column":45,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":147,"method":"_raise","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":142,"method":"raiseWithData","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":91,"method":"raise","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\util\\scope.js","function":"ScopeHandler.checkRedeclarationInScope","line":152,"method":"checkRedeclarationInScope","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\util\\scope.js","function":"ScopeHandler.declareName","line":113,"method":"declareName","native":false},{"column":22,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\lval.js","function":"Parser.checkLVal","line":531,"method":"checkLVal","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseVarId","line":1240,"method":"parseVarId","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseVar","line":1201,"method":"parseVar","native":false}]}
+error: uncaughtException: D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\reddis.middleware.js: Unterminated string constant. (10:36)
+
+[0m [90m  8 |[39m [36mexport[39m [36mconst[39m reddis_data[33m=[39m[36masync[39m (req[33m,[39m res[33m,[39m next)[33m=>[39m{[0m
+[0m [90m  9 |[39m [36mconst[39m getdata[33m=[39m[36mawait[39m client[33m.[39m[36mget[39m([32m"Key"[39m)[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m [36mconst[39m getnotesdata[33m=[39m[36mawait[39m client[33m.[39m[36mget[39m([32m")[39m[0m
+[0m [90m    |[39m                                     [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m[0m
+[0m [90m 12 |[39m[0m
+[0m [90m 13 |[39m[0m
+SyntaxError: Unterminated string constant. (10:36)
+    at Parser._raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:147:45)
+    at Parser.raiseWithData (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:142:17)
+    at Parser.raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:91:17)
+    at Parser.readString (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\tokenizer\index.js:1363:20)
+    at Parser.getTokenFromCode (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\tokenizer\index.js:957:14)
+    at Parser.nextToken (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\tokenizer\index.js:307:10)
+    at Parser.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\tokenizer\index.js:169:10)
+    at Parser.parseCoverCallAndAsyncArrowHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:832:10) {"date":"Thu Jan 20 2022 15:08:08 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":36,"line":10},"pos":225,"reasonCode":"UnterminatedString"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":276040},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18329670,"external":22578601,"heapTotal":181301248,"heapUsed":162063888,"rss":216059904},"pid":26516,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Unterminated string constant. (10:36)\n    at Parser._raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n    at Parser.raiseWithData (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n    at Parser.raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n    at Parser.readString (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1363:20)\n    at Parser.getTokenFromCode (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:957:14)\n    at Parser.nextToken (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:307:10)\n    at Parser.next (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:169:10)\n    at Parser.parseCoverCallAndAsyncArrowHead (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:832:10)","timestamp":"2022-01-20T09:38:08.100Z","trace":[{"column":45,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":147,"method":"_raise","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":142,"method":"raiseWithData","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":91,"method":"raise","native":false},{"column":20,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.readString","line":1363,"method":"readString","native":false},{"column":14,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.getTokenFromCode","line":957,"method":"getTokenFromCode","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.nextToken","line":307,"method":"nextToken","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.next","line":169,"method":"next","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseCoverCallAndAsyncArrowHead","line":832,"method":"parseCoverCallAndAsyncArrowHead","native":false}]}
+error: uncaughtException: D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\reddis.middleware.js: Identifier 'reddis_data' has already been declared. (24:13)
+
+[0m [90m 22 |[39m[0m
+[0m [90m 23 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 24 |[39m [36mexport[39m [36mconst[39m reddis_data[33m=[39m[36masync[39m (req[33m,[39m res[33m,[39m next)[33m=>[39m{[0m
+[0m [90m    |[39m              [31m[1m^[22m[39m[0m
+[0m [90m 25 |[39m   [36mconst[39m getdata[33m=[39m[36mawait[39m client[33m.[39m[36mget[39m([32m"Key"[39m)[33m;[39m[0m
+[0m [90m 26 |[39m   console[33m.[39mlog([32m"getdata"[39m[33m,[39m getdata)[0m
+[0m [90m 27 |[39m   [36mif[39m(getdata[33m.[39mlength[33m==[39m[35m0[39m){[0m
+SyntaxError: Identifier 'reddis_data' has already been declared. (24:13)
+    at Parser._raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:147:45)
+    at Parser.raiseWithData (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:142:17)
+    at Parser.raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:91:17)
+    at ScopeHandler.checkRedeclarationInScope (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\util\scope.js:152:12)
+    at ScopeHandler.declareName (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\util\scope.js:113:12)
+    at Parser.checkLVal (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\lval.js:531:22)
+    at Parser.parseVarId (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:1240:10)
+    at Parser.parseVar (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:1201:12) {"date":"Thu Jan 20 2022 15:22:44 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":13,"line":24},"pos":464,"reasonCode":"VarRedeclaration"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":276917},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18329670,"external":22578601,"heapTotal":181563392,"heapUsed":162090624,"rss":215793664},"pid":13724,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Identifier 'reddis_data' has already been declared. (24:13)\n    at Parser._raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n    at Parser.raiseWithData (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n    at Parser.raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n    at ScopeHandler.checkRedeclarationInScope (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\util\\scope.js:152:12)\n    at ScopeHandler.declareName (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\util\\scope.js:113:12)\n    at Parser.checkLVal (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\lval.js:531:22)\n    at Parser.parseVarId (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1240:10)\n    at Parser.parseVar (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1201:12)","timestamp":"2022-01-20T09:52:45.046Z","trace":[{"column":45,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":147,"method":"_raise","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":142,"method":"raiseWithData","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":91,"method":"raise","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\util\\scope.js","function":"ScopeHandler.checkRedeclarationInScope","line":152,"method":"checkRedeclarationInScope","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\util\\scope.js","function":"ScopeHandler.declareName","line":113,"method":"declareName","native":false},{"column":22,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\lval.js","function":"Parser.checkLVal","line":531,"method":"checkLVal","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseVarId","line":1240,"method":"parseVarId","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseVar","line":1201,"method":"parseVar","native":false}]}
+error: 
+    status - 500 
+    message - TypeError [ERR_INVALID_ARG_TYPE]: The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Array
+    at Socket.Writable.write (internal/streams/writable.js:285:13)
+    at RedisSocket.writeCommand (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\socket.js:57:130)
+    at Commander._RedisClient_tick (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:435:64)
+    at Commander._RedisClient_sendCommand (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:416:82)
+    at Commander.commandsExecutor (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:166:154)
+    at Commander.set (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\commander.js:8:29)
+    at _callee5$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:83:16)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21) 
+    url - /api/v1/register/getnote 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-20T09:56:20.601Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Descreption' of null
+    at _callee4$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:68:60)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/updatenote 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-20T10:08:24.513Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/updatenote 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-20T10:10:34.852Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'isArchived' of null
+    at _callee4$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:70:57)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/updatenote 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-20T10:10:53.350Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Descreption' of null
+    at _callee4$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:68:60)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/updatenote 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-20T10:13:06.837Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Descreption' of null
+    at _callee4$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:68:60)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/updatenote 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-20T10:13:13.653Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Descreption' of null
+    at _callee4$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:68:60)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/updatenote 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-20T10:14:36.320Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Descreption' of null
+    at _callee4$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:68:60)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/updatenote 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-20T10:14:56.786Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Descreption' of null
+    at _callee4$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:68:60)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/updatenote 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-20T10:14:58.409Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Descreption' of null
+    at _callee4$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:68:60)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/updatenote 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-20T10:15:05.511Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Descreption' of null
+    at _callee4$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:68:60)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/updatenote 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-20T10:15:14.589Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Descreption' of null
+    at _callee4$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:68:60)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/updatenote 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-20T10:25:37.827Z"}
+error: 
+    status - 500 
+    message - Error: Notes validation failed
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new ValidationError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\validation.js:27:5)
+    at model.Document.invalidate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\model.js:106:12)
+    at new model (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\model.js:4911:15) 
+    url - /api/v1/register/addnote 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-20T11:01:16.990Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/delete/%7B_id%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-20T11:05:11.297Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/delete/%7B_id%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-20T11:05:48.783Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/delete/%7B_id%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-20T11:13:20.801Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/delete/%7B_id%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-20T11:13:47.882Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/delete/%7B:_id%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-20T11:20:58.249Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/delete/%7B:_id%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-20T11:23:38.631Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/delete/%7B:_id%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-20T11:23:40.119Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/delete/%7B_id%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-20T11:24:52.408Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/delete/%7Bid%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-20T11:26:40.985Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/delete/%7Bid%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-20T11:31:00.691Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/delete/%7B_id%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-20T11:33:54.825Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/delete/%7BuserID%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-20T11:36:39.404Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/delete/%7BuserID%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-20T11:39:06.584Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/delete/%7B_id%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-20T11:41:04.138Z"}
+error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\route.js:202:15)
+    at Function.get (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\src\routes\/user.route.js:40:8)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Thu Jan 20 2022 20:41:02 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":296015},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18348852,"external":20594764,"heapTotal":172974080,"heapUsed":142358720,"rss":206168064},"pid":3584,"uid":null,"version":"v14.17.3"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.get (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\index.js:516:19)\n    at Object.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/user.route.js:40:8)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-01-20T15:11:03.056Z","trace":[{"column":15,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":202,"method":"<computed> [as get]","native":false},{"column":19,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\index.js","function":"Function.get","line":516,"method":"get","native":false},{"column":8,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/user.route.js","function":null,"line":40,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\route.js:202:15)
+    at Function.get (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\src\routes\/user.route.js:40:8)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Thu Jan 20 2022 20:41:31 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":296044},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18348852,"external":20594764,"heapTotal":173236224,"heapUsed":141262696,"rss":206643200},"pid":13888,"uid":null,"version":"v14.17.3"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.get (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\index.js:516:19)\n    at Object.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/user.route.js:40:8)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-01-20T15:11:31.761Z","trace":[{"column":15,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":202,"method":"<computed> [as get]","native":false},{"column":19,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\index.js","function":"Function.get","line":516,"method":"get","native":false},{"column":8,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/user.route.js","function":null,"line":40,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: reddis_data is not defined
+ReferenceError: reddis_data is not defined
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\src\routes\/user.route.js:40:35)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\src\routes\/index.js:4:1) {"date":"Thu Jan 20 2022 20:41:45 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":296058},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18329670,"external":21203305,"heapTotal":172974080,"heapUsed":141436848,"rss":206995456},"pid":2468,"uid":null,"version":"v14.17.3"},"stack":"ReferenceError: reddis_data is not defined\n    at Object.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/user.route.js:40:35)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/index.js:4:1)","timestamp":"2022-01-20T15:11:45.532Z","trace":[{"column":35,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/user.route.js","function":null,"line":40,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/index.js","function":null,"line":4,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\src\/index.js:46:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Thu Jan 20 2022 20:43:56 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":5000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":296188},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18440753,"external":20705948,"heapTotal":172711936,"heapUsed":149193280,"rss":208891904},"pid":20760,"uid":null,"version":"v14.17.3"},"stack":"Error: listen EADDRINUSE: address already in use :::5000\n    at Server.setupListenHandle [as _listen2] (net.js:1320:16)\n    at listenInCluster (net.js:1368:12)\n    at Server.listen (net.js:1454:7)\n    at Function.listen (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\/index.js:46:5)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-01-20T15:13:56.193Z","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1320,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1368,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\/index.js","function":null,"line":46,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: D:\CLI_CLASS\FandooNotes_webAPI\src\swagger\swagger.json: Unexpected token } in JSON at position 5457
+SyntaxError: D:\CLI_CLASS\FandooNotes_webAPI\src\swagger\swagger.json: Unexpected token } in JSON at position 5457
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\src\/index.js:21:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10) {"date":"Thu Jan 20 2022 20:47:11 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":296383},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18375897,"external":20621809,"heapTotal":172044288,"heapUsed":145342680,"rss":206483456},"pid":7204,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\swagger\\swagger.json: Unexpected token } in JSON at position 5457\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\/index.js:21:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)","timestamp":"2022-01-20T15:17:11.064Z","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..json","line":1128,"method":".json","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\/index.js","function":null,"line":21,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false}]}

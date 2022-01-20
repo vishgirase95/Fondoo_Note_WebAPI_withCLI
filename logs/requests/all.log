@@ -8183,3 +8183,645 @@ info: ::1 - - [19/Jan/2022:09:47:02 +0000] "PATCH /api/v1/register/updatenote HT
 
 info: ::1 - - [19/Jan/2022:09:51:20 +0000] "PATCH /api/v1/register/updatenote HTTP/1.1" 200 80 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
 
+info: ::1 - - [19/Jan/2022:20:09:03 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 500 77 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [19/Jan/2022:20:09:04 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 500 77 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [19/Jan/2022:20:09:49 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 500 150 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [19/Jan/2022:20:09:50 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 500 150 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: Got an unexpected reply from Redis
+Error: Got an unexpected reply from Redis
+    at RedisCommandsQueue._RedisCommandsQueue_shiftWaitingForReply (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\commands-queue.js:284:15)
+    at JavascriptRedisParser.returnError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\commands-queue.js:60:142)
+    at JavascriptRedisParser.execute (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\redis-parser\lib\parser.js:542:14)
+    at RedisCommandsQueue.parseResponse (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\commands-queue.js:194:71)
+    at RedisSocket.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:336:83)
+    at RedisSocket.emit (events.js:375:28)
+    at RedisSocket.emit (domain.js:470:12)
+    at Socket.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\socket.js:191:44) {"date":"Thu Jan 20 2022 01:39:50 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":227543},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18764713,"external":21029948,"heapTotal":171900928,"heapUsed":142740024,"rss":208474112},"pid":21648,"uid":null,"version":"v14.17.3"},"stack":"Error: Got an unexpected reply from Redis\n    at RedisCommandsQueue._RedisCommandsQueue_shiftWaitingForReply (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@node-redis\\client\\dist\\lib\\client\\commands-queue.js:284:15)\n    at JavascriptRedisParser.returnError (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@node-redis\\client\\dist\\lib\\client\\commands-queue.js:60:142)\n    at JavascriptRedisParser.execute (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\redis-parser\\lib\\parser.js:542:14)\n    at RedisCommandsQueue.parseResponse (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@node-redis\\client\\dist\\lib\\client\\commands-queue.js:194:71)\n    at RedisSocket.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@node-redis\\client\\dist\\lib\\client\\index.js:336:83)\n    at RedisSocket.emit (events.js:375:28)\n    at RedisSocket.emit (domain.js:470:12)\n    at Socket.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@node-redis\\client\\dist\\lib\\client\\socket.js:191:44)","trace":[{"column":15,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@node-redis\\client\\dist\\lib\\client\\commands-queue.js","function":"RedisCommandsQueue._RedisCommandsQueue_shiftWaitingForReply","line":284,"method":"_RedisCommandsQueue_shiftWaitingForReply","native":false},{"column":142,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@node-redis\\client\\dist\\lib\\client\\commands-queue.js","function":"JavascriptRedisParser.returnError","line":60,"method":"returnError","native":false},{"column":14,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\redis-parser\\lib\\parser.js","function":"JavascriptRedisParser.execute","line":542,"method":"execute","native":false},{"column":71,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@node-redis\\client\\dist\\lib\\client\\commands-queue.js","function":"RedisCommandsQueue.parseResponse","line":194,"method":"parseResponse","native":false},{"column":83,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@node-redis\\client\\dist\\lib\\client\\index.js","function":null,"line":336,"method":null,"native":false},{"column":28,"file":"events.js","function":"RedisSocket.emit","line":375,"method":"emit","native":false},{"column":12,"file":"domain.js","function":"RedisSocket.emit","line":470,"method":"emit","native":false},{"column":44,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@node-redis\\client\\dist\\lib\\client\\socket.js","function":null,"line":191,"method":null,"native":false}]}
+info: ::1 - - [19/Jan/2022:20:10:21 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 816 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [19/Jan/2022:20:10:30 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 816 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [19/Jan/2022:20:14:33 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 816 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [19/Jan/2022:20:15:05 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [19/Jan/2022:20:16:44 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [19/Jan/2022:20:17:27 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [19/Jan/2022:20:24:28 +0000] "GET /api/v1/register/isArchived HTTP/1.1" - - "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:05:21:51 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 500 72 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:05:22:00 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 500 72 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:05:22:38 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 816 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\reddis.middleware.js: Missing semicolon. (16:1)
+
+[0m [90m 14 |[39m [90m//         next();[39m[0m
+[0m [90m 15 |[39m [90m//     }[39m[0m
+[0m[31m[1m>[22m[39m[90m 16 |[39m })[0m
+[0m [90m    |[39m  [31m[1m^[22m[39m[0m
+[0m [90m 17 |[39m }[0m
+[0m [90m 18 |[39m[0m
+SyntaxError: Missing semicolon. (16:1)
+    at Parser._raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:147:45)
+    at Parser.raiseWithData (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:142:17)
+    at Parser.raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:91:17)
+    at Parser.semicolon (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\util.js:128:10)
+    at Parser.parseVarStatement (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:892:10)
+    at Parser.parseStatementContent (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:391:21)
+    at Parser.parseStatement (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:331:17)
+    at Parser.parseExportDeclaration (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:2049:17) {"date":"Thu Jan 20 2022 11:00:20 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":1,"line":16},"pos":477,"reasonCode":"MissingSemicolon"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":261172},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18330756,"external":20576708,"heapTotal":179531776,"heapUsed":159868480,"rss":214421504},"pid":22848,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Missing semicolon. (16:1)\n    at Parser._raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n    at Parser.raiseWithData (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n    at Parser.raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n    at Parser.semicolon (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\util.js:128:10)\n    at Parser.parseVarStatement (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:892:10)\n    at Parser.parseStatementContent (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:391:21)\n    at Parser.parseStatement (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:331:17)\n    at Parser.parseExportDeclaration (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:2049:17)","trace":[{"column":45,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":147,"method":"_raise","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":142,"method":"raiseWithData","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":91,"method":"raise","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.semicolon","line":128,"method":"semicolon","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseVarStatement","line":892,"method":"parseVarStatement","native":false},{"column":21,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatementContent","line":391,"method":"parseStatementContent","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatement","line":331,"method":"parseStatement","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseExportDeclaration","line":2049,"method":"parseExportDeclaration","native":false}]}
+error: uncaughtException: D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\reddis.middleware.js: Unexpected token (18:6)
+
+[0m [90m 16 |[39m [90m// })[39m[0m
+[0m [90m 17 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 18 |[39m [36mawait[39m [36mconst[39m [0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 19 |[39m }[0m
+[0m [90m 20 |[39m[0m
+SyntaxError: Unexpected token (18:6)
+    at Parser._raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:147:45)
+    at Parser.raiseWithData (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:142:17)
+    at Parser.raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:91:17)
+    at Parser.unexpected (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\util.js:175:16)
+    at Parser.parseExprAtom (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:1292:22)
+    at Parser.parseExprSubscripts (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:670:23)
+    at Parser.parseUpdate (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:650:21)
+    at Parser.parseMaybeUnary (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:621:23) {"date":"Thu Jan 20 2022 11:00:45 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":6,"line":18},"pos":491,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":261197},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18338844,"external":20584796,"heapTotal":181256192,"heapUsed":160411928,"rss":216813568},"pid":10420,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Unexpected token (18:6)\n    at Parser._raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n    at Parser.raiseWithData (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n    at Parser.raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n    at Parser.unexpected (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\util.js:175:16)\n    at Parser.parseExprAtom (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1292:22)\n    at Parser.parseExprSubscripts (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:670:23)\n    at Parser.parseUpdate (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:650:21)\n    at Parser.parseMaybeUnary (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:621:23)","trace":[{"column":45,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":147,"method":"_raise","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":142,"method":"raiseWithData","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":91,"method":"raise","native":false},{"column":16,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":175,"method":"unexpected","native":false},{"column":22,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1292,"method":"parseExprAtom","native":false},{"column":23,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":670,"method":"parseExprSubscripts","native":false},{"column":21,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":650,"method":"parseUpdate","native":false},{"column":23,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":621,"method":"parseMaybeUnary","native":false}]}
+error: uncaughtException: D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\reddis.middleware.js: Missing semicolon. (21:19)
+
+[0m [90m 19 |[39m[0m
+[0m [90m 20 |[39m [36mif[39m(getdata){[0m
+[0m[31m[1m>[22m[39m[90m 21 |[39m     res[33m.[39mstatus([35m200[39m)send([33mJSON[39m[33m.[39mparse(getdata))[0m
+[0m [90m    |[39m                    [31m[1m^[22m[39m[0m
+[0m [90m 22 |[39m console[33m.[39mlog(getdata)[0m
+[0m [90m 23 |[39m[0m
+[0m [90m 24 |[39m }[36melse[39m{[0m
+SyntaxError: Missing semicolon. (21:19)
+    at Parser._raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:147:45)
+    at Parser.raiseWithData (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:142:17)
+    at Parser.raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:91:17)
+    at Parser.semicolon (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\util.js:128:10)
+    at Parser.parseExpressionStatement (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:992:10)
+    at Parser.parseStatementContent (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:476:19)
+    at Parser.parseStatement (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:331:17)
+    at Parser.parseBlockOrModuleBlockBody (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:1067:25) {"date":"Thu Jan 20 2022 11:12:00 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":19,"line":21},"pos":560,"reasonCode":"MissingSemicolon"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":261873},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18339344,"external":20585296,"heapTotal":180994048,"heapUsed":160780816,"rss":215805952},"pid":20368,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Missing semicolon. (21:19)\n    at Parser._raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n    at Parser.raiseWithData (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n    at Parser.raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n    at Parser.semicolon (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\util.js:128:10)\n    at Parser.parseExpressionStatement (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:992:10)\n    at Parser.parseStatementContent (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:476:19)\n    at Parser.parseStatement (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:331:17)\n    at Parser.parseBlockOrModuleBlockBody (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1067:25)","trace":[{"column":45,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":147,"method":"_raise","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":142,"method":"raiseWithData","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":91,"method":"raise","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.semicolon","line":128,"method":"semicolon","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseExpressionStatement","line":992,"method":"parseExpressionStatement","native":false},{"column":19,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatementContent","line":476,"method":"parseStatementContent","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatement","line":331,"method":"parseStatement","native":false},{"column":25,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseBlockOrModuleBlockBody","line":1067,"method":"parseBlockOrModuleBlockBody","native":false}]}
+info: ::1 - - [20/Jan/2022:05:43:55 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 816 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:05:45:28 +0000] "GET /api/v1/register/isArchived HTTP/1.1" - - "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:05:49:13 +0000] "GET /api/v1/register/isArchived HTTP/1.1" - - "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\reddis.middleware.js: Unexpected reserved word 'await'. (25:15)
+
+[0m [90m 23 |[39m [90m// })[39m[0m
+[0m [90m 24 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 25 |[39m [36mconst[39m getdata[33m=[39m [36mawait[39m client[33m.[39m[36mget[39m([32m"Key"[39m)[0m
+[0m [90m    |[39m                [31m[1m^[22m[39m[0m
+[0m [90m 26 |[39m[0m
+[0m [90m 27 |[39m [36mif[39m(getdata){[0m
+[0m [90m 28 |[39m     res[33m.[39mstatus([35m200[39m)[33m.[39msend([33mJSON[39m[33m.[39mparse(getdata))[0m
+SyntaxError: Unexpected reserved word 'await'. (25:15)
+    at Parser._raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:147:45)
+    at Parser.raiseWithData (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:142:17)
+    at Parser.raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:91:17)
+    at Parser.checkReservedWord (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:2656:12)
+    at Parser.parseIdentifierName (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:2595:12)
+    at Parser.parseIdentifier (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:2563:23)
+    at Parser.parseExprAtom (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:1239:27)
+    at Parser.parseExprSubscripts (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:670:23) {"date":"Thu Jan 20 2022 11:22:28 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":15,"line":25},"pos":623,"reasonCode":"UnexpectedReservedWord"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":262501},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18339574,"external":20585526,"heapTotal":180731904,"heapUsed":160659776,"rss":215965696},"pid":6176,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Unexpected reserved word 'await'. (25:15)\n    at Parser._raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n    at Parser.raiseWithData (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n    at Parser.raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n    at Parser.checkReservedWord (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2656:12)\n    at Parser.parseIdentifierName (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2595:12)\n    at Parser.parseIdentifier (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2563:23)\n    at Parser.parseExprAtom (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1239:27)\n    at Parser.parseExprSubscripts (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:670:23)","trace":[{"column":45,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":147,"method":"_raise","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":142,"method":"raiseWithData","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":91,"method":"raise","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.checkReservedWord","line":2656,"method":"checkReservedWord","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseIdentifierName","line":2595,"method":"parseIdentifierName","native":false},{"column":23,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseIdentifier","line":2563,"method":"parseIdentifier","native":false},{"column":27,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1239,"method":"parseExprAtom","native":false},{"column":23,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":670,"method":"parseExprSubscripts","native":false}]}
+info: ::1 - - [20/Jan/2022:05:53:54 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 500 75 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:05:56:26 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 500 75 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\reddis.middleware.js: Missing semicolon. (38:13)
+
+[0m [90m 36 |[39m client[33m.[39m[36mget[39m([32m'Key'[39m)[33m.[39mthen((result)[33m=>[39m{[0m
+[0m [90m 37 |[39m     res[33m.[39msend(result)[0m
+[0m[31m[1m>[22m[39m[90m 38 |[39m })[33m.[39m[36mcatch[39m(err){[0m
+[0m [90m    |[39m              [31m[1m^[22m[39m[0m
+[0m [90m 39 |[39m     res[33m.[39msend(err)[0m
+[0m [90m 40 |[39m }[0m
+[0m [90m 41 |[39m[0m
+SyntaxError: Missing semicolon. (38:13)
+    at Parser._raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:147:45)
+    at Parser.raiseWithData (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:142:17)
+    at Parser.raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:91:17)
+    at Parser.semicolon (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\util.js:128:10)
+    at Parser.parseExpressionStatement (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:992:10)
+    at Parser.parseStatementContent (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:476:19)
+    at Parser.parseStatement (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:331:17)
+    at Parser.parseBlockOrModuleBlockBody (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:1067:25) {"date":"Thu Jan 20 2022 11:29:32 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":13,"line":38},"pos":840,"reasonCode":"MissingSemicolon"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":262925},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18339380,"external":20585332,"heapTotal":179617792,"heapUsed":159261560,"rss":214937600},"pid":4224,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Missing semicolon. (38:13)\n    at Parser._raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n    at Parser.raiseWithData (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n    at Parser.raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n    at Parser.semicolon (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\util.js:128:10)\n    at Parser.parseExpressionStatement (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:992:10)\n    at Parser.parseStatementContent (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:476:19)\n    at Parser.parseStatement (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:331:17)\n    at Parser.parseBlockOrModuleBlockBody (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1067:25)","trace":[{"column":45,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":147,"method":"_raise","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":142,"method":"raiseWithData","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":91,"method":"raise","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.semicolon","line":128,"method":"semicolon","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseExpressionStatement","line":992,"method":"parseExpressionStatement","native":false},{"column":19,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatementContent","line":476,"method":"parseStatementContent","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatement","line":331,"method":"parseStatement","native":false},{"column":25,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseBlockOrModuleBlockBody","line":1067,"method":"parseBlockOrModuleBlockBody","native":false}]}
+info: ::1 - - [20/Jan/2022:06:02:41 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 500 75 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:06:08:04 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 500 75 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:06:10:12 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 2 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:06:10:39 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 2 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:06:11:28 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 2 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\reddis.middleware.js: Unexpected reserved word 'await'. (26:14)
+
+[0m [90m 24 |[39m [90m// })[39m[0m
+[0m [90m 25 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 26 |[39m [36mconst[39m getdata[33m=[39m[36mawait[39m client[33m.[39m[36mget[39m([32m"Key"[39m)[0m
+[0m [90m    |[39m               [31m[1m^[22m[39m[0m
+[0m [90m 27 |[39m[0m
+[0m [90m 28 |[39m [36mif[39m(getdata){[0m
+[0m [90m 29 |[39m     res[33m.[39msend(getdata)[0m
+SyntaxError: Unexpected reserved word 'await'. (26:14)
+    at Parser._raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:147:45)
+    at Parser.raiseWithData (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:142:17)
+    at Parser.raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:91:17)
+    at Parser.checkReservedWord (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:2656:12)
+    at Parser.parseIdentifierName (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:2595:12)
+    at Parser.parseIdentifier (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:2563:23)
+    at Parser.parseExprAtom (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:1239:27)
+    at Parser.parseExprSubscripts (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:670:23) {"date":"Thu Jan 20 2022 11:41:51 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":14,"line":26},"pos":677,"reasonCode":"UnexpectedReservedWord"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":263664},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18339442,"external":20585394,"heapTotal":181362688,"heapUsed":160942232,"rss":216199168},"pid":5124,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Unexpected reserved word 'await'. (26:14)\n    at Parser._raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n    at Parser.raiseWithData (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n    at Parser.raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n    at Parser.checkReservedWord (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2656:12)\n    at Parser.parseIdentifierName (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2595:12)\n    at Parser.parseIdentifier (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2563:23)\n    at Parser.parseExprAtom (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1239:27)\n    at Parser.parseExprSubscripts (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:670:23)","trace":[{"column":45,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":147,"method":"_raise","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":142,"method":"raiseWithData","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":91,"method":"raise","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.checkReservedWord","line":2656,"method":"checkReservedWord","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseIdentifierName","line":2595,"method":"parseIdentifierName","native":false},{"column":23,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseIdentifier","line":2563,"method":"parseIdentifier","native":false},{"column":27,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1239,"method":"parseExprAtom","native":false},{"column":23,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":670,"method":"parseExprSubscripts","native":false}]}
+info: ::1 - - [20/Jan/2022:06:12:30 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 749 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:06:13:23 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 749 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\reddis.middleware.js: Missing semicolon. (29:24)
+
+[0m [90m 27 |[39m[0m
+[0m [90m 28 |[39m [36mif[39m(getdata){[0m
+[0m[31m[1m>[22m[39m[90m 29 |[39m     res[33m.[39mstatus([35m200[39m)[33m.[39msend{[0m
+[0m [90m    |[39m                         [31m[1m^[22m[39m[0m
+[0m [90m 30 |[39m         ([33mJSON[39m[33m.[39mparse(getdata))[0m
+[0m [90m 31 |[39m     [0m
+[0m [90m 32 |[39m[0m
+SyntaxError: Missing semicolon. (29:24)
+    at Parser._raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:147:45)
+    at Parser.raiseWithData (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:142:17)
+    at Parser.raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:91:17)
+    at Parser.semicolon (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\util.js:128:10)
+    at Parser.parseExpressionStatement (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:992:10)
+    at Parser.parseStatementContent (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:476:19)
+    at Parser.parseStatement (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:331:17)
+    at Parser.parseBlockOrModuleBlockBody (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:1067:25) {"date":"Thu Jan 20 2022 11:44:17 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":24,"line":29},"pos":747,"reasonCode":"MissingSemicolon"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":263810},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18347502,"external":20593454,"heapTotal":176558080,"heapUsed":154408960,"rss":210841600},"pid":16412,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Missing semicolon. (29:24)\n    at Parser._raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n    at Parser.raiseWithData (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n    at Parser.raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n    at Parser.semicolon (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\util.js:128:10)\n    at Parser.parseExpressionStatement (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:992:10)\n    at Parser.parseStatementContent (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:476:19)\n    at Parser.parseStatement (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:331:17)\n    at Parser.parseBlockOrModuleBlockBody (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1067:25)","trace":[{"column":45,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":147,"method":"_raise","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":142,"method":"raiseWithData","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":91,"method":"raise","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.semicolon","line":128,"method":"semicolon","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseExpressionStatement","line":992,"method":"parseExpressionStatement","native":false},{"column":19,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatementContent","line":476,"method":"parseStatementContent","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatement","line":331,"method":"parseStatement","native":false},{"column":25,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseBlockOrModuleBlockBody","line":1067,"method":"parseBlockOrModuleBlockBody","native":false}]}
+info: ::1 - - [20/Jan/2022:06:27:20 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6InZpc2hnaXJhc2U5NUBnbWFpbC5jb20iLCJpYXQiOjE2NDI1NjgxMTF9.x8lSEkH-2p4y3akjTYcpf0fQZbTfhwB9PDbZ1QuCgaA HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:06:27:27 +0000] "GET /images/icons/gear.png HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:06:58:33 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 799 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:06:58:50 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 816 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:07:29:55 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 799 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:07:29:57 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 799 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:07:30:29 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:07:31:19 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:07:31:41 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 799 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:07:31:58 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 816 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:07:31:59 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 816 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:07:33:15 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 816 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:07:33:20 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 816 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:07:33:21 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 816 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: Route.delete() requires a callback function but got a [object Undefined]
+Error: Route.delete() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as delete] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as delete] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\src\routes\/user.route.js:41:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Thu Jan 20 2022 13:10:12 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":268965},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18729612,"external":20975564,"heapTotal":168583168,"heapUsed":148572608,"rss":203841536},"pid":7008,"uid":null,"version":"v14.17.3"},"stack":"Error: Route.delete() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as delete] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.proto.<computed> [as delete] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\index.js:516:19)\n    at Object.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/user.route.js:41:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","trace":[{"column":15,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as delete]","line":202,"method":"<computed> [as delete]","native":false},{"column":19,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as delete]","line":516,"method":"<computed> [as delete]","native":false},{"column":1,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/user.route.js","function":null,"line":41,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+info: ::1 - - [20/Jan/2022:07:48:11 +0000] "DELETE /api/v1/register/delete/61e7c366f351885bdcf808f9 HTTP/1.1" 200 305 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:08:30:50 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 799 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:08:31:30 +0000] "DELETE /api/v1/register/delete/61e7d8ce40ea5e4f2462975f HTTP/1.1" 200 71 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:08:31:34 +0000] "DELETE /api/v1/register/delete/61e7d8ce40ea5e4f2462975f HTTP/1.1" 200 71 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:08:31:47 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:08:31:53 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:08:31:54 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:08:34:37 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 500 75 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:08:34:39 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 500 75 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:08:34:40 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 500 75 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:08:35:39 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 500 75 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:08:35:43 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 500 75 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:08:36:52 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 500 75 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:08:38:17 +0000] "GET /api/v1/register/trashed HTTP/1.1" 200 316 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:08:38:36 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 500 75 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:08:40:45 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 317 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:08:42:04 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 300 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:08:42:32 +0000] "DELETE /api/v1/register/delete/61e7d8c440ea5e4f2462975d HTTP/1.1" 200 71 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:08:42:45 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 69 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:08:49:52 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:08:50:36 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 60 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:08:50:57 +0000] "POST /api/v1/register/addnote HTTP/1.1" 500 244 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:08:51:05 +0000] "POST /api/v1/register/addnote HTTP/1.1" 500 244 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:08:51:28 +0000] "POST /api/v1/register/addnote HTTP/1.1" 200 304 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:08:51:30 +0000] "POST /api/v1/register/addnote HTTP/1.1" 200 304 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:08:51:49 +0000] "POST /api/v1/register/addnote HTTP/1.1" 200 306 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:08:52:29 +0000] "POST /api/v1/register/addnote HTTP/1.1" 200 306 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:08:52:41 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 563 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:08:53:57 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 52 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:08:54:04 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [20/Jan/2022:08:55:43 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [20/Jan/2022:08:55:49 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [20/Jan/2022:08:55:50 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [20/Jan/2022:08:55:51 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [20/Jan/2022:08:55:51 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [20/Jan/2022:08:55:51 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:08:56:27 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:08:58:11 +0000] "GET /api/v1/register/getnote HTTP/1.1" - - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:08:58:11 +0000] "GET /api/v1/register/getnote HTTP/1.1" - - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:09:00:04 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 52 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:09:02:32 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 563 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:09:03:33 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 52 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [20/Jan/2022:09:04:47 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [20/Jan/2022:09:05:32 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [20/Jan/2022:09:05:38 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [20/Jan/2022:09:05:39 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:09:06:46 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:09:08:28 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:09:08:33 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:09:09:59 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [20/Jan/2022:09:11:02 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:09:13:17 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:09:13:23 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:09:15:12 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:09:15:59 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:09:20:39 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:09:21:28 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+error: uncaughtException: D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\reddis.middleware.js: Identifier 'getdata' has already been declared. (10:6)
+
+[0m [90m  8 |[39m [36mexport[39m [36mconst[39m reddis_data[33m=[39m[36masync[39m (req[33m,[39m res[33m,[39m next)[33m=>[39m{[0m
+[0m [90m  9 |[39m [36mconst[39m getdata[33m=[39m[36mawait[39m client[33m.[39m[36mget[39m([32m"Key"[39m)[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m [36mconst[39m getdata[33m=[39m[36mawait[39m client[33m.[39m[36mget[39m([32m"Key"[39m)[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m[0m
+[0m [90m 12 |[39m[0m
+[0m [90m 13 |[39m[0m
+SyntaxError: Identifier 'getdata' has already been declared. (10:6)
+    at Parser._raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:147:45)
+    at Parser.raiseWithData (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:142:17)
+    at Parser.raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:91:17)
+    at ScopeHandler.checkRedeclarationInScope (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\util\scope.js:152:12)
+    at ScopeHandler.declareName (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\util\scope.js:113:12)
+    at Parser.checkLVal (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\lval.js:531:22)
+    at Parser.parseVarId (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:1240:10)
+    at Parser.parseVar (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:1201:12) {"date":"Thu Jan 20 2022 15:07:58 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":6,"line":10},"pos":195,"reasonCode":"VarRedeclaration"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":276031},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18339556,"external":20585508,"heapTotal":181362688,"heapUsed":161973984,"rss":216346624},"pid":10160,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Identifier 'getdata' has already been declared. (10:6)\n    at Parser._raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n    at Parser.raiseWithData (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n    at Parser.raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n    at ScopeHandler.checkRedeclarationInScope (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\util\\scope.js:152:12)\n    at ScopeHandler.declareName (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\util\\scope.js:113:12)\n    at Parser.checkLVal (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\lval.js:531:22)\n    at Parser.parseVarId (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1240:10)\n    at Parser.parseVar (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1201:12)","trace":[{"column":45,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":147,"method":"_raise","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":142,"method":"raiseWithData","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":91,"method":"raise","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\util\\scope.js","function":"ScopeHandler.checkRedeclarationInScope","line":152,"method":"checkRedeclarationInScope","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\util\\scope.js","function":"ScopeHandler.declareName","line":113,"method":"declareName","native":false},{"column":22,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\lval.js","function":"Parser.checkLVal","line":531,"method":"checkLVal","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseVarId","line":1240,"method":"parseVarId","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseVar","line":1201,"method":"parseVar","native":false}]}
+error: uncaughtException: D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\reddis.middleware.js: Unterminated string constant. (10:36)
+
+[0m [90m  8 |[39m [36mexport[39m [36mconst[39m reddis_data[33m=[39m[36masync[39m (req[33m,[39m res[33m,[39m next)[33m=>[39m{[0m
+[0m [90m  9 |[39m [36mconst[39m getdata[33m=[39m[36mawait[39m client[33m.[39m[36mget[39m([32m"Key"[39m)[0m
+[0m[31m[1m>[22m[39m[90m 10 |[39m [36mconst[39m getnotesdata[33m=[39m[36mawait[39m client[33m.[39m[36mget[39m([32m")[39m[0m
+[0m [90m    |[39m                                     [31m[1m^[22m[39m[0m
+[0m [90m 11 |[39m[0m
+[0m [90m 12 |[39m[0m
+[0m [90m 13 |[39m[0m
+SyntaxError: Unterminated string constant. (10:36)
+    at Parser._raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:147:45)
+    at Parser.raiseWithData (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:142:17)
+    at Parser.raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:91:17)
+    at Parser.readString (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\tokenizer\index.js:1363:20)
+    at Parser.getTokenFromCode (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\tokenizer\index.js:957:14)
+    at Parser.nextToken (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\tokenizer\index.js:307:10)
+    at Parser.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\tokenizer\index.js:169:10)
+    at Parser.parseCoverCallAndAsyncArrowHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\expression.js:832:10) {"date":"Thu Jan 20 2022 15:08:08 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":36,"line":10},"pos":225,"reasonCode":"UnterminatedString"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":276040},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18339584,"external":20585536,"heapTotal":181301248,"heapUsed":162221184,"rss":216809472},"pid":26516,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Unterminated string constant. (10:36)\n    at Parser._raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n    at Parser.raiseWithData (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n    at Parser.raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n    at Parser.readString (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:1363:20)\n    at Parser.getTokenFromCode (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:957:14)\n    at Parser.nextToken (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:307:10)\n    at Parser.next (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js:169:10)\n    at Parser.parseCoverCallAndAsyncArrowHead (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js:832:10)","trace":[{"column":45,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":147,"method":"_raise","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":142,"method":"raiseWithData","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":91,"method":"raise","native":false},{"column":20,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.readString","line":1363,"method":"readString","native":false},{"column":14,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.getTokenFromCode","line":957,"method":"getTokenFromCode","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.nextToken","line":307,"method":"nextToken","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\tokenizer\\index.js","function":"Parser.next","line":169,"method":"next","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseCoverCallAndAsyncArrowHead","line":832,"method":"parseCoverCallAndAsyncArrowHead","native":false}]}
+info: ::1 - - [20/Jan/2022:09:39:43 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 52 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:09:42:18 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:09:42:21 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:09:43:01 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:09:43:03 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:09:45:04 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:09:45:08 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:09:45:09 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:09:45:09 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:09:45:09 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:09:45:09 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:09:45:10 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:09:48:10 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 52 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:09:48:37 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 568 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:09:49:57 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 551 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:09:49:58 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 551 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:09:49:59 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 551 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:09:51:39 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 551 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\reddis.middleware.js: Identifier 'reddis_data' has already been declared. (24:13)
+
+[0m [90m 22 |[39m[0m
+[0m [90m 23 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 24 |[39m [36mexport[39m [36mconst[39m reddis_data[33m=[39m[36masync[39m (req[33m,[39m res[33m,[39m next)[33m=>[39m{[0m
+[0m [90m    |[39m              [31m[1m^[22m[39m[0m
+[0m [90m 25 |[39m   [36mconst[39m getdata[33m=[39m[36mawait[39m client[33m.[39m[36mget[39m([32m"Key"[39m)[33m;[39m[0m
+[0m [90m 26 |[39m   console[33m.[39mlog([32m"getdata"[39m[33m,[39m getdata)[0m
+[0m [90m 27 |[39m   [36mif[39m(getdata[33m.[39mlength[33m==[39m[35m0[39m){[0m
+SyntaxError: Identifier 'reddis_data' has already been declared. (24:13)
+    at Parser._raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:147:45)
+    at Parser.raiseWithData (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:142:17)
+    at Parser.raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:91:17)
+    at ScopeHandler.checkRedeclarationInScope (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\util\scope.js:152:12)
+    at ScopeHandler.declareName (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\util\scope.js:113:12)
+    at Parser.checkLVal (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\lval.js:531:22)
+    at Parser.parseVarId (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:1240:10)
+    at Parser.parseVar (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:1201:12) {"date":"Thu Jan 20 2022 15:22:45 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":13,"line":24},"pos":464,"reasonCode":"VarRedeclaration"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":276917},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18339690,"external":20585642,"heapTotal":181563392,"heapUsed":162247880,"rss":216498176},"pid":13724,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Identifier 'reddis_data' has already been declared. (24:13)\n    at Parser._raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n    at Parser.raiseWithData (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n    at Parser.raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n    at ScopeHandler.checkRedeclarationInScope (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\util\\scope.js:152:12)\n    at ScopeHandler.declareName (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\util\\scope.js:113:12)\n    at Parser.checkLVal (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\lval.js:531:22)\n    at Parser.parseVarId (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1240:10)\n    at Parser.parseVar (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1201:12)","trace":[{"column":45,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":147,"method":"_raise","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":142,"method":"raiseWithData","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":91,"method":"raise","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\util\\scope.js","function":"ScopeHandler.checkRedeclarationInScope","line":152,"method":"checkRedeclarationInScope","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\util\\scope.js","function":"ScopeHandler.declareName","line":113,"method":"declareName","native":false},{"column":22,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\lval.js","function":"Parser.checkLVal","line":531,"method":"checkLVal","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseVarId","line":1240,"method":"parseVarId","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseVar","line":1201,"method":"parseVar","native":false}]}
+info: ::1 - - [20/Jan/2022:09:56:20 +0000] "GET /api/v1/register/getnote HTTP/1.1" 500 150 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:09:57:12 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 563 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:09:57:18 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 561 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:09:57:22 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 561 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:09:57:34 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 551 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:09:59:06 +0000] "DELETE /api/v1/register/delete/61e9229095bd3d55b0eed542 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:10:00:36 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 561 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:10:01:16 +0000] "DELETE /api/v1/register/delete/61e922cd95bd3d55b0eed548 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:10:01:18 +0000] "DELETE /api/v1/register/delete/61e922cd95bd3d55b0eed548 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:10:01:26 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:10:06:22 +0000] "DELETE /api/v1/register/delete/61e922cd95bd3d55b0eed548 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:10:06:24 +0000] "DELETE /api/v1/register/delete/61e922cd95bd3d55b0eed548 HTTP/1.1" 200 71 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:10:06:39 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 311 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:10:08:24 +0000] "PATCH /api/v1/register/updatenote HTTP/1.1" 500 77 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:10:10:34 +0000] "PATCH /api/v1/register/updatenote HTTP/1.1" 500 115 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:10:10:53 +0000] "PATCH /api/v1/register/updatenote HTTP/1.1" 500 76 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:10:12:27 +0000] "PATCH /api/v1/register/updatenote%0A HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:10:12:40 +0000] "PATCH /api/v1/register/updatenote%0A HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:10:13:06 +0000] "PATCH /api/v1/register/updatenote HTTP/1.1" 500 77 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:10:13:13 +0000] "PATCH /api/v1/register/updatenote HTTP/1.1" 500 77 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:10:14:36 +0000] "PATCH /api/v1/register/updatenote HTTP/1.1" 500 77 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:10:14:56 +0000] "PATCH /api/v1/register/updatenote HTTP/1.1" 500 77 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:10:14:58 +0000] "PATCH /api/v1/register/updatenote HTTP/1.1" 500 77 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:10:15:05 +0000] "PATCH /api/v1/register/updatenote HTTP/1.1" 500 77 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:10:15:14 +0000] "PATCH /api/v1/register/updatenote HTTP/1.1" 500 77 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:10:25:37 +0000] "PATCH /api/v1/register/updatenote HTTP/1.1" 500 77 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:10:27:48 +0000] "PATCH /api/v1/register/updatenote HTTP/1.1" 200 80 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [20/Jan/2022:10:29:16 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:10:30:37 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 309 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:10:31:46 +0000] "PATCH /api/v1/register/updatenote HTTP/1.1" 200 80 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:10:31:58 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:10:35:29 +0000] "PATCH /api/v1/register/updatenote HTTP/1.1" 200 80 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:10:35:37 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 310 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:10:35:43 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 308 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:10:40:58 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:10:41:24 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:00:23 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:01:05 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:01:16 +0000] "POST /api/v1/register/addnote HTTP/1.1" 500 150 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:01:32 +0000] "POST /api/v1/register/addnote HTTP/1.1" 200 307 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:01:48 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:01:49 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:01:53 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:03:16 +0000] "POST /api/v1/register/addnote HTTP/1.1" 200 308 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:03:24 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 817 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:03:54 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 316 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:04:17 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 815 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:04:26 +0000] "GET /api/v1/register/isArchived HTTP/1.1" 200 299 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:05:11 +0000] "DELETE /api/v1/register/delete/%7B_id%7D HTTP/1.1" 500 139 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:05:48 +0000] "DELETE /api/v1/register/delete/%7B_id%7D HTTP/1.1" 500 139 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:13:20 +0000] "DELETE /api/v1/register/delete/%7B_id%7D HTTP/1.1" 500 139 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:13:47 +0000] "DELETE /api/v1/register/delete/%7B_id%7D HTTP/1.1" 500 139 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:20:32 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:20:58 +0000] "DELETE /api/v1/register/delete/%7B:_id%7D HTTP/1.1" 500 140 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:23:38 +0000] "DELETE /api/v1/register/delete/%7B:_id%7D HTTP/1.1" 500 140 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:23:40 +0000] "DELETE /api/v1/register/delete/%7B:_id%7D HTTP/1.1" 500 140 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:24:12 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:24:32 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:24:52 +0000] "DELETE /api/v1/register/delete/%7B_id%7D HTTP/1.1" 500 139 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:26:19 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:26:40 +0000] "DELETE /api/v1/register/delete/%7Bid%7D HTTP/1.1" 500 138 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:31:00 +0000] "DELETE /api/v1/register/delete/%7Bid%7D HTTP/1.1" 500 138 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:32:57 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:33:31 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:33:54 +0000] "DELETE /api/v1/register/delete/%7B_id%7D HTTP/1.1" 500 139 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:36:24 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:36:39 +0000] "DELETE /api/v1/register/delete/%7BuserID%7D HTTP/1.1" 500 141 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:38:25 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:38:51 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:39:06 +0000] "DELETE /api/v1/register/delete/%7BuserID%7D HTTP/1.1" 500 141 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:40:49 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:11:41:04 +0000] "DELETE /api/v1/register/delete/%7B_id%7D HTTP/1.1" 500 139 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:12:12:01 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:12:12:22 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:12:12:38 +0000] "DELETE /api/v1/register/delete/61e922a595bd3d55b0eed546 HTTP/1.1" 200 71 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:12:12:50 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 566 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:12:13:05 +0000] "GET /api/v1/register/getnote HTTP/1.1" 200 564 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\route.js:202:15)
+    at Function.get (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\src\routes\/user.route.js:40:8)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Thu Jan 20 2022 20:41:03 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":296015},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18357068,"external":20603020,"heapTotal":172974080,"heapUsed":142503840,"rss":207126528},"pid":3584,"uid":null,"version":"v14.17.3"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.get (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\index.js:516:19)\n    at Object.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/user.route.js:40:8)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","trace":[{"column":15,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":202,"method":"<computed> [as get]","native":false},{"column":19,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\index.js","function":"Function.get","line":516,"method":"get","native":false},{"column":8,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/user.route.js","function":null,"line":40,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\route.js:202:15)
+    at Function.get (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\src\routes\/user.route.js:40:8)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Thu Jan 20 2022 20:41:31 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":296044},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18357068,"external":20603020,"heapTotal":173236224,"heapUsed":141407816,"rss":207511552},"pid":13888,"uid":null,"version":"v14.17.3"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.get (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\index.js:516:19)\n    at Object.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/user.route.js:40:8)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","trace":[{"column":15,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":202,"method":"<computed> [as get]","native":false},{"column":19,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\index.js","function":"Function.get","line":516,"method":"get","native":false},{"column":8,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/user.route.js","function":null,"line":40,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: reddis_data is not defined
+ReferenceError: reddis_data is not defined
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\src\routes\/user.route.js:40:35)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\src\routes\/index.js:4:1) {"date":"Thu Jan 20 2022 20:41:45 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":296058},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18337886,"external":20583838,"heapTotal":172974080,"heapUsed":141585368,"rss":207962112},"pid":2468,"uid":null,"version":"v14.17.3"},"stack":"ReferenceError: reddis_data is not defined\n    at Object.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/user.route.js:40:35)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/index.js:4:1)","trace":[{"column":35,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/user.route.js","function":null,"line":40,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/index.js","function":null,"line":4,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\src\/index.js:46:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Thu Jan 20 2022 20:43:56 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":5000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":296188},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18448969,"external":20714204,"heapTotal":172711936,"heapUsed":149331696,"rss":209739776},"pid":20760,"uid":null,"version":"v14.17.3"},"stack":"Error: listen EADDRINUSE: address already in use :::5000\n    at Server.setupListenHandle [as _listen2] (net.js:1320:16)\n    at listenInCluster (net.js:1368:12)\n    at Server.listen (net.js:1454:7)\n    at Function.listen (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\/index.js:46:5)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1320,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1368,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\/index.js","function":null,"line":46,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+info: ::1 - - [20/Jan/2022:15:15:22 +0000] "POST /api/v1/register/login HTTP/1.1" 200 248 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [20/Jan/2022:15:15:58 +0000] "GET /api/v1/register/getnote HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+error: uncaughtException: D:\CLI_CLASS\FandooNotes_webAPI\src\swagger\swagger.json: Unexpected token } in JSON at position 5457
+SyntaxError: D:\CLI_CLASS\FandooNotes_webAPI\src\swagger\swagger.json: Unexpected token } in JSON at position 5457
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\src\/index.js:21:1)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10) {"date":"Thu Jan 20 2022 20:47:11 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":296383},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18384113,"external":20630065,"heapTotal":172044288,"heapUsed":145488584,"rss":207425536},"pid":7204,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\swagger\\swagger.json: Unexpected token } in JSON at position 5457\n    at parse (<anonymous>)\n    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\/index.js:21:1)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)","trace":[{"column":null,"file":null,"function":"parse","line":null,"method":null,"native":false},{"column":22,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..json","line":1128,"method":".json","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\/index.js","function":null,"line":21,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false}]}

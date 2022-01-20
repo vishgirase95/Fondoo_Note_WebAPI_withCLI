@@ -8,6 +8,8 @@ import helmet from 'helmet';
 
 import routes from './routes';
 import database from './config/database';
+import ReddisDatabase from './config/reddis';
+
 import {
   appErrorHandler,
   genericErrorHandler,
@@ -33,7 +35,7 @@ app.use(helmet());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(morgan('combined', { stream: logStream }));
-
+ReddisDatabase();
 database();
 
 app.use(`/api/${api_version}`, routes());

@@ -177,10 +177,10 @@
                 "type":"string"
               },
               "isArchived":{
-                "type":"string"
+                "type":"boolean"
               },
               "isDeleted":{
-                "type":"string"
+                "type":"boolean"
               }
   
             }}
@@ -222,10 +222,10 @@
                 "type":"string"
               },
               "isArchived":{
-                "type":"string"
+                "type":"boolean"
               },
               "isDeleted":{
-                "type":"string"
+                "type":"boolean"
               },
                 "NoteID":{
                   "type":"string"
@@ -304,6 +304,31 @@
           {
             "in": "query",
             "name": "Update Notes"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Valid input"
+          },
+          "500": {
+            "description": "Invalid input"
+          }
+        },
+        "security":[{
+        "JWT":[]
+          }]
+      
+      }
+    },
+    "/register/delete/{_id}": {
+      "delete": {
+        "tags": ["Notes"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "in": "path",
+            "type":"string",
+            "name": "_id"
           }
         ],
         "responses": {

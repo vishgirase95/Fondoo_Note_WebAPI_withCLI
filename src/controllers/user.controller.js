@@ -143,3 +143,20 @@ export const isArchived=async (req,res,next)=>{
     next(error);
   }
 }
+
+
+
+
+export const deletenote=async (req,res,next)=>{
+
+  try {
+    const data= await UserService.deletenote(req);
+    res.status(HttpStatus.OK).json({
+      code:HttpStatus.OK,
+      data:data,
+      message:"Delete Notes Sucessfully"
+    })
+  } catch (error) {
+    next(error);
+  }
+}
