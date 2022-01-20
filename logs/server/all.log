@@ -12892,3 +12892,18 @@ info: Connected to the database. {"timestamp":"2022-01-20T15:19:42.573Z"}
 info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-20T15:19:51.239Z"}
 info: Connected to the  reddis database. {"timestamp":"2022-01-20T15:19:51.249Z"}
 info: Connected to the database. {"timestamp":"2022-01-20T15:19:51.273Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-20T15:20:32.352Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-20T15:20:32.362Z"}
+info: Connected to the database. {"timestamp":"2022-01-20T15:20:32.379Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/updatenote 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-20T15:21:39.839Z"}
