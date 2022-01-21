@@ -1,0 +1,89 @@
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:31:02.545Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:31:02.562Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:31:02.591Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:31:46.123Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:31:46.140Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:31:46.173Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:33:12.555Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:33:12.580Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:33:12.630Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:33:47.923Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:33:47.937Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:33:47.964Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:34:49.892Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:34:49.908Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:34:49.987Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:35:19.048Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:35:19.064Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:35:19.090Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:36:19.300Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:36:19.327Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:36:19.357Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:36:48.309Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:36:48.363Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:36:48.391Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:37:18.399Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:37:18.412Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:37:18.435Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:38:41.910Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:38:41.930Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:38:41.971Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:39:00.034Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:39:00.062Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:39:00.099Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:39:49.645Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:39:49.663Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:39:49.693Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:40:28.464Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:40:28.482Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:40:28.521Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:40:50.387Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:40:50.403Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:40:50.432Z"}
+error: 
+    status - 500 
+    message - ReferenceError: RegData is not defined
+    at _callee$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:21:11)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-21T18:42:09.879Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:43:26.547Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:43:26.913Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:43:27.082Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:44:47.861Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:44:47.871Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:44:47.891Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:45:08.738Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:45:08.747Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:45:08.771Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:45:37.088Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:45:37.099Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:45:37.119Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:47:19.160Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:47:19.170Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:47:19.188Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:48:08.546Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:48:08.556Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:48:08.575Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:48:22.199Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:48:22.214Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:48:22.237Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:48:34.221Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:48:34.233Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:48:34.253Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:48:45.111Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:48:45.136Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:48:45.205Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:48:52.438Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:48:52.449Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:48:52.468Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:50:11.486Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:50:11.501Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T18:50:11.521Z"}

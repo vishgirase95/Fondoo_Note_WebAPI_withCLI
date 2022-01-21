@@ -19,6 +19,10 @@ import logger, { logStream } from './config/logger';
 
 import morgan from 'morgan';
 import swaggerOptions from '../src/swagger/swagger.json'
+// import {sender} from "../src/utils/sender";
+// import {reciver} from "../src/utils/reciver";
+
+
 const app = express();
 const host = process.env.APP_HOST;
 const port = process.env.APP_PORT;
@@ -35,6 +39,8 @@ app.use(helmet());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(morgan('combined', { stream: logStream }));
+
+
 ReddisDatabase();
 database();
 

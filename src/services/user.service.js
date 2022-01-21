@@ -7,6 +7,7 @@ import {error} from 'winston';
 import bcrypt from 'bcrypt';
 import jwt, { verify } from 'jsonwebtoken';
 import {client} from "../config/reddis.js"
+import {sender} from "../utils/sender";
 
 
 const secretekey_login=process.env.secretkey;
@@ -16,7 +17,7 @@ export const newUser = async (body) => {
   const HashedPassword = await bcrypt.hash(body.Password, 10);
   body.Password = HashedPassword;
   const data = await User.create(body);
-
+  sender(data);
   return data;
 };
 
@@ -55,7 +56,7 @@ export const addNote = async (body) => {
   body.UserID = body.data.ID;
 
   const newNote = await Notes.create(body);
-  await client.del  ("notes_data");
+  await client.del("notes_data");
   await client.del("Key");
   
   return newNote;
