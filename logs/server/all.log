@@ -12907,3 +12907,6 @@ error:
     method - PATCH 
     IP - ::1
    {"timestamp":"2022-01-20T15:21:39.839Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T13:02:34.770Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-21T13:02:34.779Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T13:02:34.819Z"}
