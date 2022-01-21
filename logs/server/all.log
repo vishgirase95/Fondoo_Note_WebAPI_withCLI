@@ -11211,3 +11211,5 @@ error:
     method - PATCH 
     IP - ::1
    {"timestamp":"2022-01-19T09:47:02.735Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T12:46:50.417Z"}
+info: Connected to the database. {"timestamp":"2022-01-21T12:46:50.442Z"}
