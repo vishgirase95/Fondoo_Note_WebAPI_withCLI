@@ -55,7 +55,7 @@ export const addNote = async (body) => {
   body.UserID = body.data.ID;
 
   const newNote = await Notes.create(body);
-  await client.del("notes_data");
+  await client.del  ("notes_data");
   await client.del("Key");
   
   return newNote;
