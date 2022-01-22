@@ -123,3 +123,119 @@ info: Connected to the database. {"timestamp":"2022-01-22T07:46:44.012Z"}
 info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T08:26:29.195Z"}
 info: Connected to the  reddis database. {"timestamp":"2022-01-22T08:26:29.248Z"}
 info: Connected to the database. {"timestamp":"2022-01-22T08:26:29.295Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T09:25:07.265Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T09:25:07.301Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T09:25:07.864Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T09:27:11.472Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T09:27:11.481Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T09:27:11.500Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T09:29:29.726Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T09:29:29.741Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T09:29:29.785Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T09:30:34.923Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T09:30:34.954Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T09:32:21.810Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T09:32:21.835Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T09:32:38.913Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T09:32:38.937Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T09:32:38.969Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'ID' of undefined
+    at _callee5$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:87:56)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNote (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:85:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-22T09:32:39.269Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'ID' of undefined
+    at _callee5$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:87:56)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNote (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:85:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-22T09:32:43.716Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'ID' of undefined
+    at _callee5$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:87:56)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNote (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:85:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-22T09:32:59.733Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T09:36:30.442Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T09:36:30.452Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T09:36:30.475Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T09:57:10.335Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T09:57:10.345Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T09:57:10.364Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T09:57:27.190Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T09:57:27.202Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T09:57:27.221Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T11:54:37.215Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T11:54:37.225Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T11:54:37.266Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T11:57:06.429Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T11:57:06.440Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T11:57:06.461Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T11:57:24.070Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T11:57:24.079Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T11:57:24.098Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T11:57:38.488Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T11:57:38.522Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T11:57:57.993Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T11:57:58.040Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T11:58:26.006Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T11:58:26.021Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T11:58:26.052Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T11:58:36.542Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T11:58:36.554Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T11:58:36.580Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T11:59:20.525Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T11:59:20.537Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T11:59:20.557Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T11:59:49.960Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T11:59:49.978Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T11:59:50.024Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T12:00:00.584Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T12:00:00.597Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T12:00:00.655Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T12:06:13.224Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T12:06:13.251Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T12:06:13.278Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T12:06:31.530Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T12:06:31.539Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T12:06:31.612Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T12:08:48.789Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T12:08:48.804Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T12:08:48.822Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T12:08:58.467Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T12:08:58.478Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T12:08:58.495Z"}

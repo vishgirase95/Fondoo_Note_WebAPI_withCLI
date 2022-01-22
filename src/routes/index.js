@@ -2,6 +2,7 @@ import express from 'express';
 const router = express.Router();
 
 import userRoute from './user.route';
+import notesRoute from './notes.route';
 
 
 
@@ -11,15 +12,11 @@ import userRoute from './user.route';
  * @returns router 
  */
 const routes = () => {
-  router.get('/', (req, res) => {
-    res.send('Welcome');
-  });
+  router.get('/', (req, res) => {res.send('Welcome');});
   
-  router.use('/register', userRoute);
+  router.use('/notes', notesRoute);
+  router.use('/users', userRoute);
   
-
-
-
   return router;
 };
 

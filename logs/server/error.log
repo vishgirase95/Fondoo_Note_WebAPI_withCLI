@@ -10134,3 +10134,94 @@ error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:
 error: uncaughtException: read ECONNRESET
 Error: read ECONNRESET
     at TCP.onStreamRead (internal/stream_base_commons.js:209:20) {"date":"Sat Jan 22 2022 13:52:38 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":444307},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18397564,"external":20660797,"heapTotal":89714688,"heapUsed":86290832,"rss":123162624},"pid":27036,"uid":null,"version":"v14.17.3"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)","timestamp":"2022-01-22T08:22:39.367Z","trace":[{"column":20,"file":"internal/stream_base_commons.js","function":"TCP.onStreamRead","line":209,"method":"onStreamRead","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:464:13)
+    at routes (D:\CLI_CLASS\FandooNotes_webAPI\src\routes\/index.js:18:10)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\src\/index.js:46:32)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Sat Jan 22 2022 15:00:34 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":448383},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18607026,"external":20839935,"heapTotal":154124288,"heapUsed":134818584,"rss":188018688},"pid":22716,"uid":null,"version":"v14.17.3"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\index.js:464:13)\n    at routes (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\/index.js:46:32)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-01-22T09:30:34.870Z","trace":[{"column":13,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\/index.js","function":null,"line":46,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:464:13)
+    at routes (D:\CLI_CLASS\FandooNotes_webAPI\src\routes\/index.js:19:10)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\src\/index.js:46:32)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Sat Jan 22 2022 15:02:21 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":448490},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18523439,"external":20769351,"heapTotal":176517120,"heapUsed":148637640,"rss":211005440},"pid":2628,"uid":null,"version":"v14.17.3"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\index.js:464:13)\n    at routes (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/index.js:19:10)\n    at Object.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\/index.js:46:32)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-01-22T09:32:21.770Z","trace":[{"column":13,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/index.js","function":"routes","line":19,"method":null,"native":false},{"column":32,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\/index.js","function":null,"line":46,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'ID' of undefined
+    at _callee5$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:87:56)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNote (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:85:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-22T09:32:39.269Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'ID' of undefined
+    at _callee5$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:87:56)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNote (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:85:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-22T09:32:43.716Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'ID' of undefined
+    at _callee5$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:87:56)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.getNote (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:85:21) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-01-22T09:32:59.733Z"}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:464:13)
+    at routes (D:\CLI_CLASS\FandooNotes_webAPI\src\routes\/index.js:20:10)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\src\/index.js:46:32)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Sat Jan 22 2022 17:27:38 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":457207},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18523439,"external":20769351,"heapTotal":176779264,"heapUsed":148179480,"rss":211685376},"pid":20656,"uid":null,"version":"v14.17.3"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\index.js:464:13)\n    at routes (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/index.js:20:10)\n    at Object.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\/index.js:46:32)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-01-22T11:57:38.459Z","trace":[{"column":13,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/index.js","function":"routes","line":20,"method":null,"native":false},{"column":32,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\/index.js","function":null,"line":46,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:464:13)
+    at routes (D:\CLI_CLASS\FandooNotes_webAPI\src\routes\/index.js:18:10)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\src\/index.js:46:32)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Sat Jan 22 2022 17:27:57 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":457226},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18523439,"external":20769351,"heapTotal":176517120,"heapUsed":148414544,"rss":211894272},"pid":11244,"uid":null,"version":"v14.17.3"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\index.js:464:13)\n    at routes (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/index.js:18:10)\n    at Object.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\/index.js:46:32)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-01-22T11:57:57.952Z","trace":[{"column":13,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":464,"method":"use","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/index.js","function":"routes","line":18,"method":null,"native":false},{"column":32,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\/index.js","function":null,"line":46,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
