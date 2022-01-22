@@ -9432,3 +9432,6 @@ info: ::1 - - [22/Jan/2022:05:58:37 +0000] "POST /api/v1/register/login HTTP/1.1
 
 info: ::1 - - [22/Jan/2022:05:59:16 +0000] "POST /api/v1/register/addnote HTTP/1.1" 200 303 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
 
+error: uncaughtException: read ECONNRESET
+Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20) {"date":"Sat Jan 22 2022 13:52:39 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":444307},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18397588,"external":20660861,"heapTotal":89714688,"heapUsed":86359816,"rss":123838464},"pid":27036,"uid":null,"version":"v14.17.3"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)","trace":[{"column":20,"file":"internal/stream_base_commons.js","function":"TCP.onStreamRead","line":209,"method":"onStreamRead","native":false}]}

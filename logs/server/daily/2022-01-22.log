@@ -114,3 +114,9 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-01-22T05:58:17.858Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T07:38:58.430Z"}
+error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)","syscall":"connect","timestamp":"2022-01-22T07:38:58.921Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T07:38:59.066Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T07:46:43.840Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T07:46:43.908Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T07:46:44.012Z"}
