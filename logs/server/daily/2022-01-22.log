@@ -90,3 +90,27 @@ info: Connected to the database. {"timestamp":"2022-01-21T18:50:11.521Z"}
 info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-21T18:51:51.972Z"}
 info: Connected to the  reddis database. {"timestamp":"2022-01-21T18:51:51.981Z"}
 info: Connected to the database. {"timestamp":"2022-01-21T18:51:51.998Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T04:34:53.847Z"}
+error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)","syscall":"connect","timestamp":"2022-01-22T04:34:53.867Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T04:34:54.010Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T04:37:47.843Z"}
+error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)","syscall":"connect","timestamp":"2022-01-22T04:37:47.856Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T04:37:47.889Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T04:39:24.586Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T04:39:24.597Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T04:39:24.617Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:33:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/register/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-22T05:58:17.858Z"}
