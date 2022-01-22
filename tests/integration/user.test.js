@@ -21,7 +21,7 @@ const jsondata = JSON.parse(rawdata);
 describe('User APIs Test', (done) => {
   var _id = '';
   let Token = '';
-  // is commmented in order to update note by manual id
+  
   before((done) => {
     const clearCollections = () => {
       for (const collection in mongoose.connection.collections) {
@@ -47,9 +47,7 @@ describe('User APIs Test', (done) => {
 
   describe('GET /', () => {
     it('should return Wellcome', (done) => {
-      request(app)
-        .get('/api/v1/')
-        .end((err, res) => {
+      request(app).get('/api/v1/').end((err, res) => {
           expect(res.statusCode).to.be.equal(200);
           expect(res.text).to.be.equal('Welcome');
           done();
@@ -59,11 +57,10 @@ describe('User APIs Test', (done) => {
 
 
 
-  describe('POST /register', () => {
+  describe('POST /users/register', () => {
     it('should return User created successfully ', (done) => {
       const inputdata = jsondata.test1
-      request(app)
-        .post('/api/v1/register').send(inputdata).end((err, res) => {
+      request(app).post('/api/v1/users/register').send(inputdata).end((err, res) => {
           expect(res.statusCode).to.be.equal(201);
           expect(res.body).to.be.property("message").eq("User created successfully");
 
@@ -77,13 +74,13 @@ describe('User APIs Test', (done) => {
 
 
 
-  describe('POST /register/login', () => {
+  describe('POST /users/login', () => {
     it("logi and return sucessfully logged in ", (done) => {
       const inputdetail = jsondata.login1
-      request(app).post('/api/v1/register/login').send(inputdetail).end((err, res) => {
+      request(app).post('/api/v1/users/login').send(inputdetail).end((err, res) => {
         expect(res.statusCode).to.be.equal(200);
         expect(res.body).to.be.property("message").eq("sucessfully logged in");
-        // expect(res.body).to.be.property("data")
+    
         done();
       });
     });
@@ -94,11 +91,11 @@ describe('User APIs Test', (done) => {
 
 
 
-  describe('POST /register/login and /addnote', () => {
+  describe('POST /users/login and /notes', () => {
     it("login and auth to add notes", (done) => {
       const inputdetail = jsondata.login1
 
-      request(app).post('/api/v1/register/login').send(inputdetail).end((err, res) => {
+      request(app).post('/api/v1/users/login').send(inputdetail).end((err, res) => {
         expect(res.statusCode).to.be.equal(200);
         expect(res.body).to.be.property("message").eq("sucessfully logged in");
         expect(res.body).to.be.property("data")
@@ -106,7 +103,7 @@ describe('User APIs Test', (done) => {
         const inputNotedata = jsondata.note2;
 
 
-        request(app).post('/api/v1/register/addnote').send(inputNotedata).set('Authorization', 'JWT ' + token).end((err, res) => {
+        request(app).post('/api/v1/notes').send(inputNotedata).set('Authorization', 'JWT ' + token).end((err, res) => {
           expect(res.statusCode).to.be.equal(200);
           expect(res.body).to.be.property("message").eq("Note added sucessfully");
           expect(res.body).to.be.property("data");
@@ -127,14 +124,14 @@ describe('User APIs Test', (done) => {
     it("login and auth get notes", (done) => {
       const inputdetail = jsondata.login1
 
-      request(app).post('/api/v1/register/login').send(inputdetail).end((err, res) => {
+      request(app).post('/api/v1/users/login').send(inputdetail).end((err, res) => {
         expect(res.statusCode).to.be.equal(200);
         expect(res.body).to.be.property("message").eq("sucessfully logged in");
         expect(res.body).to.be.property("data")
         const token = res.body.data;
 
 
-        request(app).get('/api/v1/register/getnote').set('Authorization', 'JWT ' + token).end((err, res) => {
+        request(app).get('/api/v1/notes').set('Authorization', 'JWT ' + token).end((err, res) => {
           expect(res.statusCode).to.be.equal(200);
           expect(res.body).to.be.property("message").eq("Fetched Notes Sucessfully");
           done();
@@ -149,7 +146,7 @@ describe('User APIs Test', (done) => {
     it("login and auth update notes using notid", (done) => {
       const inputdetail = jsondata.login1
 
-      request(app).post('/api/v1/register/login').send(inputdetail).end((err, res) => {
+      request(app).post('/api/v1/users/login').send(inputdetail).end((err, res) => {
         expect(res.statusCode).to.be.equal(200);
         expect(res.body).to.be.property("message").eq("sucessfully logged in");
         expect(res.body).to.be.property("data")
@@ -159,7 +156,7 @@ describe('User APIs Test', (done) => {
           "NoteID": _id,
           "color": "purple"
         }
-        request(app).patch('/api/v1/register/updatenote').set('Authorization', 'JWT ' + token).send(updateNOTE).end((err, res) => {
+        request(app).patch('/api/v1/notes').set('Authorization', 'JWT ' + token).send(updateNOTE).end((err, res) => {
           expect(res.statusCode).to.be.equal(200);
           expect(res.body).to.be.property("message").eq("Updated Sucessfully");
           done();
@@ -175,13 +172,13 @@ describe('User APIs Test', (done) => {
     it("login and auth get trashed", (done) => {
       const inputdetail = jsondata.login1
 
-      request(app).post('/api/v1/register/login').send(inputdetail).end((err, res) => {
+      request(app).post('/api/v1/users/login').send(inputdetail).end((err, res) => {
         expect(res.statusCode).to.be.equal(200);
         expect(res.body).to.be.property("message").eq("sucessfully logged in");
         expect(res.body).to.be.property("data")
         const token = res.body.data;
 
-        request(app).get('/api/v1/register/trashed').set('Authorization', 'JWT ' + token).end((err, res) => {
+        request(app).get('/api/v1/notes/trash').set('Authorization', 'JWT ' + token).end((err, res) => {
           expect(res.statusCode).to.be.equal(200);
           expect(res.body).to.be.property("message").eq("Fetched Deleted Notes Sucessfully");
           done();
@@ -198,13 +195,13 @@ describe('User APIs Test', (done) => {
     it("login and auth get isArchived", (done) => {
       const inputdetail = jsondata.login1
 
-      request(app).post('/api/v1/register/login').send(inputdetail).end((err, res) => {
+      request(app).post('/api/v1/users/login').send(inputdetail).end((err, res) => {
         expect(res.statusCode).to.be.equal(200);
         expect(res.body).to.be.property("message").eq("sucessfully logged in");
         expect(res.body).to.be.property("data")
         const token = res.body.data;
 
-        request(app).get('/api/v1/register/isArchived').set('Authorization', 'JWT ' + token).end((err, res) => {
+        request(app).get('/api/v1/notes/archive').set('Authorization', 'JWT ' + token).end((err, res) => {
           expect(res.statusCode).to.be.equal(200);
           expect(res.body).to.be.property("message").eq("Fetched Archived Notes Sucessfully");
           done();
@@ -214,11 +211,11 @@ describe('User APIs Test', (done) => {
     })
   })
 
-  describe('POST /register/forgetpassword', () => {
+  describe('POST /users/forgetpassword', () => {
     it("sent mail for forget password ", (done) => {
       const inputdetail = jsondata.forgetPassword1;
 
-      request(app).post('/api/v1/register/forgetpassword').send(inputdetail).end((err, res) => {
+      request(app).post('/api/v1/users/forgetpassword').send(inputdetail).end((err, res) => {
         expect(res.statusCode).to.be.equal(200);
         expect(res.body).to.be.property("message").eq("Mail Sent Sucesssfully");
 
@@ -230,12 +227,12 @@ describe('User APIs Test', (done) => {
 
 
 
-  describe('POST /register/resetpassword', () => {
+  describe('POST /users/resetpassword', () => {
     it("reset the new password", (done) => {
       const inputdetail = jsondata.resetpassword1;
 
 
-      request(app).post('/api/v1/register/resetpassword').set('Authorization', 'JWT ' + Token).send(inputdetail).end((err, res) => {
+      request(app).post('/api/v1/users/resetpassword').set('Authorization', 'JWT ' + Token).send(inputdetail).end((err, res) => {
         expect(res.statusCode).to.be.equal(200);
         expect(res.body).to.be.property("message").eq("Reset Password Sucessfully")
         done();

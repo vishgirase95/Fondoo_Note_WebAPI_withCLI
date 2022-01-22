@@ -239,3 +239,32 @@ info: Connected to the database. {"timestamp":"2022-01-22T12:08:48.822Z"}
 info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T12:08:58.467Z"}
 info: Connected to the  reddis database. {"timestamp":"2022-01-22T12:08:58.478Z"}
 info: Connected to the database. {"timestamp":"2022-01-22T12:08:58.495Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T13:49:32.686Z"}
+error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)","syscall":"connect","timestamp":"2022-01-22T13:49:32.714Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T13:49:33.019Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:407:31)
+    at Commander.commandsExecutor (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:166:154)
+    at Commander.del (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\commander.js:8:29)
+    at _callee3$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:59:16)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-22T13:49:33.698Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T13:50:30.778Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T13:50:30.795Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T13:50:30.818Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T13:51:24.039Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T13:51:24.054Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T13:51:24.076Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T13:52:43.717Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T13:52:43.731Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T13:52:43.780Z"}
