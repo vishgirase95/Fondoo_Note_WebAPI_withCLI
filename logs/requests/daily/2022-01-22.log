@@ -210,3 +210,203 @@ info: ::ffff:127.0.0.1 - - [22/Jan/2022:13:52:48 +0000] "POST /api/v1/users/forg
 
 info: ::ffff:127.0.0.1 - - [22/Jan/2022:13:52:48 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 326 "-" "node-superagent/3.8.3"
 
+info: ::1 - - [22/Jan/2022:14:04:46 +0000] "POST /api/v1/users/register HTTP/1.1" 201 326 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:05:57 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:06:53 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 544 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:07:13 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6InZpc2hnaXJhc2U5NUBnbWFpbC5jb20iLCJpYXQiOjE2NDI4NTI5OTJ9.gst6m4O-mAf0iaIcrWXl3Y7CbK-Eqy7ayBHfqSRR_Vo HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:07:13 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:07:17 +0000] "GET /images/icons/gear.png HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:08:22 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 500 52 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:08:47 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 327 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:10:07 +0000] "GET /api/v1/notes HTTP/1.1" 400 54 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:10:16 +0000] "GET /api/v1/notes HTTP/1.1" 400 54 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:10:32 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:10:55 +0000] "GET /api/v1/notes HTTP/1.1" 200 60 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:11:18 +0000] "POST /api/v1/notes HTTP/1.1" 200 305 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:11:26 +0000] "POST /api/v1/notes HTTP/1.1" 200 306 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:11:31 +0000] "POST /api/v1/notes HTTP/1.1" 200 306 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:11:36 +0000] "GET /api/v1/notes HTTP/1.1" 200 814 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:11:45 +0000] "GET /api/v1/notes HTTP/1.1" 200 812 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:12:28 +0000] "PATCH /api/v1/notes HTTP/1.1" 200 80 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:12:35 +0000] "GET /api/v1/notes HTTP/1.1" 200 813 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:12:47 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 68 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:12:55 +0000] "GET /api/v1/notes/trash HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:13:06 +0000] "GET /api/v1/notes/archive HTTP/1.1" 200 69 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:13:10 +0000] "GET /api/v1/notes/archive HTTP/1.1" 200 52 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:14:06 +0000] "POST /api/v1/notes HTTP/1.1" 200 304 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:14:23 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 317 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:14:29 +0000] "GET /api/v1/notes/trash HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:14:33 +0000] "GET /api/v1/notes/archive HTTP/1.1" 200 318 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:14:37 +0000] "GET /api/v1/notes/archive HTTP/1.1" 200 301 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:14:57 +0000] "DELETE /api/v1/notes/delete/61ec112e4b266c58403007d9 HTTP/1.1" 200 71 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:15:50 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 68 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:15:55 +0000] "GET /api/v1/notes/trash HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:16:04 +0000] "GET /api/v1/notes/trash HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:23:16 +0000] "GET /api/v1/notes/trash HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:23:21 +0000] "GET /api/v1/notes/trash HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:23:28 +0000] "GET /api/v1/notes/trash HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:24:38 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 58 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:24:38 +0000] "GET /api/v1/notes/trash HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:24:42 +0000] "GET /api/v1/notes/trash HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:25:01 +0000] "POST /api/v1/notes HTTP/1.1" 200 304 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:25:19 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 317 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:14:25:23 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 307 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:14:29:22 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:14:29:22 +0000] "POST /api/v1/users/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:14:29:22 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:14:29:22 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:14:29:22 +0000] "POST /api/v1/notes HTTP/1.1" 200 304 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:14:29:22 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:14:29:22 +0000] "GET /api/v1/notes HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:14:29:22 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:14:29:22 +0000] "PATCH /api/v1/notes HTTP/1.1" 200 80 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:14:29:23 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:14:29:23 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 68 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:14:29:23 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:14:29:23 +0000] "GET /api/v1/notes/archive HTTP/1.1" 200 318 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:14:29:28 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 541 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:14:29:28 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 326 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [22/Jan/2022:15:29:41 +0000] "GET /api/v1/notes HTTP/1.1" 200 813 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:30:10 +0000] "GET /api/v1/notes HTTP/1.1" 200 811 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:30:37 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 58 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:30:42 +0000] "GET /api/v1/notes/trash HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:30:48 +0000] "GET /api/v1/notes/archive HTTP/1.1" 200 301 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:30:53 +0000] "GET /api/v1/notes/archive HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:31:26 +0000] "POST /api/v1/notes HTTP/1.1" 200 306 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:31:34 +0000] "POST /api/v1/notes HTTP/1.1" 200 306 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:32:36 +0000] "GET /api/v1/notes HTTP/1.1" 200 1317 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:32:46 +0000] "GET /api/v1/notes HTTP/1.1" 200 1315 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:32:56 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 317 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:33:11 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 307 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:33:19 +0000] "GET /api/v1/notes/archive HTTP/1.1" 200 318 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:33:24 +0000] "GET /api/v1/notes/archive HTTP/1.1" 200 301 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:34:01 +0000] "DELETE /api/v1/notes/delete/61ec112e4b266c58403007d9 HTTP/1.1" 200 71 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:34:55 +0000] "PATCH /api/v1/notes HTTP/1.1" 200 80 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:35:01 +0000] "GET /api/v1/notes HTTP/1.1" 200 1316 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:35:10 +0000] "GET /api/v1/notes HTTP/1.1" 200 1314 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:35:18 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 317 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:35:23 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 307 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:35:23 +0000] "GET /api/v1/notes/trash HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:35:29 +0000] "GET /api/v1/notes/archive HTTP/1.1" 200 318 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:35:34 +0000] "GET /api/v1/notes/archive HTTP/1.1" 200 301 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:35:34 +0000] "GET /api/v1/notes/archive HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:35:35 +0000] "GET /api/v1/notes/archive HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:43:30 +0000] "DELETE /api/v1/notes/delete/61ec112e4b266c58403007d9 HTTP/1.1" 200 78 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:43:31 +0000] "DELETE /api/v1/notes/delete/61ec112e4b266c58403007d9 HTTP/1.1" 200 78 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:15:43:58 +0000] "DELETE /api/v1/notes/delete/61ec112e4b266c58403007d9 HTTP/1.1" 500 22 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:44:09 +0000] "DELETE /api/v1/notes/delete/61ec112e4b266c58403007d9 HTTP/1.1" 500 22 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:45:02 +0000] "DELETE /api/v1/notes/delete/61ec112e4b266c58403007d9 HTTP/1.1" 500 22 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:15:45:36 +0000] "DELETE /api/v1/notes/delete/61ec112e4b266c58403007d9 HTTP/1.1" 500 54 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:46:11 +0000] "DELETE /api/v1/notes/delete/61ec234e357f844b9c2a5da8 HTTP/1.1" 200 71 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:46:24 +0000] "DELETE /api/v1/notes/delete/61ec234e357f844b9c2a5da8 HTTP/1.1" 500 54 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:46:36 +0000] "GET /api/v1/notes HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:46:53 +0000] "GET /api/v1/notes HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:47:20 +0000] "DELETE /api/v1/notes/delete/61ec10864b266c58403007cc HTTP/1.1" 200 71 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:47:30 +0000] "GET /api/v1/notes HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:48:29 +0000] "DELETE /api/v1/notes/delete/61ec10864b266c58403007cc HTTP/1.1" 500 54 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:48:39 +0000] "GET /api/v1/notes HTTP/1.1" 200 815 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:51:19 +0000] "PATCH /api/v1/notes HTTP/1.1" 200 80 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:51:34 +0000] "PATCH /api/v1/notes HTTP/1.1" 500 145 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:52:04 +0000] "DELETE /api/v1/notes/delete/61ec10934b266c58403007d0 HTTP/1.1" 200 71 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:52:54 +0000] "PATCH /api/v1/notes HTTP/1.1" 500 57 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [22/Jan/2022:15:52:55 +0000] "PATCH /api/v1/notes HTTP/1.1" 500 57 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+

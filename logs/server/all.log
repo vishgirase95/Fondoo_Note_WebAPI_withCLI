@@ -14276,3 +14276,254 @@ AssertionError: expected 404 to equal 200
 info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T13:52:43.717Z"}
 info: Connected to the  reddis database. {"timestamp":"2022-01-22T13:52:43.731Z"}
 info: Connected to the database. {"timestamp":"2022-01-22T13:52:43.780Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T14:03:42.035Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T14:03:42.046Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T14:03:42.066Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee10$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:156:23)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7 
+    url - /api/v1/users/resetpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-22T14:08:22.952Z"}
+error: 
+      status - 400
+      message - Authorization token incorrect 
+      url - /api/v1/notes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-01-22T14:10:07.288Z"}
+error: 
+      status - 400
+      message - Authorization token incorrect 
+      url - /api/v1/notes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-01-22T14:10:16.684Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T14:15:28.319Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T14:15:28.329Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T14:15:28.348Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T14:17:34.041Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T14:17:34.055Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T14:17:34.083Z"}
+error: uncaughtException: D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\reddis.middleware.js: Identifier 'reddis_notes_data' has already been declared. (47:13)
+
+[0m [90m 45 |[39m[0m
+[0m [90m 46 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 47 |[39m [36mexport[39m [36mconst[39m reddis_notes_data [33m=[39m [36masync[39m (req[33m,[39m res[33m,[39m next) [33m=>[39m {[0m
+[0m [90m    |[39m              [31m[1m^[22m[39m[0m
+[0m [90m 48 |[39m   [36mconst[39m getdata [33m=[39m [36mawait[39m client[33m.[39m[36mget[39m([32m"notes_data"[39m)[33m;[39m[0m
+[0m [90m 49 |[39m[0m
+[0m [90m 50 |[39m   [36mif[39m (getdata [33m==[39m [36mnull[39m) {[0m
+SyntaxError: Identifier 'reddis_notes_data' has already been declared. (47:13)
+    at Parser._raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:147:45)
+    at Parser.raiseWithData (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:142:17)
+    at Parser.raise (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\error.js:91:17)
+    at ScopeHandler.checkRedeclarationInScope (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\util\scope.js:152:12)
+    at ScopeHandler.declareName (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\util\scope.js:113:12)
+    at Parser.checkLVal (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\lval.js:531:22)
+    at Parser.parseVarId (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:1240:10)
+    at Parser.parseVar (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\parser\src\parser\statement.js:1201:12) {"date":"Sat Jan 22 2022 19:48:11 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":13,"line":47},"pos":841,"reasonCode":"VarRedeclaration"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":465640},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18403398,"external":22349800,"heapTotal":184905728,"heapUsed":164368040,"rss":219119616},"pid":6096,"uid":null,"version":"v14.17.3"},"stack":"SyntaxError: Identifier 'reddis_notes_data' has already been declared. (47:13)\n    at Parser._raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:147:45)\n    at Parser.raiseWithData (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:142:17)\n    at Parser.raise (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js:91:17)\n    at ScopeHandler.checkRedeclarationInScope (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\util\\scope.js:152:12)\n    at ScopeHandler.declareName (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\util\\scope.js:113:12)\n    at Parser.checkLVal (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\lval.js:531:22)\n    at Parser.parseVarId (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1240:10)\n    at Parser.parseVar (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1201:12)","timestamp":"2022-01-22T14:18:11.670Z","trace":[{"column":45,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":147,"method":"_raise","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":142,"method":"raiseWithData","native":false},{"column":17,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":91,"method":"raise","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\util\\scope.js","function":"ScopeHandler.checkRedeclarationInScope","line":152,"method":"checkRedeclarationInScope","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\util\\scope.js","function":"ScopeHandler.declareName","line":113,"method":"declareName","native":false},{"column":22,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\lval.js","function":"Parser.checkLVal","line":531,"method":"checkLVal","native":false},{"column":10,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseVarId","line":1240,"method":"parseVarId","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseVar","line":1201,"method":"parseVar","native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T14:18:26.228Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T14:18:26.252Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T14:18:26.275Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T14:18:39.161Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T14:18:39.172Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T14:18:39.195Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T14:19:26.572Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T14:19:26.584Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T14:19:26.608Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T14:19:36.103Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T14:19:36.115Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T14:19:36.136Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T14:19:45.546Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T14:19:45.559Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T14:19:45.589Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T14:19:51.596Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T14:19:51.607Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T14:19:51.627Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T14:21:08.166Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T14:21:08.175Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T14:21:08.193Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T14:21:49.291Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T14:21:49.305Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T14:21:49.327Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T14:22:20.883Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T14:22:20.894Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T14:22:20.917Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T14:22:40.299Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T14:22:40.313Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T14:22:40.353Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T14:22:54.343Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T14:22:54.355Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T14:22:54.379Z"}
+error: uncaughtException: reddis_trash_data is not defined
+ReferenceError: reddis_trash_data is not defined
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\src\routes\/notes.route.js:23:31)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\src\routes\/index.js:5:1) {"date":"Sat Jan 22 2022 19:54:06 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":465995},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18419782,"external":20665694,"heapTotal":176779264,"heapUsed":144795936,"rss":211623936},"pid":24764,"uid":null,"version":"v14.17.3"},"stack":"ReferenceError: reddis_trash_data is not defined\n    at Object.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/notes.route.js:23:31)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Module.require (internal/modules/cjs/loader.js:974:19)\n    at require (internal/modules/cjs/helpers.js:92:18)\n    at Object.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/index.js:5:1)","timestamp":"2022-01-22T14:24:06.750Z","trace":[{"column":31,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/notes.route.js","function":null,"line":23,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":974,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":92,"method":null,"native":false},{"column":1,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false}]}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T14:24:36.920Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T14:24:36.933Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T14:24:36.953Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T14:26:55.437Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T14:26:55.451Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T14:26:55.481Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T14:27:07.348Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T14:27:07.358Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T14:27:07.384Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T14:27:59.716Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T14:27:59.726Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T14:27:59.746Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T14:28:19.662Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T14:28:19.672Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T14:28:19.695Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T14:28:33.496Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T14:28:33.508Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T14:28:33.532Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T14:29:22.275Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T14:29:22.312Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T14:29:22.373Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T15:28:25.696Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T15:28:25.706Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T15:28:25.849Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T15:43:21.785Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T15:43:21.808Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T15:43:21.846Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T15:43:58.187Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T15:43:58.197Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T15:43:58.215Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/delete/61ec112e4b266c58403007d9 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-22T15:43:58.377Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/delete/61ec112e4b266c58403007d9 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-22T15:44:09.394Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/delete/61ec112e4b266c58403007d9 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-22T15:45:02.490Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T15:45:36.516Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T15:45:36.526Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T15:45:36.569Z"}
+error: 
+    status - 500 
+    message - Error: Note does not exist
+    at _callee8$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:132:11)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes/delete/61ec112e4b266c58403007d9 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-22T15:45:36.588Z"}
+error: 
+    status - 500 
+    message - Error: Note does not exist
+    at _callee8$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:132:11)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes/delete/61ec234e357f844b9c2a5da8 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-22T15:46:24.065Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T15:48:16.102Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T15:48:16.113Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T15:48:16.132Z"}
+error: 
+    status - 500 
+    message - Error: Note does not exist
+    at _callee8$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:136:11)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes/delete/61ec10864b266c58403007cc 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-01-22T15:48:29.905Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T15:49:45.425Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T15:49:45.436Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T15:49:45.454Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T15:50:39.463Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T15:50:39.478Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T15:50:39.503Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T15:51:05.573Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T15:51:05.582Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T15:51:05.599Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-22T15:51:34.236Z"}
+error: 
+    status - 500 
+    message - Error: Note id not in databae
+    at _callee4$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:89:11)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-22T15:52:54.772Z"}
+error: 
+    status - 500 
+    message - Error: Note id not in databae
+    at _callee4$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:89:11)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-01-22T15:52:55.454Z"}

@@ -1,17 +1,33 @@
-import {Notes} from '../models/note.model';
-import {mailSend} from "../middlewares/sendmail"
+import {
+  Notes
+} from '../models/note.model';
+import {
+  mailSend
+} from "../middlewares/sendmail"
 
-import {User} from '../models/user.model';
-import {Console} from 'winston/lib/winston/transports';
-import {error} from 'winston';
+import {
+  User
+} from '../models/user.model';
+import {
+  Console
+} from 'winston/lib/winston/transports';
+import {
+  error
+} from 'winston';
 import bcrypt from 'bcrypt';
-import jwt, { verify } from 'jsonwebtoken';
-import {client} from "../config/reddis.js"
-import {sender} from "../utils/sender";
+import jwt, {
+  verify
+} from 'jsonwebtoken';
+import {
+  client
+} from "../config/reddis.js"
+import {
+  sender
+} from "../utils/sender";
 
 
-const secretekey_login=process.env.secretkey;
-const forgetPassword_token=process.env.forgetPassword_token;
+const secretekey_login = process.env.secretkey;
+const forgetPassword_token = process.env.forgetPassword_token;
 //create new user
 export const newUser = async (body) => {
   const HashedPassword = await bcrypt.hash(body.Password, 10);
@@ -37,14 +53,14 @@ export const login = async (body) => {
   );
 
   const isMatch = await bcrypt.compare(body.Password, searchData.Password);
-  
+
   if (body.Email == searchData.Email) {
     if (isMatch) {
       return token;
     } else {
       throw new Error('Invalid pasword');
     }
-  }else{
+  } else {
     throw new Error("Email id not found ");
   }
 };
@@ -57,35 +73,50 @@ export const addNote = async (body) => {
 
   const newNote = await Notes.create(body);
   await client.del("notes_data");
-  await client.del("Key");
-  
+  await client.del("archive_data");
+  await client.del("trash_data");
+
   return newNote;
 };
 
 
 
-export const updateNote=async (body)=>{
-  const previous=await Notes.findOne({_id:body.NoteID})
-  const updated=await Notes.updateOne({_id:body.NoteID},{
-    Title:body.Title?body.Title:previous.Title,
-    Descreption:body.Descreption?body.Descreption:previous.Descreption,
-    color:body.color?body.color:previous.color,
-    isArchived:body.isArchived?body.isArchived:previous.isArchived,
-    isDeleted:body.isDeleted?body.isDeleted:previous.isDeleted
-  },{
-    new:true
+export const updateNote = async (body) => {
+  const previous = await Notes.findOne({
+    _id: body.NoteID
   })
-await client.del("notes_data");
-await client.del("Key");
 
+  await client.del("notes_data");
+  await client.del("archive_data");
+  await client.del("trash_data");
+  if (previous) {
 
-  return updated;
+    const updated = await Notes.updateOne({
+      _id: body.NoteID
+    }, {
+      Title: body.Title ? body.Title : previous.Title,
+      Descreption: body.Descreption ? body.Descreption : previous.Descreption,
+      color: body.color ? body.color : previous.color,
+      isArchived: body.isArchived ? body.isArchived : previous.isArchived,
+      isDeleted: body.isDeleted ? body.isDeleted : previous.isDeleted
+    }, {
+      new: true
+    })
+    return updated;
+
+  } else {
+    throw Error("Note id not in databae")
+  }
 }
 
 export const getNote = async (body) => {
-  
-  const findNote = await Notes.find({UserID: body.data.ID,isDeleted:false,isArchived:false})
-  await client.set("notes_data",JSON.stringify(findNote));
+
+  const findNote = await Notes.find({
+    UserID: body.data.ID,
+    isDeleted: false,
+    isArchived: false
+  })
+  await client.set("notes_data", JSON.stringify(findNote));
   return findNote;
 }
 
@@ -97,6 +128,8 @@ export const findtrashed = async (body) => {
     UserID: body.data.ID,
     isDeleted: true
   });
+  await client.set("trash_data", JSON.stringify(deletedNote))
+
   return deletedNote;
 }
 
@@ -109,21 +142,30 @@ export const isArchived = async (body) => {
     UserID: body.data.ID,
     isArchived: true
   });
-  
-  await client.set('Key', JSON.stringify(archivedNotes))
+
+  await client.set('archive_data', JSON.stringify(archivedNotes))
   return archivedNotes;
 }
 
 
 export const deletenote = async (req) => {
-  const archivedNotes = await Notes.findByIdAndDelete({
-    _id:req.params._id,
+  const deletetNotes = await Notes.findByIdAndDelete({
+    _id: req.params._id,
 
   });
-  await client.del("Key");
-  await client.del("notes_data")
 
-  return "deleted note";
+  await client.del("archive_data");
+  await client.del("notes_data")
+  await client.del("trash_data")
+
+  if (deletetNotes) {
+    return "deleted note";
+
+  } else {
+    throw Error("Note does not exist");
+  }
+
+
 }
 
 
@@ -131,14 +173,16 @@ export const deletenote = async (req) => {
 
 export const forgetPassword = async (req) => {
 
-const token= jwt.sign({ Email: req.body.Email },forgetPassword_token)
+  const token = jwt.sign({
+    Email: req.body.Email
+  }, forgetPassword_token)
 
   const SearchMail = await User.find({
     Email: req.body.Email
   })
 
   if (SearchMail) {
-  const mail=mailSend(SearchMail[0].Email,token)
+    const mail = mailSend(SearchMail[0].Email, token)
     return mail;
   } else {
 
@@ -151,27 +195,29 @@ const token= jwt.sign({ Email: req.body.Email },forgetPassword_token)
 
 
 
-export const resetPassword=async (req)=>{
-const tokenfound= req.header('Authorization').split(' ')[1];
-const isVerified= jwt.verify(tokenfound,forgetPassword_token)
-const newPassword=req.body.Password;
-const HashednewPassword=await bcrypt.hash(newPassword,10);
+export const resetPassword = async (req) => {
+  const tokenfound = req.header('Authorization').split(' ')[1];
+  const isVerified = jwt.verify(tokenfound, forgetPassword_token)
+  const newPassword = req.body.Password;
+  const HashednewPassword = await bcrypt.hash(newPassword, 10);
 
-if(isVerified){
-const updatePassword=await User.findOneAndUpdate({Email:req.body.Email},
-  {
-    Password:HashednewPassword
-  },{new:true})
+  if (isVerified) {
+    const updatePassword = await User.findOneAndUpdate({
+      Email: req.body.Email
+    }, {
+      Password: HashednewPassword
+    }, {
+      new: true
+    })
 
-  if(updatePassword){
-    return updatePassword;
-  }else{
-    throw Error 
+    if (updatePassword) {
+      return updatePassword;
+    } else {
+      throw Error
+    }
+
+
+  } else {
+    throw Error;
   }
-
-
-}else{
-  throw Error ;
 }
-}
-

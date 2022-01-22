@@ -1,4 +1,5 @@
 import HttpStatus from 'http-status-codes';
+import { client } from '../config/reddis';
 import Notes from '../models/note.model';
 import * as UserService from '../services/user.service';
 

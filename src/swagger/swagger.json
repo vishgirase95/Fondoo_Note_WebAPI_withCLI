@@ -10,8 +10,7 @@
   },
   "host": "localhost:5000",
   "basePath": "/api/v1",
-  "tags": [
-    {
+  "tags": [{
       "name": "User",
       "description": "User details"
     },
@@ -22,35 +21,33 @@
   ],
   "schemes": ["http"],
   "paths": {
-    "/register": {
+    "/users/register": {
       "post": {
         "tags": ["User"],
         "produces": ["application/json"],
-        "parameters": [
-          {
-            "in": "body",
-            "name": "Registration Data",
-            "required": true,
-            "schema": {
-              "type": "object",
-              "required": ["FirstName", "LastName", "Email", "Password"],
-              "properties": {
-                "FirstName": {
-                  "type": "string"
-                },
-                "LastName": {
-                  "type": "string"
-                },
-                "Email": {
-                  "type": "string"
-                },
-                "Password": {
-                  "type": "string"
-                }
+        "parameters": [{
+          "in": "body",
+          "name": "Registration Data",
+          "required": true,
+          "schema": {
+            "type": "object",
+            "required": ["FirstName", "LastName", "Email", "Password"],
+            "properties": {
+              "FirstName": {
+                "type": "string"
+              },
+              "LastName": {
+                "type": "string"
+              },
+              "Email": {
+                "type": "string"
+              },
+              "Password": {
+                "type": "string"
               }
             }
           }
-        ],
+        }],
         "responses": {
           "201": {
             "description": "Valid input"
@@ -61,27 +58,25 @@
         }
       }
     },
-    "/register/login": {
+    "/users/login": {
       "post": {
         "tags": ["User"],
         "produces": ["application/json"],
-        "parameters": [
-          {
-            "in": "body",
-            "name": "Login Data",
-            "schema": {
-              "type": "object",
-              "properties": {
-                "Email": {
-                  "type": "string"
-                },
-                "Password": {
-                  "type": "string"
-                }
+        "parameters": [{
+          "in": "body",
+          "name": "Login Data",
+          "schema": {
+            "type": "object",
+            "properties": {
+              "Email": {
+                "type": "string"
+              },
+              "Password": {
+                "type": "string"
               }
             }
           }
-        ],
+        }],
         "responses": {
           "200": {
             "description": "valid input"
@@ -92,25 +87,23 @@
         }
       }
     },
-    "/register/forgetpassword": {
+    "/users/forgetpassword": {
       "post": {
         "tags": ["User"],
         "produces": ["application/json"],
-        "parameters": [
-          {
-            "in": "body",
-            "name": "Forget Password",
-            "schema": {
-              "type": "object",
-              "required": ["Email"],
-              "properties": {
-                "Email": {
-                  "type": "string"
-                }
+        "parameters": [{
+          "in": "body",
+          "name": "Forget Password",
+          "schema": {
+            "type": "object",
+            "required": ["Email"],
+            "properties": {
+              "Email": {
+                "type": "string"
               }
             }
           }
-        ],
+        }],
         "responses": {
           "200": {
             "description": "Valid input"
@@ -121,27 +114,27 @@
         }
       }
     },
-    "/register/resetpassword": {
+    "/users/resetpassword": {
       "post": {
         "tags": ["User"],
         "produces": ["application/json"],
-        "parameters": [
-          {
-            "in": "body",
-            "name": "Resetpassword",
-            "schema":{
-              "type":"object",
+        "parameters": [{
+          "in": "body",
+          "name": "Resetpassword",
+          "schema": {
+            "type": "object",
             "required": ["Email", "Password"],
             "properties": {
               "Email": {
                 "type": "string"
               },
-              "Password": { "type": "string" }
+              "Password": {
+                "type": "string"
+              }
             }
-          
+
           }
-          }
-        ],
+        }],
         "responses": {
           "200": {
             "description": "Valid input"
@@ -150,42 +143,41 @@
             "description": "Invalid input"
           }
         },
-        "security":[{
-        "JWT":[]
-          }]
+        "security": [{
+          "JWT": []
+        }]
       }
     },
-    "/register/addnote": {
+    "/notes": {
       "post": {
         "tags": ["Notes"],
         "produces": ["application/json"],
-        "parameters": [
-          {
-            "in": "body",
-            "name": "AddNotes",
-            "schema":{
-              "type":"object",
-            "required": ["Title","Descreption","color","isArchived","isDeleted"],
+        "parameters": [{
+          "in": "body",
+          "name": "AddNotes",
+          "schema": {
+            "type": "object",
+            "required": ["Title", "Descreption", "color", "isArchived", "isDeleted"],
             "properties": {
               "Title": {
                 "type": "string"
               },
-              "Descreption":{
-                "type":"string"
+              "Descreption": {
+                "type": "string"
               },
-              "color":{
-                "type":"string"
+              "color": {
+                "type": "string"
               },
-              "isArchived":{
-                "type":"boolean"
+              "isArchived": {
+                "type": "boolean"
               },
-              "isDeleted":{
-                "type":"boolean"
+              "isDeleted": {
+                "type": "boolean"
               }
-  
-            }}
+
+            }
           }
-        ],
+        }],
         "responses": {
           "200": {
             "description": "Valid input"
@@ -194,46 +186,43 @@
             "description": "Invalid input"
           }
         },
-        "security":[{
-        "JWT":[]
-          }]
-      
-      }
-    },
-    "/register/updatenote": {
+        "security": [{
+          "JWT": []
+        }]
+
+      },
       "patch": {
         "tags": ["Notes"],
         "produces": ["application/json"],
-        "parameters": [
-          {
-            "in": "body",
-            "name": "Update Notes",
-            "schema":{
-              "type":"object",
-          
+        "parameters": [{
+          "in": "body",
+          "name": "Update Notes",
+          "schema": {
+            "type": "object",
+
             "properties": {
               "Title": {
                 "type": "string"
               },
-              "Descreption":{
-                "type":"string"
+              "Descreption": {
+                "type": "string"
               },
-              "color":{
-                "type":"string"
+              "color": {
+                "type": "string"
               },
-              "isArchived":{
-                "type":"boolean"
+              "isArchived": {
+                "type": "boolean"
               },
-              "isDeleted":{
-                "type":"boolean"
+              "isDeleted": {
+                "type": "boolean"
               },
-                "NoteID":{
-                  "type":"string"
+              "NoteID": {
+                "type": "string"
               }
-  
-            }}
+
+            }
           }
-        ],
+        }],
         "responses": {
           "200": {
             "description": "Valid input"
@@ -242,115 +231,106 @@
             "description": "Invalid input"
           }
         },
-        "security":[{
-        "JWT":[]
-          }]
-      
-      }
-    },
-    "/register/getnote": {
-      "get": {
-        "tags": ["Notes"],
-        "produces": ["application/json"],
-        "parameters": [
-          {
-            "in": "query",
-            "name": "Update Notes"
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Valid input"
-          },
-          "500": {
-            "description": "Invalid input"
-          }
+        "security": [{
+          "JWT": []
+        }]
+
+      },
+    "get": {
+      "tags": ["Notes"],
+      "produces": ["application/json"],
+      "parameters": [{
+        "in": "query",
+        "name": "Update Notes"
+      }],
+      "responses": {
+        "200": {
+          "description": "Valid input"
         },
-        "security":[{
-        "JWT":[]
-          }]
-      
-      }
-    }, 
-    "/register/trashed": {
-      "get": {
-        "tags": ["Notes"],
-        "produces": ["application/json"],
-        "parameters": [
-          {
-            "in": "query",
-            "name": "Update Notes"
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Valid input"
-          },
-          "500": {
-            "description": "Invalid input"
-          }
-        },
-        "security":[{
-        "JWT":[]
-          }]
-      
-      }
-    }, 
-    "/register/isArchived": {
-      "get": {
-        "tags": ["Notes"],
-        "produces": ["application/json"],
-        "parameters": [
-          {
-            "in": "query",
-            "name": "Update Notes"
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Valid input"
-          },
-          "500": {
-            "description": "Invalid input"
-          }
-        },
-        "security":[{
-        "JWT":[]
-          }]
-      
-      }
-    },
-    "/register/delete/{_id}": {
-      "delete": {
-        "tags": ["Notes"],
-        "produces": ["application/json"],
-        "parameters": [
-          {
-            "in": "path",
-            "type":"string",
-            "name": "_id"
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Valid input"
-          },
-          "500": {
-            "description": "Invalid input"
-          }
-        },
-        "security":[{
-        "JWT":[]
-          }]
-      
-      }
+        "500": {
+          "description": "Invalid input"
+        }
+      },
+      "security": [{
+        "JWT": []
+      }]
+
     }
   },
-  "securityDefinitions":{
-    "JWT":{
-      "type":"apiKey",
-      "name":"Authorization",
-      "in":"header"
+  "/notes/trash": {
+    "get": {
+      "tags": ["Notes"],
+      "produces": ["application/json"],
+      "parameters": [{
+        "in": "query",
+        "name": "Update Notes"
+      }],
+      "responses": {
+        "200": {
+          "description": "Valid input"
+        },
+        "500": {
+          "description": "Invalid input"
+        }
+      },
+      "security": [{
+        "JWT": []
+      }]
 
-    }}
+    }
+  },
+  "/notes/archive": {
+    "get": {
+      "tags": ["Notes"],
+      "produces": ["application/json"],
+      "parameters": [{
+        "in": "query",
+        "name": "Update Notes"
+      }],
+      "responses": {
+        "200": {
+          "description": "Valid input"
+        },
+        "500": {
+          "description": "Invalid input"
+        }
+      },
+      "security": [{
+        "JWT": []
+      }]
+
+    }
+  },
+  "/notes/delete/{_id}": {
+    "delete": {
+      "tags": ["Notes"],
+      "produces": ["application/json"],
+      "parameters": [{
+        "in": "path",
+        "type": "string",
+        "name": "_id"
+      }],
+      "responses": {
+        "200": {
+          "description": "Valid input"
+        },
+        "500": {
+          "description": "Invalid input"
+        }
+      },
+      "security": [{
+        "JWT": []
+      }]
+
+    }
+  }
+},
+"securityDefinitions": {
+  "JWT": {
+    "type": "apiKey",
+    "name": "Authorization",
+    "in": "header"
+
+  }
+}
 }
