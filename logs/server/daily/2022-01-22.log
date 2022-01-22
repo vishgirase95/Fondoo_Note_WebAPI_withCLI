@@ -120,3 +120,6 @@ info: Connected to the database. {"timestamp":"2022-01-22T07:38:59.066Z"}
 info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T07:46:43.840Z"}
 info: Connected to the  reddis database. {"timestamp":"2022-01-22T07:46:43.908Z"}
 info: Connected to the database. {"timestamp":"2022-01-22T07:46:44.012Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T08:26:29.195Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T08:26:29.248Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T08:26:29.295Z"}

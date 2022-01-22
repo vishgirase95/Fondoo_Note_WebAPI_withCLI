@@ -26,7 +26,7 @@ export const reciver = (RegData) => {
       // 4 consume the quess
       channel.consume(queue, (msgg) => {
         console.log('Recived mail at :', msgg.content.toString());
-        mailSend(msgg.content.toString(),RegistrationData)
+        mailSend(msgg.content.toString())
       },{ noAck: true}
       );
     });

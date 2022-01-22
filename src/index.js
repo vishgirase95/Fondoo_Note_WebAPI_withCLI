@@ -19,8 +19,7 @@ import logger, { logStream } from './config/logger';
 
 import morgan from 'morgan';
 import swaggerOptions from '../src/swagger/swagger.json'
-// import {sender} from "../src/utils/sender";
-// import {reciver} from "../src/utils/reciver";
+
 
 
 const app = express();
