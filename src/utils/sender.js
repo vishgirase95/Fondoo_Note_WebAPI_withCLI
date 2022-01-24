@@ -1,18 +1,21 @@
 import amqp from 'amqplib/callback_api';
+import logger from '../config/logger';
 import {reciver} from './reciver';
 
 
 //1 create connection
 export const sender=(data)=>{amqp.connect('amqp://localhost', function(error, connection) {
 if(error){
-    console.log("Error :",error)
+    logger.error('Error at sender end'+ error);
+    
     throw error;
 }
 //2  create channel 
 connection.createChannel(function(error1, channel) {
 
     if(error1){
-        console.log(error1);
+    logger.error('Error'+error);
+        
         throw error1;
     }
 
@@ -26,7 +29,7 @@ connection.createChannel(function(error1, channel) {
       });
 // 4 send to queue
       channel.sendToQueue(queue, Buffer.from(msg));
-      console.log(`send mail by ${queue} to ${msg}`);
+    logger.info(`send mail by ${queue} to ${msg}`);
 
 
   reciver();

@@ -6,16 +6,6 @@
     "auditLog": "logs\\server\\daily\\.66f9134d6120569f739e98c9ffd0130985b9b2a5-audit.json",
     "files": [
         {
-            "date": 1641628982744,
-            "name": "logs\\server\\daily\\2022-01-08.log",
-            "hash": "3bf0f350863b04b4034231c76636904e"
-        },
-        {
-            "date": 1641730446281,
-            "name": "logs\\server\\daily\\2022-01-09.log",
-            "hash": "bc3003a1b5c842e83ff149e37bd78ecb"
-        },
-        {
             "date": 1641913036678,
             "name": "logs\\server\\daily\\2022-01-11.log",
             "hash": "f1ec498a17df03b7695408a69103afdf"
@@ -74,6 +64,11 @@
             "date": 1642789861402,
             "name": "logs\\server\\daily\\2022-01-22.log",
             "hash": "b72e1d6a4c965cf3d83b2ff1a0b94897"
+        },
+        {
+            "date": 1643002777059,
+            "name": "logs\\server\\daily\\2022-01-24.log",
+            "hash": "c024d13ec01ffb2a71e62d4d76f283d5"
         }
     ]
 }

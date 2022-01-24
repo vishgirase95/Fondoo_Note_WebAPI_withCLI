@@ -107,9 +107,9 @@ describe('User APIs Test', (done) => {
           expect(res.statusCode).to.be.equal(200);
           expect(res.body).to.be.property("message").eq("Note added sucessfully");
           expect(res.body).to.be.property("data");
-          console.log("data", res.body.data)
+          
           _id = res.body.data._id;
-          console.log("iddd", _id)
+          
 
           done();
         });

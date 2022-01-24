@@ -9856,3 +9856,248 @@ info: ::1 - - [22/Jan/2022:15:52:54 +0000] "PATCH /api/v1/notes HTTP/1.1" 500 57
 
 info: ::1 - - [22/Jan/2022:15:52:55 +0000] "PATCH /api/v1/notes HTTP/1.1" 500 57 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
 
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:16:01:36 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:16:01:37 +0000] "POST /api/v1/users/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:16:01:37 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:16:01:37 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:16:01:37 +0000] "POST /api/v1/notes HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\tests\integration\/user.test.js:107:40)
+    at Test.assert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (events.js:481:28)
+    at Server.emit (events.js:375:28)
+    at emitCloseNT (net.js:1661:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Sat Jan 22 2022 21:31:37 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:107:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":471846},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=15000","tests/**/*.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18580318,"external":20264126,"heapTotal":167686144,"heapUsed":105038096,"rss":202477568},"pid":13048,"uid":null,"version":"v14.17.3"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js:107:40)\n    at Test.assert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (events.js:481:28)\n    at Server.emit (events.js:375:28)\n    at emitCloseNT (net.js:1661:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","trace":[{"column":40,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\tests\\integration\\/user.test.js","function":null,"line":107,"method":null,"native":false},{"column":6,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":481,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":375,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1661,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:16:03:14 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:16:03:14 +0000] "POST /api/v1/users/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:16:03:14 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:16:03:14 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:16:03:14 +0000] "POST /api/v1/notes HTTP/1.1" 200 304 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:16:03:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:16:03:15 +0000] "GET /api/v1/notes HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:16:03:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:16:03:15 +0000] "PATCH /api/v1/notes HTTP/1.1" 200 80 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:16:03:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:16:03:15 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 68 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:16:03:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:16:03:15 +0000] "GET /api/v1/notes/archive HTTP/1.1" 200 318 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:16:03:21 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 543 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Jan/2022:16:03:21 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 326 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [24/Jan/2022:05:43:48 +0000] "POST /api/v1/users/login HTTP/1.1" 500 50 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [24/Jan/2022:05:43:58 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [24/Jan/2022:05:44:39 +0000] "GET /api/v1/notes HTTP/1.1" 200 563 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [24/Jan/2022:05:46:39 +0000] "GET /api/v1/notes HTTP/1.1" 200 561 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+error: uncaughtException: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required
+Error: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required
+    at module.exports (d:\CLI_CLASS\FandooNotes_webAPI\node_modules\swagger-jsdoc\src\lib.js:20:11)
+    at Object.<anonymous> (d:\CLI_CLASS\FandooNotes_webAPI\build\index.js:46:48)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Mon Jan 24 2022 11:17:18 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":607785},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js"],"cwd":"d:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18326175,"external":20001184,"heapTotal":70950912,"heapUsed":39754096,"rss":104517632},"pid":27228,"uid":null,"version":"v14.17.3"},"stack":"Error: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required\n    at module.exports (d:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\swagger-jsdoc\\src\\lib.js:20:11)\n    at Object.<anonymous> (d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js:46:48)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","trace":[{"column":11,"file":"d:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\swagger-jsdoc\\src\\lib.js","function":"module.exports","line":20,"method":"exports","native":false},{"column":48,"file":"d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js","function":null,"line":46,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+info: ::1 - - [24/Jan/2022:05:49:00 +0000] "GET /api/v1/notes HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [24/Jan/2022:05:49:17 +0000] "GET /api/v1/notes HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+error: uncaughtException: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required
+Error: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required
+    at module.exports (d:\CLI_CLASS\FandooNotes_webAPI\node_modules\swagger-jsdoc\src\lib.js:20:11)
+    at Object.<anonymous> (d:\CLI_CLASS\FandooNotes_webAPI\build\index.js:46:48)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Mon Jan 24 2022 11:20:06 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":607953},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js"],"cwd":"d:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18901835,"external":20576844,"heapTotal":70688768,"heapUsed":40116784,"rss":105328640},"pid":14268,"uid":null,"version":"v14.17.3"},"stack":"Error: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required\n    at module.exports (d:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\swagger-jsdoc\\src\\lib.js:20:11)\n    at Object.<anonymous> (d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js:46:48)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","trace":[{"column":11,"file":"d:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\swagger-jsdoc\\src\\lib.js","function":"module.exports","line":20,"method":"exports","native":false},{"column":48,"file":"d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js","function":null,"line":46,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+info: ::1 - - [24/Jan/2022:05:50:22 +0000] "GET /api/v1/notes HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [24/Jan/2022:05:52:20 +0000] "GET /api/v1/notes HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+error: uncaughtException: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required
+Error: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required
+    at module.exports (d:\CLI_CLASS\FandooNotes_webAPI\node_modules\swagger-jsdoc\src\lib.js:20:11)
+    at Object.<anonymous> (d:\CLI_CLASS\FandooNotes_webAPI\build\index.js:46:48)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Mon Jan 24 2022 11:24:35 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":608222},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js"],"cwd":"d:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18835846,"external":20510855,"heapTotal":68591616,"heapUsed":44237720,"rss":93093888},"pid":16224,"uid":null,"version":"v14.17.3"},"stack":"Error: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required\n    at module.exports (d:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\swagger-jsdoc\\src\\lib.js:20:11)\n    at Object.<anonymous> (d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js:46:48)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","trace":[{"column":11,"file":"d:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\swagger-jsdoc\\src\\lib.js","function":"module.exports","line":20,"method":"exports","native":false},{"column":48,"file":"d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js","function":null,"line":46,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required
+Error: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required
+    at module.exports (d:\CLI_CLASS\FandooNotes_webAPI\node_modules\swagger-jsdoc\src\lib.js:20:11)
+    at Object.<anonymous> (d:\CLI_CLASS\FandooNotes_webAPI\build\index.js:46:48)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Mon Jan 24 2022 11:25:18 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":608264},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js"],"cwd":"d:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18835846,"external":20510855,"heapTotal":68853760,"heapUsed":43781000,"rss":96264192},"pid":4840,"uid":null,"version":"v14.17.3"},"stack":"Error: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required\n    at module.exports (d:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\swagger-jsdoc\\src\\lib.js:20:11)\n    at Object.<anonymous> (d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js:46:48)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","trace":[{"column":11,"file":"d:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\swagger-jsdoc\\src\\lib.js","function":"module.exports","line":20,"method":"exports","native":false},{"column":48,"file":"d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js","function":null,"line":46,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required
+Error: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required
+    at module.exports (d:\CLI_CLASS\FandooNotes_webAPI\node_modules\swagger-jsdoc\src\lib.js:20:11)
+    at Object.<anonymous> (d:\CLI_CLASS\FandooNotes_webAPI\build\index.js:46:48)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Mon Jan 24 2022 11:28:20 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":608447},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js"],"cwd":"d:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18280558,"external":19955567,"heapTotal":71737344,"heapUsed":39240400,"rss":101330944},"pid":20200,"uid":null,"version":"v14.17.3"},"stack":"Error: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required\n    at module.exports (d:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\swagger-jsdoc\\src\\lib.js:20:11)\n    at Object.<anonymous> (d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js:46:48)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","trace":[{"column":11,"file":"d:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\swagger-jsdoc\\src\\lib.js","function":"module.exports","line":20,"method":"exports","native":false},{"column":48,"file":"d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js","function":null,"line":46,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required
+Error: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required
+    at module.exports (d:\CLI_CLASS\FandooNotes_webAPI\node_modules\swagger-jsdoc\src\lib.js:20:11)
+    at Object.<anonymous> (d:\CLI_CLASS\FandooNotes_webAPI\build\index.js:46:48)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Mon Jan 24 2022 11:32:54 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":608721},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js"],"cwd":"d:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18326174,"external":20001183,"heapTotal":70950912,"heapUsed":39569368,"rss":101064704},"pid":13720,"uid":null,"version":"v14.17.3"},"stack":"Error: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required\n    at module.exports (d:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\swagger-jsdoc\\src\\lib.js:20:11)\n    at Object.<anonymous> (d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js:46:48)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","trace":[{"column":11,"file":"d:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\swagger-jsdoc\\src\\lib.js","function":"module.exports","line":20,"method":"exports","native":false},{"column":48,"file":"d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js","function":null,"line":46,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required
+Error: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required
+    at module.exports (d:\CLI_CLASS\FandooNotes_webAPI\node_modules\swagger-jsdoc\src\lib.js:20:11)
+    at Object.<anonymous> (d:\CLI_CLASS\FandooNotes_webAPI\build\index.js:46:48)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Mon Jan 24 2022 11:34:38 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":608825},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js"],"cwd":"d:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18326175,"external":20001184,"heapTotal":71213056,"heapUsed":39829312,"rss":101306368},"pid":27576,"uid":null,"version":"v14.17.3"},"stack":"Error: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required\n    at module.exports (d:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\swagger-jsdoc\\src\\lib.js:20:11)\n    at Object.<anonymous> (d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js:46:48)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","trace":[{"column":11,"file":"d:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\swagger-jsdoc\\src\\lib.js","function":"module.exports","line":20,"method":"exports","native":false},{"column":48,"file":"d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js","function":null,"line":46,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required
+Error: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required
+    at module.exports (d:\CLI_CLASS\FandooNotes_webAPI\node_modules\swagger-jsdoc\src\lib.js:20:11)
+    at Object.<anonymous> (d:\CLI_CLASS\FandooNotes_webAPI\build\index.js:46:48)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Mon Jan 24 2022 11:35:07 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":608854},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js"],"cwd":"d:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18334367,"external":20009376,"heapTotal":71213056,"heapUsed":39944136,"rss":104345600},"pid":27088,"uid":null,"version":"v14.17.3"},"stack":"Error: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required\n    at module.exports (d:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\swagger-jsdoc\\src\\lib.js:20:11)\n    at Object.<anonymous> (d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js:46:48)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","trace":[{"column":11,"file":"d:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\swagger-jsdoc\\src\\lib.js","function":"module.exports","line":20,"method":"exports","native":false},{"column":48,"file":"d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js","function":null,"line":46,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+info: ::1 - - [24/Jan/2022:06:05:28 +0000] "GET /api/v1/notes HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+error: uncaughtException: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required
+Error: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required
+    at module.exports (d:\CLI_CLASS\FandooNotes_webAPI\node_modules\swagger-jsdoc\src\lib.js:20:11)
+    at Object.<anonymous> (d:\CLI_CLASS\FandooNotes_webAPI\build\index.js:46:48)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Mon Jan 24 2022 11:36:49 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":608956},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js"],"cwd":"d:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18334367,"external":20009376,"heapTotal":71213056,"heapUsed":39900952,"rss":104738816},"pid":5020,"uid":null,"version":"v14.17.3"},"stack":"Error: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required\n    at module.exports (d:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\swagger-jsdoc\\src\\lib.js:20:11)\n    at Object.<anonymous> (d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js:46:48)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","trace":[{"column":11,"file":"d:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\swagger-jsdoc\\src\\lib.js","function":"module.exports","line":20,"method":"exports","native":false},{"column":48,"file":"d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js","function":null,"line":46,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+error: uncaughtException: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required
+Error: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required
+    at module.exports (d:\CLI_CLASS\FandooNotes_webAPI\node_modules\swagger-jsdoc\src\lib.js:20:11)
+    at Object.<anonymous> (d:\CLI_CLASS\FandooNotes_webAPI\build\index.js:46:48)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47 {"date":"Mon Jan 24 2022 11:37:21 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":608988},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js"],"cwd":"d:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19349062,"external":21024071,"heapTotal":68853760,"heapUsed":44838488,"rss":98230272},"pid":22980,"uid":null,"version":"v14.17.3"},"stack":"Error: Missing or invalid input: 'options.swaggerDefinition' or 'options.definition' is required\n    at module.exports (d:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\swagger-jsdoc\\src\\lib.js:20:11)\n    at Object.<anonymous> (d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js:46:48)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47","trace":[{"column":11,"file":"d:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\swagger-jsdoc\\src\\lib.js","function":"module.exports","line":20,"method":"exports","native":false},{"column":48,"file":"d:\\CLI_CLASS\\FandooNotes_webAPI\\build\\index.js","function":null,"line":46,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":790,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":76,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+info: ::1 - - [24/Jan/2022:06:10:42 +0000] "GET /api/v1/notes HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [24/Jan/2022:06:11:31 +0000] "GET /api/v1/notes HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [24/Jan/2022:06:24:54 +0000] "GET /api/v1/notes HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [24/Jan/2022:06:25:23 +0000] "DELETE /api/v1/notes/delete/61ec108e4b266c58403007ce HTTP/1.1" 200 71 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [24/Jan/2022:06:25:32 +0000] "GET /api/v1/notes HTTP/1.1" 200 311 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [24/Jan/2022:06:25:42 +0000] "GET /api/v1/notes HTTP/1.1" 200 309 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [24/Jan/2022:06:25:51 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 317 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [24/Jan/2022:06:26:00 +0000] "GET /api/v1/notes/archive HTTP/1.1" 200 318 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (net.js:1320:16)
+    at listenInCluster (net.js:1368:12)
+    at Server.listen (net.js:1454:7)
+    at Function.listen (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (D:\CLI_CLASS\FandooNotes_webAPI\src\/index.js:51:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Mon Jan 24 2022 12:34:53 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":5000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":612440},"process":{"argv":["node","D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\index.js"],"cwd":"D:\\CLI_CLASS\\FandooNotes_webAPI","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18522094,"external":20798390,"heapTotal":178249728,"heapUsed":159370912,"rss":219115520},"pid":13512,"uid":null,"version":"v14.17.3"},"stack":"Error: listen EADDRINUSE: address already in use :::5000\n    at Server.setupListenHandle [as _listen2] (net.js:1320:16)\n    at listenInCluster (net.js:1368:12)\n    at Server.listen (net.js:1454:7)\n    at Function.listen (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\/index.js:51:5)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1320,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1368,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1454,"method":"listen","native":false},{"column":24,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\src\\/index.js","function":null,"line":51,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"D:\\CLI_CLASS\\FandooNotes_webAPI\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+info: ::1 - - [24/Jan/2022:07:07:05 +0000] "POST /api/v1/users/register HTTP/1.1" 201 328 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [24/Jan/2022:07:08:38 +0000] "POST /api/v1/users/login HTTP/1.1" 500 50 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [24/Jan/2022:07:56:11 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [24/Jan/2022:07:58:01 +0000] "POST /api/v1/users/register HTTP/1.1" 201 328 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [24/Jan/2022:08:01:02 +0000] "POST /api/v1/users/register HTTP/1.1" 201 326 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [24/Jan/2022:08:07:52 +0000] "POST /api/v1/users/register HTTP/1.1" 201 326 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [24/Jan/2022:08:08:58 +0000] "POST /api/v1/users/register HTTP/1.1" 201 328 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [24/Jan/2022:08:10:55 +0000] "POST /api/v1/users/register HTTP/1.1" 201 328 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::1 - - [24/Jan/2022:08:11:24 +0000] "POST /api/v1/users/register HTTP/1.1" 201 326 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [24/Jan/2022:08:16:48 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Jan/2022:08:16:48 +0000] "POST /api/v1/users/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Jan/2022:08:16:48 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Jan/2022:08:16:48 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Jan/2022:08:16:49 +0000] "POST /api/v1/notes HTTP/1.1" 200 304 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Jan/2022:08:16:49 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Jan/2022:08:16:49 +0000] "GET /api/v1/notes HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Jan/2022:08:16:49 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Jan/2022:08:16:49 +0000] "PATCH /api/v1/notes HTTP/1.1" 200 80 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Jan/2022:08:16:49 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Jan/2022:08:16:49 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 68 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Jan/2022:08:16:49 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Jan/2022:08:16:49 +0000] "GET /api/v1/notes/archive HTTP/1.1" 200 318 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Jan/2022:08:16:53 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 544 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [24/Jan/2022:08:16:53 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 326 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [24/Jan/2022:08:18:03 +0000] "POST /api/v1/users/register HTTP/1.1" 201 326 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36"
+

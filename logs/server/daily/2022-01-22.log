@@ -489,3 +489,26 @@ error:
     method - PATCH 
     IP - ::1
    {"timestamp":"2022-01-22T15:52:55.454Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T16:01:36.766Z"}
+error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)","syscall":"connect","timestamp":"2022-01-22T16:01:36.806Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T16:01:36.845Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:407:31)
+    at Commander.commandsExecutor (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\client\index.js:166:154)
+    at Commander.del (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@node-redis\client\dist\lib\commander.js:8:29)
+    at _callee3$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:75:16)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-22T16:01:37.731Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-22T16:03:14.277Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-22T16:03:14.299Z"}
+info: Connected to the database. {"timestamp":"2022-01-22T16:03:14.361Z"}

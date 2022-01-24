@@ -1,0 +1,131 @@
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-24T05:40:30.391Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-24T05:40:30.441Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T05:40:30.462Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:61:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-24T05:43:48.119Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-24T05:52:13.566Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-24T05:52:13.576Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T05:52:13.600Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-24T05:54:10.566Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-24T05:54:10.581Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T05:54:10.609Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-24T05:54:55.697Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-24T05:54:55.780Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T05:54:55.817Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-24T05:58:46.212Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-24T05:58:46.223Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T05:58:46.245Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-24T06:03:21.581Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-24T06:03:21.591Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T06:03:21.610Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-24T06:04:53.411Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-24T06:04:53.421Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T06:04:53.440Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-24T06:10:26.445Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-24T06:10:26.457Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T06:10:26.486Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-24T06:11:05.426Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-24T06:11:05.437Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T06:11:05.459Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-24T06:23:04.173Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-24T06:23:04.190Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T06:23:04.229Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-24T07:04:11.203Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-24T07:04:11.216Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T07:04:11.246Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-24T07:04:53.877Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T07:04:53.986Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-24T07:06:31.955Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-24T07:06:31.978Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T07:06:32.010Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:61:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-24T07:08:38.782Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-24T07:55:58.350Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-24T07:55:58.360Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T07:55:58.380Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FondooNote_webAPI.users index: Email_1 dup key: { Email: "vishgirase1995@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-01-24T07:56:11.317Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-01-24T07:56:11.326Z"}
+info: send mail by GMAIL_QUEUE..... to vishgirase1995@gmail.com {"timestamp":"2022-01-24T07:58:01.379Z"}
+info: Recived mail at : {"timestamp":"2022-01-24T07:58:01.438Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-24T08:00:49.677Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-24T08:00:49.686Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T08:00:49.743Z"}
+info: send mail by GMAIL_QUEUE..... to vishgirase95@gmail.com {"timestamp":"2022-01-24T08:01:02.839Z"}
+info: Recived mail at : {"timestamp":"2022-01-24T08:01:02.902Z"}
+info: send mail by GMAIL_QUEUE..... to vishgirase95@gmail.com {"timestamp":"2022-01-24T08:07:52.773Z"}
+info: Recived mail at : {"timestamp":"2022-01-24T08:07:52.883Z"}
+info: send mail by GMAIL_QUEUE..... to vishgirase1995@gmail.com {"timestamp":"2022-01-24T08:08:58.712Z"}
+info: Recived mail at : {"timestamp":"2022-01-24T08:08:58.716Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-24T08:10:48.016Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-24T08:10:48.028Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T08:10:48.079Z"}
+info: send mail by GMAIL_QUEUE..... to vishgirase1995@gmail.com {"timestamp":"2022-01-24T08:10:55.877Z"}
+info: Recived mail at : vishgirase1995@gmail.com {"timestamp":"2022-01-24T08:10:55.916Z"}
+info: send mail by GMAIL_QUEUE..... to vishgirase95@gmail.com {"timestamp":"2022-01-24T08:11:24.867Z"}
+info: Recived mail at : vishgirase95@gmail.com {"timestamp":"2022-01-24T08:11:24.872Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-24T08:12:00.857Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-24T08:12:00.867Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T08:12:00.887Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-24T08:12:21.367Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-24T08:12:21.377Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T08:12:21.397Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-24T08:12:33.147Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-24T08:12:33.156Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T08:12:33.181Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-24T08:16:12.880Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-24T08:16:12.890Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T08:16:12.909Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-24T08:16:48.125Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-24T08:16:48.140Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T08:16:48.166Z"}
+info: send mail by GMAIL_QUEUE..... to vishgirase95@gmail.com {"timestamp":"2022-01-24T08:16:48.506Z"}
+info: Recived mail at : vishgirase95@gmail.com {"timestamp":"2022-01-24T08:16:48.649Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-01-24T08:17:43.296Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-01-24T08:17:43.313Z"}
+info: Connected to the database. {"timestamp":"2022-01-24T08:17:43.339Z"}
+info: send mail by GMAIL_QUEUE..... to vishgirase95@gmail.com {"timestamp":"2022-01-24T08:18:03.902Z"}
+info: Recived mail at : vishgirase95@gmail.com {"timestamp":"2022-01-24T08:18:03.918Z"}
