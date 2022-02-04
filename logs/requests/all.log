@@ -10275,3 +10275,47 @@ info: ::1 - - [04/Feb/2022:17:42:22 +0000] "GET /api/v1/notes HTTP/1.1" 200 310 
 
 info: ::1 - - [04/Feb/2022:17:42:36 +0000] "PATCH /api/v1/notes HTTP/1.1" 200 80 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
 
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:17:45:14 +0000] "GET /api/v1/ HTTP/1.1" 200 7 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:17:45:14 +0000] "POST /api/v1/users/register HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:17:45:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:17:45:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:17:45:15 +0000] "POST /api/v1/notes HTTP/1.1" 200 304 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:17:45:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:17:45:15 +0000] "GET /api/v1/notes HTTP/1.1" 200 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:17:45:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:17:45:15 +0000] "PATCH /api/v1/notes HTTP/1.1" 200 80 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:17:45:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:17:45:15 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 68 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:17:45:15 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:17:45:15 +0000] "GET /api/v1/notes/archive HTTP/1.1" 200 318 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:17:45:18 +0000] "POST /api/v1/users/forgetpassword HTTP/1.1" 200 540 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [04/Feb/2022:17:45:19 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 200 326 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [04/Feb/2022:17:45:37 +0000] "GET /api/v1/notes HTTP/1.1" 200 60 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:17:45:37 +0000] "GET /api/v1/notes HTTP/1.1" 200 58 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:17:45:42 +0000] "GET /api/v1/notes HTTP/1.1" 304 - "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:17:45:49 +0000] "PATCH /api/v1/notes HTTP/1.1" 200 80 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:17:45:53 +0000] "PATCH /api/v1/notes HTTP/1.1" 200 80 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:17:45:58 +0000] "GET /api/v1/notes/trash HTTP/1.1" 200 1315 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+
+info: ::1 - - [04/Feb/2022:17:46:04 +0000] "GET /api/v1/notes/archive HTTP/1.1" 200 1316 "http://localhost:5000/api-docs/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36"
+

@@ -14937,3 +14937,11 @@ error:
     method - PATCH 
     IP - ::1
    {"timestamp":"2022-02-04T17:42:10.773Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-04T17:45:14.701Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-02-04T17:45:14.714Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T17:45:14.742Z"}
+info: send mail by GMAIL_QUEUE..... to vishgirase95@gmail.com {"timestamp":"2022-02-04T17:45:14.954Z"}
+info: Recived mail at : vishgirase95@gmail.com {"timestamp":"2022-02-04T17:45:15.103Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-04T17:45:28.367Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-02-04T17:45:28.377Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T17:45:28.398Z"}
