@@ -241,7 +241,7 @@
       "produces": ["application/json"],
       "parameters": [{
         "in": "query",
-        "name": "Update Notes"
+        "name": "Fetch all Notes"
       }],
       "responses": {
         "200": {
@@ -263,7 +263,7 @@
       "produces": ["application/json"],
       "parameters": [{
         "in": "query",
-        "name": "Update Notes"
+        "name": "All trashed notes"
       }],
       "responses": {
         "200": {
@@ -285,7 +285,7 @@
       "produces": ["application/json"],
       "parameters": [{
         "in": "query",
-        "name": "Update Notes"
+        "name": "All archived notes"
       }],
       "responses": {
         "200": {

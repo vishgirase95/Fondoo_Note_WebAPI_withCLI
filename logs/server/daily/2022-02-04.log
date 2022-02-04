@@ -1,0 +1,136 @@
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-04T17:05:44.816Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-02-04T17:05:44.844Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T17:05:44.887Z"}
+info: send mail by GMAIL_QUEUE..... to vishgirase95@gmail.com {"timestamp":"2022-02-04T17:05:47.682Z"}
+info: Recived mail at : vishgirase95@gmail.com {"timestamp":"2022-02-04T17:05:50.095Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-04T17:06:23.776Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-02-04T17:06:23.791Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T17:06:23.816Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-04T17:13:49.008Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-02-04T17:13:49.021Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T17:13:49.063Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: FondooNote_webAPI.users index: Email_1 dup key: { Email: "vishgirase95@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-04T17:27:42.202Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (D:\CLI_CLASS\FandooNotes_webAPI\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\express\lib\router\index.js:321:13) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-04T17:27:42.221Z"}
+info: send mail by GMAIL_QUEUE..... to new@gmail.com {"timestamp":"2022-02-04T17:28:10.070Z"}
+info: Recived mail at : new@gmail.com {"timestamp":"2022-02-04T17:28:10.128Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'Email' of null
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:49:25)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-04T17:28:33.288Z"}
+error: 
+    status - 500 
+    message - Error: Invalid pasword
+    at _callee2$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:61:13)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-04T17:28:57.117Z"}
+error: 
+    status - 500 
+    message - Error: Note id not in databae
+    at _callee4$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:108:11)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-02-04T17:31:21.713Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-04T17:37:57.952Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-02-04T17:37:57.963Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T17:37:57.989Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-04T17:38:03.802Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-02-04T17:38:03.813Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T17:38:03.840Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-04T17:38:19.925Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-02-04T17:38:19.934Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T17:38:19.952Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-04T17:38:27.437Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-02-04T17:38:27.448Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T17:38:27.465Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-04T17:38:37.536Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-02-04T17:38:37.545Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T17:38:37.564Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2022-02-04T17:38:46.338Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-02-04T17:38:46.348Z"}
+info: Connected to the database. {"timestamp":"2022-02-04T17:38:46.366Z"}
+error: 
+    status - 500 
+    message - Error: Note does not exist
+    at _callee8$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:165:11)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes/delete/61fd63ff3ff0dd2528fd6103 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-02-04T17:40:59.465Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\mongooseError.js:7:1)
+    at new CastError (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\error\cast.js:31:7)
+    at model.Query.exec (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-02-04T17:41:46.075Z"}
+error: 
+    status - 500 
+    message - Error: Note id not in databae
+    at _callee4$ (D:\CLI_CLASS\FandooNotes_webAPI\src\services\/user.service.js:108:11)
+    at tryCatch (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\CLI_CLASS\FandooNotes_webAPI\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/notes 
+    method - PATCH 
+    IP - ::1
+   {"timestamp":"2022-02-04T17:42:10.773Z"}
